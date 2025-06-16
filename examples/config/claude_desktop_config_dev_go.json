@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "n8n-workflow": {
+      "command": "go",
+      "args": ["run", "./cmd/n8n-mcp-server", "--standalone", "--lang", "ko"],
+      "cwd": "/Users/{username}/{clone_path}"
+    }
+  }
+} 

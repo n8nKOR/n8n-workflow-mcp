@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "n8n-workflow": {
+      "command": "/Users/{username}/{clone_path}/build/n8n-mcp-server",
+      "args": [
+        "-standalone=false",
+        "--lang", "ko",
+        "--data-path", "/custom/path/to/nodes",
+        "--name-weight", "2.5",
+        "--overview-weight", "1.8"
+      ]
+    }
+  }
+}

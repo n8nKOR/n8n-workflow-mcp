@@ -1,0 +1,163 @@
+name: Release Build
+
+on:
+  release:
+    types: [published]
+  push:
+    tags:
+      - 'v*'
+
+env:
+  BINARY_NAME: n8n-mcp-server
+  GO_VERSION: '1.23'
+
+jobs:
+  build:
+    name: Build for ${{ matrix.os }}-${{ matrix.arch }}
+    runs-on: ${{ matrix.runner }}
+    strategy:
+      matrix:
+        include:
+          # Linux builds
+          - os: linux
+            arch: amd64
+            runner: ubuntu-latest
+            binary_suffix: ""
+          - os: linux
+            arch: arm64
+            runner: ubuntu-latest
+            binary_suffix: ""
+          
+          # Windows builds
+          - os: windows
+            arch: amd64
+            runner: windows-latest
+            binary_suffix: ".exe"
+          - os: windows
+            arch: arm64
+            runner: windows-latest
+            binary_suffix: ".exe"
+          
+          # macOS builds
+          - os: darwin
+            arch: amd64
+            runner: macos-latest
+            binary_suffix: ""
+          - os: darwin
+            arch: arm64
+            runner: macos-latest
+            binary_suffix: ""
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Go
+      uses: actions/setup-go@v4
+      with:
+        go-version: ${{ env.GO_VERSION }}
+
+    - name: Cache Go modules
+      uses: actions/cache@v4
+      with:
+        path: |
+          ~/.cache/go-build
+          ~/go/pkg/mod
+        key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
+        restore-keys: |
+          ${{ runner.os }}-go-
+
+    - name: Download dependencies
+      run: go mod download
+
+    - name: Run tests
+      run: go test -v ./...
+
+    - name: Build binary
+      env:
+        CGO_ENABLED: 0
+        GOOS: ${{ matrix.os }}
+        GOARCH: ${{ matrix.arch }}
+      run: |
+        mkdir -p build
+        go build -ldflags="-w -s" -o build/${{ env.BINARY_NAME }}-${{ matrix.os }}-${{ matrix.arch }}${{ matrix.binary_suffix }} ./cmd/n8n-mcp-server
+
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: ${{ env.BINARY_NAME }}-${{ matrix.os }}-${{ matrix.arch }}
+        path: build/${{ env.BINARY_NAME }}-${{ matrix.os }}-${{ matrix.arch }}${{ matrix.binary_suffix }}
+
+  package:
+    name: Package and Release
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.event_name == 'release'
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Download all artifacts
+      uses: actions/download-artifact@v4
+      with:
+        path: artifacts
+
+    - name: Create release packages
+      run: |
+        mkdir -p release
+        
+        # Create packages for each platform
+        for artifact_dir in artifacts/*/; do
+          artifact_name=$(basename "$artifact_dir")
+          binary_file=$(find "$artifact_dir" -type f -executable -o -name "*.exe" | head -1)
+          
+          if [ -f "$binary_file" ]; then
+            # Extract platform info from artifact name
+            platform=$(echo "$artifact_name" | sed 's/n8n-mcp-server-//')
+            
+            # Create archive based on platform
+            if [[ "$platform" == *"windows"* ]]; then
+              # For Windows, create ZIP
+              cd "$artifact_dir"
+              zip -r "../../release/$artifact_name.zip" .
+              cd - > /dev/null
+            else
+              # For Unix-like systems, create tar.gz
+              cd "$artifact_dir"
+              tar -czf "../../release/$artifact_name.tar.gz" .
+              cd - > /dev/null
+            fi
+          fi
+        done
+        
+        # List created packages
+        ls -la release/
+
+    - name: Generate checksums
+      run: |
+        cd release
+        sha256sum * > checksums.txt
+        cat checksums.txt
+
+    - name: Upload release assets
+      env:
+        GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+      run: |
+        # Get release ID
+        release_id=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+          "https://api.github.com/repos/${{ github.repository }}/releases/tags/${{ github.ref_name }}" | \
+          jq -r '.id')
+        
+        # Upload each package
+        for file in release/*; do
+          if [ -f "$file" ]; then
+            filename=$(basename "$file")
+            echo "Uploading $filename..."
+            curl -X POST \
+              -H "Authorization: token $GITHUB_TOKEN" \
+              -H "Content-Type: application/octet-stream" \
+              --data-binary @"$file" \
+              "https://uploads.github.com/repos/${{ github.repository }}/releases/$release_id/assets?name=$filename"
+          fi
+        done
