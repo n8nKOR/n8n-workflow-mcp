@@ -287,4 +287,5 @@ make clean
 
 - [n8n 공식 문서](https://docs.n8n.io/)
 - [MCP (Model Context Protocol)](https://github.com/mark3labs/mcp-go)
-- [Claude Code & Cursor](https://claude.ai/download)
+- [Claude Code](https://claude.ai/download)
+- [Cursor](https://cursor.com)
