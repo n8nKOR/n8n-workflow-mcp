@@ -1,6 +1,6 @@
-# Claude Desktop Configuration Examples
+# Claude Code & Cursor Configuration Examples
 
-This directory contains configuration file examples for using the n8n-workflow-mcp server with the Claude Desktop app.
+This directory contains configuration file examples for using the n8n-workflow-mcp server with the Claude Code & Cursor app.
 
 ## 📁 File List
 
@@ -78,7 +78,7 @@ This directory contains configuration file examples for using the n8n-workflow-m
 ### 2. Select and Apply Configuration File
 1. Select the appropriate configuration file from the file list above.
 2. Copy the contents of the selected file.
-3. Paste it into the Claude Desktop configuration file.
+3. Paste it into the Claude Code & Cursor configuration file.
 4. Modify the file paths to match your environment.
 
 ### 3. Path Modification Guide
@@ -93,8 +93,8 @@ This directory contains configuration file examples for using the n8n-workflow-m
 "command": "C:\\Users\\john\\projects\\n8n-workflow-mcp\\build\\n8n-mcp-server.exe"
 ```
 
-### 4. Restart Claude Desktop
-After applying the configuration, completely close the Claude Desktop app and restart it.
+### 4. Restart Claude Code & Cursor
+After applying the configuration, completely close the Claude Code & Cursor app and restart it.
 
 ## ⚙️ Advanced Configuration Options
 
@@ -152,7 +152,7 @@ After applying the configuration, completely close the Claude Desktop app and re
    - On Windows, backslashes need to be escaped: `\\`
 
 ### Check Logs
-To check Claude Desktop logs:
+To check Claude Code & Cursor logs:
 - **macOS**: Search for "Claude" in Console.app
 - **Windows**: Check Event Viewer or Claude log files
 
@@ -161,7 +161,7 @@ To check Claude Desktop logs:
 - All paths must use absolute paths
 - On Windows, when using backslashes (`\`) in paths, enter them twice: `\\`
 - Or you can use forward slashes (`/`)
-- Always restart Claude Desktop after configuration changes
+- Always restart Claude Code & Cursor after configuration changes
 - Development mode requires Go environment to be installed
 
 ## 🆘 Help

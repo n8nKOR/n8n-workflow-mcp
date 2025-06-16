@@ -140,7 +140,7 @@ go run ./cmd/n8n-mcp-server -standalone=false
 ./build/n8n-mcp-server --version
 ```
 
-## 🔧 Claude Desktop設定
+## 🔧 Claude Code & Cursor設定
 
 ### macOS設定
 設定ファイルの場所：`~/Library/Application Support/Claude/claude_desktop_config.json`
@@ -241,7 +241,7 @@ n8n-workflow-mcp/
 ├── pkg/
 │   └── types/                    # 共通型定義
 ├── examples/
-│   └── config/                   # Claude Desktop設定例
+│   └── config/                   # Claude Code & Cursor設定例
 ├── test/                         # テストファイル
 └── build/                        # ビルド成果物
 ```
@@ -287,4 +287,4 @@ make clean
 
 - [n8n公式ドキュメント](https://docs.n8n.io/)
 - [MCP (Model Context Protocol)](https://github.com/mark3labs/mcp-go)
-- [Claude Desktop](https://claude.ai/download) 
+- [Claude Code & Cursor](https://claude.ai/download) 

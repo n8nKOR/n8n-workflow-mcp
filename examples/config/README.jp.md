@@ -1,6 +1,6 @@
-# Claude Desktop 設定例
+# Claude Code & Cursor 設定例
 
-このディレクトリには、Claude Desktop アプリで n8n-workflow-mcp サーバーを使用するための設定ファイル例が含まれています。
+このディレクトリには、Claude Code & Cursor アプリで n8n-workflow-mcp サーバーを使用するための設定ファイル例が含まれています。
 
 ## 📁 ファイル一覧
 
@@ -78,7 +78,7 @@
 ### 2. 設定ファイルの選択と適用
 1. 上記のファイル一覧から用途に合った設定ファイルを選択します。
 2. 選択したファイルの内容をコピーします。
-3. Claude Desktop 設定ファイルに貼り付けます。
+3. Claude Code & Cursor 設定ファイルに貼り付けます。
 4. ファイルパスを自分の環境に合わせて修正します。
 
 ### 3. パス修正ガイド
@@ -93,8 +93,8 @@
 "command": "C:\\Users\\john\\projects\\n8n-workflow-mcp\\build\\n8n-mcp-server.exe"
 ```
 
-### 4. Claude Desktop の再起動
-設定を適用した後、Claude Desktop アプリを完全に終了してから再起動します。
+### 4. Claude Code & Cursor の再起動
+設定を適用した後、Claude Code & Cursor アプリを完全に終了してから再起動します。
 
 ## ⚙️ 高度な設定オプション
 
@@ -152,7 +152,7 @@
    - Windows ではバックスラッシュのエスケープが必要: `\\`
 
 ### ログの確認
-Claude Desktop のログを確認するには:
+Claude Code & Cursor のログを確認するには:
 - **macOS**: Console.app で「Claude」を検索
 - **Windows**: イベントビューアーまたは Claude ログファイルを確認
 
@@ -161,7 +161,7 @@ Claude Desktop のログを確認するには:
 - すべてのパスは絶対パスを使用する必要があります
 - Windows でパスにバックスラッシュ（`\`）を使用する場合は、二重に入力してください: `\\`
 - またはスラッシュ（`/`）を使用することもできます
-- 設定変更後は必ず Claude Desktop を再起動してください
+- 設定変更後は必ず Claude Code & Cursor を再起動してください
 - 開発モードは Go 環境がインストールされている必要があります
 
 ## 🆘 ヘルプ

@@ -52,7 +52,7 @@ func NewStandalone() *App {
 		log.Printf("검색 기능은 사용할 수 없습니다.")
 	}
 
-	// MCP 서버 생성 (Claude Desktop 호환성 옵션 추가)
+	// MCP 서버 생성 (Claude Code & Cursor 호환성 옵션 추가)
 	mcpServer := server.NewMCPServer(
 		cfg.Name,
 		cfg.Version,
@@ -103,7 +103,7 @@ func NewStandaloneWithFlags(nodeNameWeight, overviewWeight, useCasesWeight, oper
 		log.Printf("검색 기능은 사용할 수 없습니다.")
 	}
 
-	// MCP 서버 생성 (Claude Desktop 호환성 옵션 추가)
+	// MCP 서버 생성 (Claude Code & Cursor 호환성 옵션 추가)
 	mcpServer := server.NewMCPServer(
 		cfg.Name,
 		cfg.Version,
@@ -146,7 +146,7 @@ func New() *App {
 		log.Printf("검색 기능은 사용할 수 없습니다. 경로를 확인하세요: %s", cfg.DataPath)
 	}
 
-	// MCP 서버 생성 (Claude Desktop 호환성 옵션 추가)
+	// MCP 서버 생성 (Claude Code & Cursor 호환성 옵션 추가)
 	mcpServer := server.NewMCPServer(
 		cfg.Name,
 		cfg.Version,
@@ -198,7 +198,7 @@ func NewWithFlags(nodeNameWeight, overviewWeight, useCasesWeight, operationWeigh
 		log.Printf("검색 기능은 사용할 수 없습니다. 경로를 확인하세요: %s", cfg.DataPath)
 	}
 
-	// MCP 서버 생성 (Claude Desktop 호환성 옵션 추가)
+	// MCP 서버 생성 (Claude Code & Cursor 호환성 옵션 추가)
 	mcpServer := server.NewMCPServer(
 		cfg.Name,
 		cfg.Version,

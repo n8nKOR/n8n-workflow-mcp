@@ -140,7 +140,7 @@ You can adjust the weight of each element when searching nodes:
 ./build/n8n-mcp-server --version
 ```
 
-## 🔧 Claude Desktop Configuration
+## 🔧 Claude Code & Cursor Configuration
 
 ### macOS Configuration
 Configuration file location: `~/Library/Application Support/Claude/claude_desktop_config.json`
@@ -241,7 +241,7 @@ n8n-workflow-mcp/
 ├── pkg/
 │   └── types/                    # Common type definitions
 ├── examples/
-│   └── config/                   # Claude Desktop configuration examples
+│   └── config/                   # Claude Code & Cursor configuration examples
 ├── test/                         # Test files
 └── build/                        # Build artifacts
 ```
@@ -287,4 +287,4 @@ make clean
 
 - [n8n Official Documentation](https://docs.n8n.io/)
 - [MCP (Model Context Protocol)](https://github.com/mark3labs/mcp-go)
-- [Claude Desktop](https://claude.ai/download) 
+- [Claude Code & Cursor](https://claude.ai/download) 
