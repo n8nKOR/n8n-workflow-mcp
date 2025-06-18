@@ -16,8 +16,9 @@ An MCP (Model Context Protocol) server for n8n workflow validation and managemen
 - **ping** - Check server connection status
 - **validate_workflow** - Validate n8n workflow syntax in JSON files
 
-### 🔍 n8n Node Search Tools
+### 🔍 Search Tools
 - **search_n8n_nodes** - Search n8n nodes by keywords
+- **search_workflow** - Search community n8n workflow templates
 
 ## 🛠 Installation and Build
 

@@ -19,11 +19,12 @@ import (
 
 // App represents the main application
 type App struct {
-	Config        *config.Config
-	Server        *server.MCPServer
-	Handler       *handlers.Handler
-	SearchService *services.SearchService
-	I18n          *i18n.I18n
+	Config                *config.Config
+	Server                *server.MCPServer
+	Handler               *handlers.Handler
+	SearchService         *services.SearchService
+	WorkflowSearchService *services.WorkflowSearchService
+	I18n                  *i18n.I18n
 }
 
 // NewStandalone creates a new standalone application instance with embedded data
@@ -52,6 +53,16 @@ func NewStandalone() *App {
 		log.Printf("검색 기능은 사용할 수 없습니다.")
 	}
 
+	// 워크플로우 검색 서비스 초기화 (임베딩된 데이터 사용)
+	workflowSearchService := services.NewWorkflowSearchService()
+	if err := workflowSearchService.LoadEmbeddedWorkflows(); err != nil {
+		log.Printf("워크플로우 검색 서비스 초기화 실패: %v", err)
+		log.Printf("워크플로우 검색 기능은 사용할 수 없습니다.")
+	} else {
+		count := workflowSearchService.GetWorkflowCount()
+		log.Printf("워크플로우 검색 서비스 초기화 성공: %d개 워크플로우 로드됨", count)
+	}
+
 	// MCP 서버 생성 (Claude Code & Cursor 호환성 옵션 추가)
 	mcpServer := server.NewMCPServer(
 		cfg.Name,
@@ -60,11 +71,12 @@ func NewStandalone() *App {
 	)
 
 	return &App{
-		Config:        cfg,
-		Server:        mcpServer,
-		Handler:       handler,
-		SearchService: searchService,
-		I18n:          i18nInstance,
+		Config:                cfg,
+		Server:                mcpServer,
+		Handler:               handler,
+		SearchService:         searchService,
+		WorkflowSearchService: workflowSearchService,
+		I18n:                  i18nInstance,
 	}
 }
 
@@ -103,6 +115,16 @@ func NewStandaloneWithFlags(nodeNameWeight, overviewWeight, useCasesWeight, oper
 		log.Printf("검색 기능은 사용할 수 없습니다.")
 	}
 
+	// 워크플로우 검색 서비스 초기화 (임베딩된 데이터 사용)
+	workflowSearchService := services.NewWorkflowSearchService()
+	if err := workflowSearchService.LoadEmbeddedWorkflows(); err != nil {
+		log.Printf("워크플로우 검색 서비스 초기화 실패: %v", err)
+		log.Printf("워크플로우 검색 기능은 사용할 수 없습니다.")
+	} else {
+		count := workflowSearchService.GetWorkflowCount()
+		log.Printf("워크플로우 검색 서비스 초기화 성공: %d개 워크플로우 로드됨", count)
+	}
+
 	// MCP 서버 생성 (Claude Code & Cursor 호환성 옵션 추가)
 	mcpServer := server.NewMCPServer(
 		cfg.Name,
@@ -111,11 +133,12 @@ func NewStandaloneWithFlags(nodeNameWeight, overviewWeight, useCasesWeight, oper
 	)
 
 	return &App{
-		Config:        cfg,
-		Server:        mcpServer,
-		Handler:       handler,
-		SearchService: searchService,
-		I18n:          i18nInstance,
+		Config:                cfg,
+		Server:                mcpServer,
+		Handler:               handler,
+		SearchService:         searchService,
+		WorkflowSearchService: workflowSearchService,
+		I18n:                  i18nInstance,
 	}
 }
 
@@ -146,6 +169,17 @@ func New() *App {
 		log.Printf("검색 기능은 사용할 수 없습니다. 경로를 확인하세요: %s", cfg.DataPath)
 	}
 
+	// 워크플로우 검색 서비스 초기화
+	workflowSearchService := services.NewWorkflowSearchService()
+	workflowsPath := "internal/data/workflows/workflows.json"
+	if err := workflowSearchService.LoadWorkflowsFromFile(workflowsPath); err != nil {
+		log.Printf("워크플로우 검색 서비스 초기화 실패: %v", err)
+		log.Printf("워크플로우 검색 기능은 사용할 수 없습니다.")
+	} else {
+		count := workflowSearchService.GetWorkflowCount()
+		log.Printf("워크플로우 검색 서비스 초기화 성공: %d개 워크플로우 로드됨", count)
+	}
+
 	// MCP 서버 생성 (Claude Code & Cursor 호환성 옵션 추가)
 	mcpServer := server.NewMCPServer(
 		cfg.Name,
@@ -154,11 +188,12 @@ func New() *App {
 	)
 
 	return &App{
-		Config:        cfg,
-		Server:        mcpServer,
-		Handler:       handler,
-		SearchService: searchService,
-		I18n:          i18nInstance,
+		Config:                cfg,
+		Server:                mcpServer,
+		Handler:               handler,
+		SearchService:         searchService,
+		WorkflowSearchService: workflowSearchService,
+		I18n:                  i18nInstance,
 	}
 }
 
@@ -198,6 +233,17 @@ func NewWithFlags(nodeNameWeight, overviewWeight, useCasesWeight, operationWeigh
 		log.Printf("검색 기능은 사용할 수 없습니다. 경로를 확인하세요: %s", cfg.DataPath)
 	}
 
+	// 워크플로우 검색 서비스 초기화
+	workflowSearchService := services.NewWorkflowSearchService()
+	workflowsPath := "internal/data/workflows/workflows.json"
+	if err := workflowSearchService.LoadWorkflowsFromFile(workflowsPath); err != nil {
+		log.Printf("워크플로우 검색 서비스 초기화 실패: %v", err)
+		log.Printf("워크플로우 검색 기능은 사용할 수 없습니다.")
+	} else {
+		count := workflowSearchService.GetWorkflowCount()
+		log.Printf("워크플로우 검색 서비스 초기화 성공: %d개 워크플로우 로드됨", count)
+	}
+
 	// MCP 서버 생성 (Claude Code & Cursor 호환성 옵션 추가)
 	mcpServer := server.NewMCPServer(
 		cfg.Name,
@@ -206,18 +252,19 @@ func NewWithFlags(nodeNameWeight, overviewWeight, useCasesWeight, operationWeigh
 	)
 
 	return &App{
-		Config:        cfg,
-		Server:        mcpServer,
-		Handler:       handler,
-		SearchService: searchService,
-		I18n:          i18nInstance,
+		Config:                cfg,
+		Server:                mcpServer,
+		Handler:               handler,
+		SearchService:         searchService,
+		WorkflowSearchService: workflowSearchService,
+		I18n:                  i18nInstance,
 	}
 }
 
 // Start starts the application
 func (a *App) Start() error {
 	// 도구들 설정
-	if err := SetupTools(a.Server, a.Handler, a.SearchService, a.I18n); err != nil {
+	if err := SetupTools(a.Server, a.Handler, a.SearchService, a.WorkflowSearchService, a.I18n); err != nil {
 		log.Fatalf("도구 설정 실패: %v", err)
 	}
 

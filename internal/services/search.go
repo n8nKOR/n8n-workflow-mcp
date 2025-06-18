@@ -44,10 +44,10 @@ func (s *SearchService) Initialize(dataPath string) error {
 // SearchNodes 노드를 검색합니다.
 func (s *SearchService) SearchNodes(query string, limit int) (search.SearchResponse, error) {
 	if limit <= 0 {
-		limit = 5 // 기본값
+		limit = 3 // 기본값
 	}
-	if limit > 20 {
-		limit = 20 // 최대값 제한
+	if limit > 7 {
+		limit = 7 // 최대값 제한
 	}
 
 	return s.engine.Search(query, limit)

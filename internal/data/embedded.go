@@ -12,6 +12,11 @@ import (
 //go:embed nodes/*.md
 var EmbeddedNodes embed.FS
 
+// EmbeddedWorkflows는 빌드 시점에 workflows.json 파일을 임베딩합니다
+//
+//go:embed workflows/workflows.json
+var EmbeddedWorkflows embed.FS
+
 // GetEmbeddedNodeFiles는 임베딩된 노드 파일들의 목록을 반환합니다
 func GetEmbeddedNodeFiles() ([]string, error) {
 	var files []string
@@ -40,4 +45,9 @@ func ReadEmbeddedNodeFile(filename string) ([]byte, error) {
 func GetEmbeddedNodeName(filePath string) string {
 	fileName := filepath.Base(filePath)
 	return strings.TrimSuffix(fileName, "_node.md")
+}
+
+// ReadEmbeddedWorkflowsFile은 임베딩된 워크플로우 JSON 파일의 내용을 읽어 반환합니다
+func ReadEmbeddedWorkflowsFile() ([]byte, error) {
+	return EmbeddedWorkflows.ReadFile("workflows/workflows.json")
 }

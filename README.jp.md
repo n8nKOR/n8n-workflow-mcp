@@ -16,8 +16,9 @@ n8nワークフローの検証と管理のためのMCP (Model Context Protocol) 
 - **ping** - サーバー接続状態の確認
 - **validate_workflow** - JSONファイルのn8nワークフロー構文検証
 
-### 🔍 n8nノード検索ツール
+### 🔍 検索ツール
 - **search_n8n_nodes** - キーワードによるn8nノード検索
+- **search_workflow** - コミュニティn8nワークフローテンプレート検索
 
 ## 🛠 インストールとビルド
 

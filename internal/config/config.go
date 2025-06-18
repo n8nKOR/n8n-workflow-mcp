@@ -2,7 +2,6 @@ package config
 
 import (
 	"flag"
-	"log"
 	"os"
 	"strconv"
 
@@ -28,9 +27,6 @@ func New() *Config {
 
 	// 검색 관련 설정 초기화
 	cfg.initializeSearchConfig()
-
-	log.Println("📊 기본 워크플로우 관리 기능 활성화")
-	log.Printf("🔍 검색 서비스 데이터 경로: %s", cfg.DataPath)
 
 	return cfg
 }

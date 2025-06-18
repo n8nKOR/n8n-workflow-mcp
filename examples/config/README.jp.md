@@ -69,6 +69,39 @@
 2. **日本語**: `claude_desktop_config_standalone_jp.json`
 3. **韓国語**: `claude_desktop_config_standalone.json`（デフォルト）
 
+## 🛠️ 利用可能なツール
+
+### 1. `search_n8n_nodes`
+- **用途**: n8nノード検索
+- **機能**: キーワードに基づいてn8nノードを検索し、スコア付きで結果を返す
+- **パラメータ**:
+  - `query` (必須): 検索するキーワード
+  - `limit` (オプション): 返す結果の最大数 (デフォルト: 5、最大: 20)
+
+### 2. `search_workflow` ✨ **新機能追加！**
+- **用途**: n8nワークフローテンプレート検索
+- **機能**: コミュニティワークフローテンプレートを検索し、ダウンロードURLを提供
+- **パラメータ**:
+  - `query` (必須): 検索するキーワード (例: "AI"、"automation"、"chatbot")
+  - `max_results` (オプション): 返す結果の最大数 (デフォルト: 5、最大: 15)
+  - `category` (オプション): カテゴリフィルター (例: airtable、blog、common、crm、email)
+- **使用例**:
+  - AIチャットボットワークフローを探す: `query: "AI chatbot"`
+  - メール自動化ワークフロー: `query: "email automation", category: "email"`
+  - Airtable統合ワークフロー: `category: "airtable"`
+
+### 3. `validate_workflow`
+- **用途**: n8nワークフローJSON検証
+- **機能**: ワークフローJSONファイルの構文と構造を検証
+- **パラメータ**:
+  - `file_path` (必須): 検証するJSONファイルのパス
+  - `include_line_numbers` (オプション): 詳細な行番号情報を含める (デフォルト: true)
+  - `auto_fix_suggestions` (オプション): 自動修正提案を提供 (デフォルト: true)
+
+### 4. `ping`
+- **用途**: サーバーステータス確認
+- **機能**: MCPサーバーが正常に動作しているかを確認する基本テスト
+
 ## 🔧 設定方法
 
 ### 1. 設定ファイルの場所を確認

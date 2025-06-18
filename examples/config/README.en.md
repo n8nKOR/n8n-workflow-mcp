@@ -69,6 +69,39 @@ This directory contains configuration file examples for using the n8n-workflow-m
 2. **Japanese**: `claude_desktop_config_standalone_jp.json`
 3. **Korean**: `claude_desktop_config_standalone.json` (default)
 
+## 🛠️ Available Tools
+
+### 1. `search_n8n_nodes`
+- **Purpose**: n8n node search
+- **Function**: Search for n8n nodes based on keywords and return results with scores
+- **Parameters**:
+  - `query` (required): Keywords to search for
+  - `limit` (optional): Maximum number of results to return (default: 5, max: 20)
+
+### 2. `search_workflow` ✨ **Newly Added!**
+- **Purpose**: n8n workflow template search
+- **Function**: Search community workflow templates and provide download URLs
+- **Parameters**:
+  - `query` (required): Keywords to search for (e.g., "AI", "automation", "chatbot")
+  - `max_results` (optional): Maximum number of results to return (default: 5, max: 15)
+  - `category` (optional): Category filter (e.g., airtable, blog, common, crm, email)
+- **Example Usage**:
+  - Find AI chatbot workflows: `query: "AI chatbot"`
+  - Email automation workflows: `query: "email automation", category: "email"`
+  - Airtable integration workflows: `category: "airtable"`
+
+### 3. `validate_workflow`
+- **Purpose**: n8n workflow JSON validation
+- **Function**: Validate syntax and structure of workflow JSON files
+- **Parameters**:
+  - `file_path` (required): Path to JSON file to validate
+  - `include_line_numbers` (optional): Include detailed line-by-line information (default: true)
+  - `auto_fix_suggestions` (optional): Provide automatic fix suggestions (default: true)
+
+### 4. `ping`
+- **Purpose**: Server status check
+- **Function**: Basic test to verify MCP server is working properly
+
 ## 🔧 Configuration Method
 
 ### 1. Check Configuration File Location
