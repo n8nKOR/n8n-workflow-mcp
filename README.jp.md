@@ -6,7 +6,7 @@
 
 ワークフロー検索機能のデモンストレーションビデオをご覧ください：
 
-<video src="https://github.com/n8nKOR/n8n-workflow-mcp/raw/refs/heads/main/assets/workflow-search-demo.mp4" width="352" height="720"></video>
+<video src="https://github.com/user-attachments/assets/1ec10869-be02-4ac7-a962-a6fdf865fffa" width="352" height="720"></video>
 
 n8nワークフローの検証と管理のためのMCP (Model Context Protocol) サーバーです。
 
