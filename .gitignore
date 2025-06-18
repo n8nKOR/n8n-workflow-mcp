@@ -58,3 +58,6 @@ Thumbs.db
 # Debug files
 debug
 *.pprof
+
+venv
+.venv

@@ -7,6 +7,7 @@ import (
 
 	"github.com/mark3labs/mcp-go/mcp"
 
+	"github.com/n8nKOR/n8n-workflow-mcp/internal/i18n"
 	"github.com/n8nKOR/n8n-workflow-mcp/internal/services"
 )
 
@@ -22,6 +23,18 @@ func NewSearchHandler(searchService *services.SearchService, workflowSearchServi
 		searchService:         searchService,
 		workflowSearchService: workflowSearchService,
 	}
+}
+
+// WorkflowSearchResultItem represents a single workflow result with URL and description
+type WorkflowSearchResultItem struct {
+	URL         string `json:"url"`
+	Description string `json:"description"`
+}
+
+// WorkflowSearchResponseData represents the complete search response with next_step
+type WorkflowSearchResponseData struct {
+	Results  []WorkflowSearchResultItem `json:"results"`
+	NextStep string                     `json:"next_step"`
 }
 
 // HandleSearchNodes는 n8n 노드 검색을 처리합니다
@@ -84,8 +97,29 @@ func (h *SearchHandler) HandleSearchWorkflows(ctx context.Context, request mcp.C
 		return mcp.NewToolResultError(fmt.Sprintf("워크플로우 검색 실행 중 오류 발생: %v", err)), nil
 	}
 
+	// URL과 description 추출
+	results := make([]WorkflowSearchResultItem, len(response.Results))
+	for i, result := range response.Results {
+		results[i] = WorkflowSearchResultItem{
+			URL:         result.URL,
+			Description: result.Description,
+		}
+	}
+
+	// i18n 인스턴스 생성 (기본적으로 한국어 사용)
+	i18nInstance := i18n.New("ko")
+
+	// next_step 메시지 가져오기
+	nextStepMessage := i18nInstance.T("search_workflow.next_step")
+
+	// 최종 응답 데이터 구성
+	responseData := WorkflowSearchResponseData{
+		Results:  results,
+		NextStep: nextStepMessage,
+	}
+
 	// 결과를 JSON으로 변환
-	resultJSON, err := json.MarshalIndent(response, "", "  ")
+	resultJSON, err := json.MarshalIndent(responseData, "", "  ")
 	if err != nil {
 		return mcp.NewToolResultError(fmt.Sprintf("결과 변환 중 오류 발생: %v", err)), nil
 	}

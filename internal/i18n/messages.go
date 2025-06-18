@@ -102,6 +102,9 @@ func (i *I18n) getKoreanMessages() map[string]string {
 		"tool.search_workflow.param.max_results.description": "반환할 최대 결과 수 (기본: 5, 최대: 15)",
 		"tool.search_workflow.param.category.description":    "워크플로우 카테고리로 필터링 (예: airtable, blog, common, crm, email)",
 
+		// 다음 단계 가이드
+		"search_workflow.next_step": "각 description을 기반으로 워크플로우에 대한 설명을 해주고 이를 기반으로 md 형태로 url을 클릭하면 바로 브라우저에 열릴 수 있도록 문서 형태로 작성하세요",
+
 		"param.file_path.description":            "검증할 n8n 워크플로우 JSON 파일의 절대/상대 경로 (예: './workflows/my_workflow.json')",
 		"param.include_line_numbers.description": "줄 번호별 상세 오류 정보 및 컨텍스트 포함 여부 (기본값: true)",
 		"param.auto_fix_suggestions.description": "자동 수정 제안사항 제공 여부 (기본값: true)",
@@ -140,6 +143,9 @@ func (i *I18n) getEnglishMessages() map[string]string {
 		"tool.search_workflow.param.max_results.description": "Maximum number of results to return (default: 5, max: 15)",
 		"tool.search_workflow.param.category.description":    "Filter by workflow category (e.g., airtable, blog, common, crm, email)",
 
+		// Next step guide
+		"search_workflow.next_step": "Based on each description, please explain the workflows and create a document in markdown format so that the URLs can be clicked to open directly in the browser",
+
 		"param.file_path.description":            "Absolute/relative path of n8n workflow JSON file to validate (e.g., './workflows/my_workflow.json')",
 		"param.include_line_numbers.description": "Whether to include detailed error information and context by line number (default: true)",
 		"param.auto_fix_suggestions.description": "Whether to provide automatic correction suggestions (default: true)",
@@ -177,6 +183,9 @@ func (i *I18n) getJapaneseMessages() map[string]string {
 		"tool.search_workflow.param.query.description":       "検索するキーワードまたはフレーズ（例：AI、automation、chatbot）",
 		"tool.search_workflow.param.max_results.description": "返す結果の最大数（デフォルト: 5、最大: 15）",
 		"tool.search_workflow.param.category.description":    "ワークフローカテゴリでフィルタリング（例：airtable、blog、common、crm、email）",
+
+		// 次のステップガイド
+		"search_workflow.next_step": "各説明に基づいてワークフローについて説明し、URLをクリックしてブラウザで直接開けるようにマークダウン形式で文書を作成してください",
 
 		"param.file_path.description":            "検証するn8nワークフローJSONファイルの絶対/相対パス（例：'./workflows/my_workflow.json'）",
 		"param.include_line_numbers.description": "行番号別詳細エラー情報とコンテキストを含めるかどうか（デフォルト: true）",
