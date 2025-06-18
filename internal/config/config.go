@@ -22,7 +22,7 @@ type Config struct {
 func New() *Config {
 	cfg := &Config{
 		Name:    "n8n-workflow-mcp-server",
-		Version: "0.1.0",
+		Version: "0.2.1",
 	}
 
 	// 검색 관련 설정 초기화
