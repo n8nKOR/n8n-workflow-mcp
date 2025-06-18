@@ -6,7 +6,7 @@
 
 Check out the video demonstrating the workflow search functionality:
 
-![workflow demo](https://github.com/user-attachments/assets/workflow-search-demo.mp4)
+![workflow demo](https://github.com/n8nKOR/n8n-workflow-mcp/raw/refs/heads/main/assets/workflow-search-demo.mp4)
 
 An MCP (Model Context Protocol) server for n8n workflow validation and management.
 
