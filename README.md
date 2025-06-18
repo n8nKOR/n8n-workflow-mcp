@@ -1,6 +1,12 @@
 # n8n Workflow MCP Server
 
-[![한국어](https://img.shields.io/badge/README-한국어-blue)](README.md) | [![English](https://img.shields.io/badge/README-English-red)](README.en.md) | [![日本語](https://img.shields.io/badge/README-日本語-green)](README.jp.md)
+[![한국어](https://img.shields.io/badge/README-한국어-blue)](README.md) | [![English](https://img.shields.io/badge/README-English-red)](README.en.md) | [![日본語](https://img.shields.io/badge/README-日本語-green)](README.jp.md)
+
+## 🎬 데모 비디오
+
+워크플로우 검색 기능을 시연하는 비디오를 확인해보세요:
+
+![workflow demo](https://github.com/user-attachments/assets/workflow-search-demo.mp4)
 
 n8n 워크플로우 검증 및 관리를 위한 MCP (Model Context Protocol) 서버입니다.
 

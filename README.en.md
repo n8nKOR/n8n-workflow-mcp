@@ -1,6 +1,12 @@
 # n8n Workflow MCP Server
 
-[![한국어](https://img.shields.io/badge/README-한국어-blue)](README.md) | [![English](https://img.shields.io/badge/README-English-red)](README.en.md) | [![日本語](https://img.shields.io/badge/README-日本語-green)](README.jp.md)
+[![한국어](https://img.shields.io/badge/README-한국어-blue)](README.md) | [![English](https://img.shields.io/badge/README-English-red)](README.en.md) | [![日本語](https://img.shields.io/badge/README-日본語-green)](README.jp.md)
+
+## 🎬 Demo Video
+
+Check out the video demonstrating the workflow search functionality:
+
+![workflow demo](https://github.com/user-attachments/assets/workflow-search-demo.mp4)
 
 An MCP (Model Context Protocol) server for n8n workflow validation and management.
 

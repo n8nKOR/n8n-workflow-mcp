@@ -2,6 +2,12 @@
 
 [![한국어](https://img.shields.io/badge/README-한국어-blue)](README.md) | [![English](https://img.shields.io/badge/README-English-red)](README.en.md) | [![日本語](https://img.shields.io/badge/README-日本語-green)](README.jp.md)
 
+## 🎬 デモビデオ
+
+ワークフロー検索機能のデモンストレーションビデオをご覧ください：
+
+![workflow demo](https://github.com/user-attachments/assets/workflow-search-demo.mp4)
+
 n8nワークフローの検証と管理のためのMCP (Model Context Protocol) サーバーです。
 
 ## 🚀 主要機能
