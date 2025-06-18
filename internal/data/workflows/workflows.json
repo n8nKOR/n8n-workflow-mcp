@@ -1,26 +1,14 @@
 [
   {
-    "name": "AI Agent for project management and meetings with Airtable and Fireflies",
-    "description": "AI agent for project management and meetings that analyzes Fireflies meeting transcripts to automatically create tasks in Airtable, notify clients about their tasks, and schedule follow-up Google Calendar events when needed",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/airtable/AI Agent for project management and meetings with Airtable and Fireflies.json",
-    "category": "airtable"
-  },
-  {
     "name": "AI Data Extraction with Dynamic Prompts and Airtable",
     "description": "AI data extraction workflow using dynamic prompts to extract information from PDF files and automatically populate Airtable fields based on user-defined field descriptions",
     "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/airtable/AI Data Extraction with Dynamic Prompts and Airtable.json",
     "category": "airtable"
   },
   {
-    "name": "AI Social Media Caption Creator creates social media post captions in Airtable",
-    "description": "AI social media caption creator that generates creative, target audience-oriented Instagram captions from Airtable briefing information and saves them back to Airtable",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/airtable/AI Social Media Caption Creator creates social media post captions in Airtable.json",
-    "category": "airtable"
-  },
-  {
-    "name": "Automate Pinterest Analysis & AI Powered Content Suggestions With Pinterest API",
-    "description": "Pinterest analytics automation that collects pin data via Pinterest API, stores it in Airtable, analyzes trends with AI, and emails content suggestions to marketing managers",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/airtable/Automate Pinterest Analysis & AI-Powered Content Suggestions With Pinterest API.json",
+    "name": "AI Agent for project management and meetings with Airtable and Fireflies",
+    "description": "AI agent for project management and meetings that analyzes Fireflies meeting transcripts to automatically create tasks in Airtable, notify clients about their tasks, and schedule follow-up Google Calendar events when needed",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/airtable/AI Agent for project management and meetings with Airtable and Fireflies.json",
     "category": "airtable"
   },
   {
@@ -30,9 +18,15 @@
     "category": "airtable"
   },
   {
-    "name": "Extract Information from a Logo Sheet using forms, AI, Google Sheet and Airtable",
-    "description": "AI logo sheet information extractor that processes uploaded images through n8n forms to extract tool information, categorizes attributes, and stores structured data in Airtable",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/airtable/Extract Information from a Logo Sheet using forms, AI, Google Sheet and Airtable.json",
+    "name": "Automate Pinterest Analysis & AI Powered Content Suggestions With Pinterest API",
+    "description": "Pinterest analytics automation that collects pin data via Pinterest API, stores it in Airtable, analyzes trends with AI, and emails content suggestions to marketing managers",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/airtable/Automate Pinterest Analysis & AI-Powered Content Suggestions With Pinterest API.json",
+    "category": "airtable"
+  },
+  {
+    "name": "AI Social Media Caption Creator creates social media post captions in Airtable",
+    "description": "AI social media caption creator that generates creative, target audience-oriented Instagram captions from Airtable briefing information and saves them back to Airtable",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/airtable/AI Social Media Caption Creator creates social media post captions in Airtable.json",
     "category": "airtable"
   },
   {
@@ -48,6 +42,12 @@
     "category": "airtable"
   },
   {
+    "name": "Extract Information from a Logo Sheet using forms, AI, Google Sheet and Airtable",
+    "description": "AI logo sheet information extractor that processes uploaded images through n8n forms to extract tool information, categorizes attributes, and stores structured data in Airtable",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/airtable/Extract Information from a Logo Sheet using forms, AI, Google Sheet and Airtable.json",
+    "category": "airtable"
+  },
+  {
     "name": "Sentiment Analysis Tracking on Support Issues with Linear and Slack 2",
     "description": "Sentiment analysis tracking system for Linear support issues that analyzes comment sentiment with AI, stores results in Airtable, and sends Slack notifications for negative sentiment transitions (version 2)",
     "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/airtable/Sentiment Analysis Tracking on Support Issues with Linear and Slack-2.json",
@@ -60,15 +60,15 @@
     "category": "airtable"
   },
   {
-    "name": "WordPress   AI Chatbot to enhance user experience   with Supabase and OpenAI",
-    "description": "RAG and GenAI application with WordPress content that creates vector embeddings from website content, provides intelligent chatbot functionality with memory capabilities, and enhances user experience through AI-powered conversations",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/WordPress - AI Chatbot to enhance user experience - with Supabase and OpenAI.json",
-    "category": "blog"
-  },
-  {
     "name": "Auto Tag Blog Posts in WordPress with AI",
     "description": "AI-powered WordPress blog post auto-tagging system that uses RSS feeds to detect new posts, analyzes content with AI to suggest relevant tags, automatically creates missing tags, and updates posts with appropriate categorization",
     "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/Auto-Tag Blog Posts in WordPress with AI.json",
+    "category": "blog"
+  },
+  {
+    "name": "WordPress   AI Chatbot to enhance user experience   with Supabase and OpenAI",
+    "description": "RAG and GenAI application with WordPress content that creates vector embeddings from website content, provides intelligent chatbot functionality with memory capabilities, and enhances user experience through AI-powered conversations",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/WordPress - AI Chatbot to enhance user experience - with Supabase and OpenAI.json",
     "category": "blog"
   },
   {
@@ -96,15 +96,15 @@
     "category": "blog"
   },
   {
-    "name": "AI Generated Summary Block for WordPress Posts",
-    "description": "AI-generated summary block generator for WordPress posts that analyzes content with OpenAI, creates structured summaries in HTML format, tracks processing in Google Sheets, and sends Slack notifications",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/AI-Generated Summary Block for WordPress Posts.json",
-    "category": "blog"
-  },
-  {
     "name": "AI Powered Social Media Amplifier",
     "description": "Social media automation agent that scrapes Hacker News for GitHub projects, generates content with AI, and publishes to multiple platforms including LinkedIn and Twitter with automated status tracking",
     "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/AI-Powered Social Media Amplifier.json",
+    "category": "blog"
+  },
+  {
+    "name": "AI Generated Summary Block for WordPress Posts",
+    "description": "AI-generated summary block generator for WordPress posts that analyzes content with OpenAI, creates structured summaries in HTML format, tracks processing in Google Sheets, and sends Slack notifications",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/AI-Generated Summary Block for WordPress Posts.json",
     "category": "blog"
   },
   {
@@ -120,6 +120,12 @@
     "category": "blog"
   },
   {
+    "name": "Speed Up Social Media Banners With BannerBear.com",
+    "description": "Social media banner creation system using BannerBear.com that generates AI images with DALL-E, uploads to Cloudinary CDN, applies custom templates, and publishes final banners to social media platforms",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/Speed Up Social Media Banners With BannerBear.com.json",
+    "category": "blog"
+  },
+  {
     "name": "Generate Instagram Content from Top Trends with AI Image Generation",
     "description": "Instagram content generation system that extracts trending hashtags from Instagram API, generates AI images using trend data, stores content in database, and automatically posts to Instagram with optimized descriptions",
     "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/Generate Instagram Content from Top Trends with AI Image Generation.json",
@@ -129,12 +135,6 @@
     "name": "Post New YouTube Videos to X",
     "description": "YouTube to X (Twitter) automation that monitors YouTube channels for new videos, generates engaging promotional tweets with ChatGPT, and automatically posts them to X with video links",
     "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/Post New YouTube Videos to X.json",
-    "category": "blog"
-  },
-  {
-    "name": "Speed Up Social Media Banners With BannerBear.com",
-    "description": "Social media banner creation system using BannerBear.com that generates AI images with DALL-E, uploads to Cloudinary CDN, applies custom templates, and publishes final banners to social media platforms",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/Speed Up Social Media Banners With BannerBear.com.json",
     "category": "blog"
   },
   {
@@ -150,15 +150,9 @@
     "category": "blog"
   },
   {
-    "name": "Write a WordPress post with AI (starting from a few keywords)",
-    "description": "AI-powered WordPress content creator that transforms keywords into full blog posts, generates structured articles with chapters and conclusions, creates featured images with DALL-E, and publishes as drafts",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/Write a WordPress post with AI (starting from a few keywords).json",
-    "category": "blog"
-  },
-  {
-    "name": "AI Automated HR Workflow for CV Analysis and Candidate Evaluation",
-    "description": "AI-powered HR automation pipeline that processes job applications via forms, extracts candidate information from CV PDFs, evaluates qualifications against job requirements, and stores results in Google Sheets with automated scoring",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/AI Automated HR Workflow for CV Analysis and Candidate Evaluation.json",
+    "name": "Automate Your RFP Process with OpenAI Assistants",
+    "description": "RFP process automation using OpenAI Assistants that extracts questions from RFP documents, generates contextual responses using company knowledge base, creates response documents in Google Docs, and sends completion notifications",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Automate Your RFP Process with OpenAI Assistants.json",
     "category": "common"
   },
   {
@@ -174,21 +168,15 @@
     "category": "common"
   },
   {
-    "name": "Automate Your RFP Process with OpenAI Assistants",
-    "description": "RFP process automation using OpenAI Assistants that extracts questions from RFP documents, generates contextual responses using company knowledge base, creates response documents in Google Docs, and sends completion notifications",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Automate Your RFP Process with OpenAI Assistants.json",
-    "category": "common"
+    "name": "Write a WordPress post with AI (starting from a few keywords)",
+    "description": "AI-powered WordPress content creator that transforms keywords into full blog posts, generates structured articles with chapters and conclusions, creates featured images with DALL-E, and publishes as drafts",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/Write a WordPress post with AI (starting from a few keywords).json",
+    "category": "blog"
   },
   {
-    "name": "Build a Financial Documents Assistant using Qdrant and Mistral.ai",
-    "description": "Financial document assistant system using Qdrant vector database and Mistral.ai that monitors file changes, creates embeddings from documents, provides intelligent Q&A capabilities, and maintains synchronized vector storage",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Build a Financial Documents Assistant using Qdrant and Mistral.ai.json",
-    "category": "common"
-  },
-  {
-    "name": "Build a Tax Code Assistant with Qdrant, Mistral.ai and OpenAI",
-    "description": "Tax code assistant system using Qdrant vector database, Mistral.ai, and OpenAI that downloads Texas tax law PDFs, processes them into sections with embeddings, and provides AI-powered search capabilities for legal tax code inquiries",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Build a Tax Code Assistant with Qdrant, Mistral.ai and OpenAI.json",
+    "name": "AI Automated HR Workflow for CV Analysis and Candidate Evaluation",
+    "description": "AI-powered HR automation pipeline that processes job applications via forms, extracts candidate information from CV PDFs, evaluates qualifications against job requirements, and stores results in Google Sheets with automated scoring",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/AI Automated HR Workflow for CV Analysis and Candidate Evaluation.json",
     "category": "common"
   },
   {
@@ -198,9 +186,21 @@
     "category": "common"
   },
   {
+    "name": "Build a Financial Documents Assistant using Qdrant and Mistral.ai",
+    "description": "Financial document assistant system using Qdrant vector database and Mistral.ai that monitors file changes, creates embeddings from documents, provides intelligent Q&A capabilities, and maintains synchronized vector storage",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Build a Financial Documents Assistant using Qdrant and Mistral.ai.json",
+    "category": "common"
+  },
+  {
     "name": "Query n8n Credentials with AI SQL Agent",
     "description": "AI SQL agent system that queries n8n workflow credentials database using natural language, maps workflows to their credential requirements, and provides intelligent search capabilities for finding workflows with specific app integrations",
     "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Query n8n Credentials with AI SQL Agent.json",
+    "category": "common"
+  },
+  {
+    "name": "Build a Tax Code Assistant with Qdrant, Mistral.ai and OpenAI",
+    "description": "Tax code assistant system using Qdrant vector database, Mistral.ai, and OpenAI that downloads Texas tax law PDFs, processes them into sections with embeddings, and provides AI-powered search capabilities for legal tax code inquiries",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Build a Tax Code Assistant with Qdrant, Mistral.ai and OpenAI.json",
     "category": "common"
   },
   {
@@ -210,27 +210,15 @@
     "category": "common"
   },
   {
-    "name": "Invoice data extraction with LlamaParse and OpenAI",
-    "description": "Invoice data extraction automation using LlamaParse for advanced PDF processing and OpenAI for structured data extraction, automatically processing invoices from Gmail attachments and storing results in Google Sheets reconciliation system",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Invoice data extraction with LlamaParse and OpenAI.json",
-    "category": "common"
-  },
-  {
-    "name": "Reconcile Rent Payments with Local Excel Spreadsheet and OpenAI",
-    "description": "Rental payment reconciliation system using AI agents to analyze bank statements against local Excel spreadsheets, automatically identifying missing payments, incorrect amounts, and lease expiration alerts while maintaining data privacy with local file processing",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Reconcile Rent Payments with Local Excel Spreadsheet and OpenAI.json",
-    "category": "common"
-  },
-  {
     "name": "Bitrix24 Chatbot Application Workflow example with Webhook Integration",
     "description": "Bitrix24 chatbot application workflow example demonstrating webhook integration for handling bot messages, user joins, installation events, and bot deletion with proper token validation and response formatting",
     "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Bitrix24 Chatbot Application Workflow example with Webhook Integration.json",
     "category": "common"
   },
   {
-    "name": "Use AI to organize your Todoist Inbox",
-    "description": "AI-powered Todoist inbox organization system that automatically categorizes tasks using OpenAI, assigns priorities based on predefined project mappings, and helps maintain an organized task management workflow",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Use AI to organize your Todoist Inbox.json",
+    "name": "Invoice data extraction with LlamaParse and OpenAI",
+    "description": "Invoice data extraction automation using LlamaParse for advanced PDF processing and OpenAI for structured data extraction, automatically processing invoices from Gmail attachments and storing results in Google Sheets reconciliation system",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Invoice data extraction with LlamaParse and OpenAI.json",
     "category": "common"
   },
   {
@@ -240,9 +228,15 @@
     "category": "common"
   },
   {
-    "name": "MongoDB AI Agent   Intelligent Movie Recommendations",
-    "description": "MongoDB-powered AI agent for intelligent movie recommendations that queries movie databases using aggregation pipelines, provides personalized suggestions, and allows users to save favorite movies with conversation memory",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/MongoDB AI Agent - Intelligent Movie Recommendations.json",
+    "name": "Use AI to organize your Todoist Inbox",
+    "description": "AI-powered Todoist inbox organization system that automatically categorizes tasks using OpenAI, assigns priorities based on predefined project mappings, and helps maintain an organized task management workflow",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Use AI to organize your Todoist Inbox.json",
+    "category": "common"
+  },
+  {
+    "name": "Reconcile Rent Payments with Local Excel Spreadsheet and OpenAI",
+    "description": "Rental payment reconciliation system using AI agents to analyze bank statements against local Excel spreadsheets, automatically identifying missing payments, incorrect amounts, and lease expiration alerts while maintaining data privacy with local file processing",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Reconcile Rent Payments with Local Excel Spreadsheet and OpenAI.json",
     "category": "common"
   },
   {
@@ -252,15 +246,21 @@
     "category": "common"
   },
   {
-    "name": "Introduction to the HTTP Tool",
-    "description": "HTTP Tool introduction tutorial demonstrating how to build API-enabled AI agents for web scraping and data fetching, showcasing simplified workflow creation with reduced node count for API integrations",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Introduction to the HTTP Tool.json",
+    "name": "MongoDB AI Agent   Intelligent Movie Recommendations",
+    "description": "MongoDB-powered AI agent for intelligent movie recommendations that queries movie databases using aggregation pipelines, provides personalized suggestions, and allows users to save favorite movies with conversation memory",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/MongoDB AI Agent - Intelligent Movie Recommendations.json",
     "category": "common"
   },
   {
     "name": "Breakdown Documents into Study Notes using Templating MistralAI and Qdrant",
     "description": "Document breakdown system using MistralAI and Qdrant that automatically converts uploaded documents into structured study materials including study guides, timelines, and briefing docs with AI-powered content processing and vector storage",
     "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Breakdown Documents into Study Notes using Templating MistralAI and Qdrant.json",
+    "category": "common"
+  },
+  {
+    "name": "Introduction to the HTTP Tool",
+    "description": "HTTP Tool introduction tutorial demonstrating how to build API-enabled AI agents for web scraping and data fetching, showcasing simplified workflow creation with reduced node count for API integrations",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Introduction to the HTTP Tool.json",
     "category": "common"
   },
   {
@@ -282,15 +282,15 @@
     "category": "common"
   },
   {
-    "name": "Autonomous AI crawler",
-    "description": "Autonomous AI crawler system that extracts social media platform URLs from company websites using intelligent text and URL retrieval tools, processes data through Supabase, and provides comprehensive social media discovery automation",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Autonomous AI crawler.json",
-    "category": "common"
-  },
-  {
     "name": "Proxmox AI Agent with n8n and Generative AI Integration",
     "description": "Proxmox AI agent integration system that combines multiple triggers (chat, telegram, email) with Proxmox API management, enabling natural language interaction for VM creation, monitoring, and cluster management through AI-powered automation",
     "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Proxmox AI Agent with n8n and Generative AI Integration.json",
+    "category": "common"
+  },
+  {
+    "name": "Autonomous AI crawler",
+    "description": "Autonomous AI crawler system that extracts social media platform URLs from company websites using intelligent text and URL retrieval tools, processes data through Supabase, and provides comprehensive social media discovery automation",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Autonomous AI crawler.json",
     "category": "common"
   },
   {
@@ -300,9 +300,9 @@
     "category": "common"
   },
   {
-    "name": "Hacker News Job Listing Scraper and Parser",
-    "description": "Hacker News job listing scraper and parser that searches for \"Who is hiring\" posts, extracts job postings, uses AI to structure data into standardized job information, and stores results in Airtable for easy job search management",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Hacker News Job Listing Scraper and Parser.json",
+    "name": "Fetch Dynamic Prompts from GitHub and Auto Populate n8n Expressions in Prompt",
+    "description": "Dynamic prompt management system that fetches prompt templates from GitHub repositories, validates required variables, auto-populates n8n expressions, and integrates with AI agents for automated prompt execution with error handling",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Fetch Dynamic Prompts from GitHub and Auto-Populate n8n Expressions in Prompt.json",
     "category": "common"
   },
   {
@@ -318,9 +318,9 @@
     "category": "common"
   },
   {
-    "name": "Fetch Dynamic Prompts from GitHub and Auto Populate n8n Expressions in Prompt",
-    "description": "Dynamic prompt management system that fetches prompt templates from GitHub repositories, validates required variables, auto-populates n8n expressions, and integrates with AI agents for automated prompt execution with error handling",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Fetch Dynamic Prompts from GitHub and Auto-Populate n8n Expressions in Prompt.json",
+    "name": "Hacker News Job Listing Scraper and Parser",
+    "description": "Hacker News job listing scraper and parser that searches for \"Who is hiring\" posts, extracts job postings, uses AI to structure data into standardized job information, and stores results in Airtable for easy job search management",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Hacker News Job Listing Scraper and Parser.json",
     "category": "common"
   },
   {
@@ -330,21 +330,9 @@
     "category": "common"
   },
   {
-    "name": "AI agent for Instagram DM inbox. Manychat + Open AI integration",
-    "description": "AI-powered Instagram DM automation system using ManyChat and OpenAI integration that receives messages through webhooks, processes them with ChatGPT using configurable system prompts, maintains conversation memory, and sends intelligent responses back to Instagram users",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/AI agent for Instagram DM_inbox. Manychat + Open AI integration.json",
-    "category": "common"
-  },
-  {
     "name": "AI Agent for n8n Creators Leaderboard   Find Popular Workflows",
     "description": "AI agent system for analyzing n8n community creators leaderboard that fetches workflow statistics from GitHub repositories, provides intelligent search capabilities for finding popular workflows by specific creators, and generates comprehensive markdown reports with performance metrics",
     "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/AI Agent for n8n Creators Leaderboard - Find Popular Workflows.json",
-    "category": "common"
-  },
-  {
-    "name": "AI Agent for Top n8n Creators Leaderboard Reporting",
-    "description": "AI reporting agent for top n8n creators leaderboard that analyzes community statistics from GitHub data sources, generates detailed reports on creator performance and workflow popularity, and provides insights into n8n community trends with automated markdown documentation",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/AI Agent for Top n8n Creators Leaderboard Reporting.json",
     "category": "common"
   },
   {
@@ -354,15 +342,21 @@
     "category": "common"
   },
   {
-    "name": "AI powered WooCommerce Support Agent",
-    "description": "AI-powered WooCommerce customer support agent that retrieves customer information and order data, integrates with DHL tracking API for shipment information, and provides intelligent customer service responses using OpenAI with conversation memory and multiple tools integration",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/AI-powered WooCommerce Support-Agent.json",
+    "name": "AI Agent for Top n8n Creators Leaderboard Reporting",
+    "description": "AI reporting agent for top n8n creators leaderboard that analyzes community statistics from GitHub data sources, generates detailed reports on creator performance and workflow popularity, and provides insights into n8n community trends with automated markdown documentation",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/AI Agent for Top n8n Creators Leaderboard Reporting.json",
     "category": "common"
   },
   {
-    "name": "Automated Hugging Face Paper Summary Fetching & Categorization Workflow",
-    "description": "Automated agricultural crop anomaly detection system using Hugging Face and Qdrant vector database that processes crop images through Voyage AI embeddings, compares them against known crop clusters with threshold scoring, and identifies anomalous or unknown crop varieties",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Automated Hugging Face Paper Summary Fetching & Categorization Workflow.json",
+    "name": "AI agent for Instagram DM inbox. Manychat + Open AI integration",
+    "description": "AI-powered Instagram DM automation system using ManyChat and OpenAI integration that receives messages through webhooks, processes them with ChatGPT using configurable system prompts, maintains conversation memory, and sends intelligent responses back to Instagram users",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/AI agent for Instagram DM_inbox. Manychat + Open AI integration.json",
+    "category": "common"
+  },
+  {
+    "name": "AI powered WooCommerce Support Agent",
+    "description": "AI-powered WooCommerce customer support agent that retrieves customer information and order data, integrates with DHL tracking API for shipment information, and provides intelligent customer service responses using OpenAI with conversation memory and multiple tools integration",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/AI-powered WooCommerce Support-Agent.json",
     "category": "common"
   },
   {
@@ -384,21 +378,15 @@
     "category": "common"
   },
   {
+    "name": "Automated Hugging Face Paper Summary Fetching & Categorization Workflow",
+    "description": "Automated agricultural crop anomaly detection system using Hugging Face and Qdrant vector database that processes crop images through Voyage AI embeddings, compares them against known crop clusters with threshold scoring, and identifies anomalous or unknown crop varieties",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Automated Hugging Face Paper Summary Fetching & Categorization Workflow.json",
+    "category": "common"
+  },
+  {
     "name": "DeepSeek V3 Chat & R1 Reasoning Quick Start",
     "description": "DeepSeek AI integration quick start system demonstrating multiple connection methods including HTTP requests, LangChain nodes, conversational agents with memory, and local Ollama models, featuring both DeepSeek V3 chat and R1 reasoning capabilities",
     "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/DeepSeek V3 Chat & R1 Reasoning Quick Start.json",
-    "category": "common"
-  },
-  {
-    "name": "Detect hallucinations using specialised Ollama model bespoke minicheck",
-    "description": "AI-powered hallucination detection system using specialized Ollama bespoke-minicheck model that analyzes text for factual accuracy, splits content into sentences, compares claims against source documents, and provides detailed fact-checking reports with error summaries",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Detect hallucinations using specialised Ollama model bespoke-minicheck.json",
-    "category": "common"
-  },
-  {
-    "name": "Dynamically generate a webpage from user request using OpenAI Structured Output 1",
-    "description": "Dynamic webpage generation system using OpenAI Structured Output that converts user requests into responsive HTML pages with Tailwind CSS styling, validates JSON schema for UI components, and provides real-time webpage creation through webhook endpoints",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Dynamically generate a webpage from user request using OpenAI Structured Output-1.json",
     "category": "common"
   },
   {
@@ -414,9 +402,27 @@
     "category": "common"
   },
   {
+    "name": "Dynamically generate a webpage from user request using OpenAI Structured Output 1",
+    "description": "Dynamic webpage generation system using OpenAI Structured Output that converts user requests into responsive HTML pages with Tailwind CSS styling, validates JSON schema for UI components, and provides real-time webpage creation through webhook endpoints",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Dynamically generate a webpage from user request using OpenAI Structured Output-1.json",
+    "category": "common"
+  },
+  {
+    "name": "Detect hallucinations using specialised Ollama model bespoke minicheck",
+    "description": "AI-powered hallucination detection system using specialized Ollama bespoke-minicheck model that analyzes text for factual accuracy, splits content into sentences, compares claims against source documents, and provides detailed fact-checking reports with error summaries",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Detect hallucinations using specialised Ollama model bespoke-minicheck.json",
+    "category": "common"
+  },
+  {
     "name": "Generate SEO Seed Keywords Using AI",
     "description": "SEO seed keyword generation system using AI agents that analyzes ideal customer profiles to create targeted keyword lists, integrates with Anthropic Claude models, and provides structured keyword recommendations for B2B SaaS companies",
     "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Generate SEO Seed Keywords Using AI.json",
+    "category": "common"
+  },
+  {
+    "name": "OpenAI assistant with custom tools",
+    "description": "OpenAI Assistant integration with custom n8n tools that demonstrates workflow tool functionality, includes date/time tools and fictional country capital data, provides manual chat interface, and enables assistant customization with external tool integration",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/OpenAI assistant with custom tools.json",
     "category": "common"
   },
   {
@@ -432,9 +438,9 @@
     "category": "common"
   },
   {
-    "name": "OpenAI assistant with custom tools",
-    "description": "OpenAI Assistant integration with custom n8n tools that demonstrates workflow tool functionality, includes date/time tools and fictional country capital data, provides manual chat interface, and enables assistant customization with external tool integration",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/OpenAI assistant with custom tools.json",
+    "name": "Organise Your Local File Directories With AI",
+    "description": "AI-powered local file organization system using Mistral Cloud that monitors directory changes with local file triggers, analyzes file and folder structures, suggests categorization strategies, and automatically organizes files into appropriate subdirectories",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Organise Your Local File Directories With AI.json",
     "category": "common"
   },
   {
@@ -444,27 +450,15 @@
     "category": "common"
   },
   {
-    "name": "Organise Your Local File Directories With AI",
-    "description": "AI-powered local file organization system using Mistral Cloud that monitors directory changes with local file triggers, analyzes file and folder structures, suggests categorization strategies, and automatically organizes files into appropriate subdirectories",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Organise Your Local File Directories With AI.json",
-    "category": "common"
-  },
-  {
-    "name": "Private & Local Ollama Self Hosted AI Assistant",
-    "description": "Private self-hosted AI assistant using Ollama and Llama 3.2 model that processes chat messages locally, returns structured JSON responses, handles errors gracefully, and provides complete privacy with local LLM deployment",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Private & Local Ollama Self-Hosted AI Assistant.json",
-    "category": "common"
-  },
-  {
     "name": "Scrape and summarize posts of a news site without RSS feed using AI and save them to a NocoDB",
     "description": "News site scraping automation for sites without RSS feeds that extracts posts with CSS selectors, filters by date ranges, summarizes content with AI, generates keywords, and stores structured data in NocoDB with scheduled cron execution",
     "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Scrape and summarize posts of a news site without RSS feed using AI and save them to a NocoDB.json",
     "category": "common"
   },
   {
-    "name": "Scrape and summarize webpages with AI",
-    "description": "Web scraping and AI summarization system that extracts essay content from websites, processes text through LangChain document loaders, generates summaries with OpenAI models, and provides structured output with titles and URLs",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Scrape and summarize webpages with AI.json",
+    "name": "Private & Local Ollama Self Hosted AI Assistant",
+    "description": "Private self-hosted AI assistant using Ollama and Llama 3.2 model that processes chat messages locally, returns structured JSON responses, handles errors gracefully, and provides complete privacy with local LLM deployment",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Private & Local Ollama Self-Hosted AI Assistant.json",
     "category": "common"
   },
   {
@@ -478,6 +472,12 @@
     "description": "AI-powered database assistant system using Supabase/PostgreSQL integration with OpenAI that enables conversational database interactions, executes dynamic SQL queries based on user requests, analyzes table schemas and JSON data structures, and provides intelligent data aggregation and reporting capabilities",
     "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/AI Agent to chat with Supabase_PostgreSQL DB.json",
     "category": "rag"
+  },
+  {
+    "name": "Scrape and summarize webpages with AI",
+    "description": "Web scraping and AI summarization system that extracts essay content from websites, processes text through LangChain document loaders, generates summaries with OpenAI models, and provides structured output with titles and URLs",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Scrape and summarize webpages with AI.json",
+    "category": "common"
   },
   {
     "name": "AI Agent with Ollama for current weather and wiki",
@@ -498,21 +498,15 @@
     "category": "rag"
   },
   {
-    "name": "AI web researcher for sales",
-    "description": "Advanced AI sales research automation system using OpenAI and multiple web tools that performs comprehensive company investigations, extracts structured business intelligence including domain info, pricing plans, API availability, and integration data, updates Google Sheets with enriched lead information, and provides intelligent sales prospecting capabilities",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/AI web researcher for sales.json",
-    "category": "rag"
-  },
-  {
     "name": "AI  Ask questions about any data source (using the n8n workflow retriever)",
     "description": "Universal AI data querying system using n8n workflow retriever and LangChain integration that enables conversational access to any data source, implements retrieval-based question answering for workflow execution results, and provides intelligent data exploration capabilities through structured Q&A interfaces",
     "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/AI_ Ask questions about any data source (using the n8n workflow retriever).json",
     "category": "rag"
   },
   {
-    "name": "Automate SIEM Alert Enrichment with MITRE ATT&CK, Qdrant & Zendesk in n8n",
-    "description": "Cybersecurity automation system for SIEM alert enrichment using MITRE ATT&CK framework, Qdrant vector database, and Zendesk integration that analyzes security incidents, correlates threat intelligence with attack patterns, provides structured remediation recommendations, and automates ticket enrichment with contextual cybersecurity insights",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Automate SIEM Alert Enrichment with MITRE ATT&CK, Qdrant & Zendesk in n8n.json",
+    "name": "AI web researcher for sales",
+    "description": "Advanced AI sales research automation system using OpenAI and multiple web tools that performs comprehensive company investigations, extracts structured business intelligence including domain info, pricing plans, API availability, and integration data, updates Google Sheets with enriched lead information, and provides intelligent sales prospecting capabilities",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/AI web researcher for sales.json",
     "category": "rag"
   },
   {
@@ -522,9 +516,9 @@
     "category": "rag"
   },
   {
-    "name": "BambooHR AI Powered Company Policies and Benefits Chatbot",
-    "description": "Comprehensive AI-powered HR chatbot system using BambooHR integration and vector database that provides intelligent responses about company policies, benefits, and employee information through document vectorization, employee lookup tools, and conversational AI with memory capabilities",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/BambooHR AI-Powered Company Policies and Benefits Chatbot.json",
+    "name": "Chat with PDF docs using AI (quoting sources)",
+    "description": "Advanced PDF document analysis system using AI with source citation capabilities that processes documents through Pinecone vector database, implements chunked text retrieval with metadata preservation, provides structured question-answering with source references, and delivers intelligent document insights with accurate citations",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Chat with PDF docs using AI (quoting sources).json",
     "category": "rag"
   },
   {
@@ -534,9 +528,15 @@
     "category": "rag"
   },
   {
-    "name": "Chat with PDF docs using AI (quoting sources)",
-    "description": "Advanced PDF document analysis system using AI with source citation capabilities that processes documents through Pinecone vector database, implements chunked text retrieval with metadata preservation, provides structured question-answering with source references, and delivers intelligent document insights with accurate citations",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Chat with PDF docs using AI (quoting sources).json",
+    "name": "BambooHR AI Powered Company Policies and Benefits Chatbot",
+    "description": "Comprehensive AI-powered HR chatbot system using BambooHR integration and vector database that provides intelligent responses about company policies, benefits, and employee information through document vectorization, employee lookup tools, and conversational AI with memory capabilities",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/BambooHR AI-Powered Company Policies and Benefits Chatbot.json",
+    "category": "rag"
+  },
+  {
+    "name": "Automate SIEM Alert Enrichment with MITRE ATT&CK, Qdrant & Zendesk in n8n",
+    "description": "Cybersecurity automation system for SIEM alert enrichment using MITRE ATT&CK framework, Qdrant vector database, and Zendesk integration that analyzes security incidents, correlates threat intelligence with attack patterns, provides structured remediation recommendations, and automates ticket enrichment with contextual cybersecurity insights",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Automate SIEM Alert Enrichment with MITRE ATT&CK, Qdrant & Zendesk in n8n.json",
     "category": "rag"
   },
   {
@@ -576,6 +576,12 @@
     "category": "rag"
   },
   {
+    "name": "LINE Assistant with Google Calendar and Gmail Integration",
+    "description": "Multi-platform personal assistant using LINE messaging integration that combines Google Calendar management, Gmail access, and Wikipedia search capabilities, implements conversation memory for user sessions, provides intelligent scheduling and email retrieval tools, and delivers comprehensive personal productivity assistance through AI agent coordination",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/LINE Assistant with Google Calendar and Gmail Integration.json",
+    "category": "rag"
+  },
+  {
     "name": "KB Tool   Confluence Knowledge Base",
     "description": "Knowledge base integration tool using Confluence API that enables dynamic query processing for IT support workflows, implements intelligent search functionality for internal documentation, provides structured responses with article titles and links, and delivers automated knowledge retrieval for helpdesk chatbot systems",
     "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/KB Tool - Confluence Knowledge Base.json",
@@ -585,12 +591,6 @@
     "name": "Learn Anything from HN   Get Top Resource Recommendations from Hacker News",
     "description": "Educational resource discovery system using Hacker News API integration that scrapes Ask HN posts for learning recommendations, aggregates community comments and insights, categorizes resources by type and difficulty level using AI analysis, and delivers personalized learning recommendations via email with sentiment analysis",
     "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Learn Anything from HN - Get Top Resource Recommendations from Hacker News.json",
-    "category": "rag"
-  },
-  {
-    "name": "LINE Assistant with Google Calendar and Gmail Integration",
-    "description": "Multi-platform personal assistant using LINE messaging integration that combines Google Calendar management, Gmail access, and Wikipedia search capabilities, implements conversation memory for user sessions, provides intelligent scheduling and email retrieval tools, and delivers comprehensive personal productivity assistance through AI agent coordination",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/LINE Assistant with Google Calendar and Gmail Integration.json",
     "category": "rag"
   },
   {
@@ -630,12 +630,6 @@
     "category": "rag"
   },
   {
-    "name": "Summarize SERPBear data with AI (via Openrouter) and save it to Baserow",
-    "description": "SEO analytics automation system using SERPBear data integration that processes search ranking information through AI analysis, implements automated report generation with OpenRouter integration, provides ranking trend analysis and insights, and delivers comprehensive SEO performance data to Baserow database",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Summarize SERPBear data with AI (via Openrouter) and save it to Baserow.json",
-    "category": "rag"
-  },
-  {
     "name": "Talk to your SQLite database with a LangChain AI Agent",
     "description": "Database conversation interface using SQLite and LangChain AI agent that enables natural language database queries, implements intelligent SQL generation with schema awareness, provides conversational data exploration capabilities, and delivers seamless database interactions through AI-powered query translation",
     "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Talk to your SQLite database with a LangChain AI Agent.json",
@@ -645,6 +639,12 @@
     "name": "Text automations using Apple Shortcuts 1",
     "description": "iOS automation system using Apple Shortcuts integration that enables text processing workflows, implements cross-platform communication between mobile and n8n, provides intelligent text manipulation and analysis capabilities, and delivers automated mobile productivity solutions with AI enhancement",
     "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Text automations using Apple Shortcuts-1.json",
+    "category": "rag"
+  },
+  {
+    "name": "Summarize SERPBear data with AI (via Openrouter) and save it to Baserow",
+    "description": "SEO analytics automation system using SERPBear data integration that processes search ranking information through AI analysis, implements automated report generation with OpenRouter integration, provides ranking trend analysis and insights, and delivers comprehensive SEO performance data to Baserow database",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Summarize SERPBear data with AI (via Openrouter) and save it to Baserow.json",
     "category": "rag"
   },
   {
@@ -660,12 +660,6 @@
     "category": "rag"
   },
   {
-    "name": "Upsert huge documents in a vector store with Supabase and Notion",
-    "description": "Large document vectorization system using Supabase and Notion integration that processes extensive document collections through vector storage, implements efficient document chunking and embedding strategies, provides scalable knowledge base creation, and delivers optimized vector database management for enterprise-scale RAG applications",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Upsert huge documents in a vector store with Supabase and Notion.json",
-    "category": "rag"
-  },
-  {
     "name": "Vision Based AI Agent Scraper   with Google Sheets, ScrapingBee, and Gemini",
     "description": "Visual AI agent scraper using Google Sheets, ScrapingBee, and Gemini that implements computer vision-powered web scraping, processes visual content and structured data extraction, provides intelligent image and text analysis capabilities, and delivers comprehensive web data collection with AI-enhanced visual understanding",
     "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Vision-Based AI Agent Scraper - with Google Sheets, ScrapingBee, and Gemini.json",
@@ -676,6 +670,12 @@
     "description": "Advanced voice-enabled RAG chatbot system using ElevenLabs and OpenAI integration that processes customer service and restaurant queries, implements vector storage with Qdrant for knowledge retrieval, provides natural voice interactions with speech synthesis, and delivers comprehensive conversational AI experiences with multi-modal communication capabilities",
     "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/AI Voice Chatbot with ElevenLabs & OpenAI for Customer Service and Restaurants.json",
     "category": "multi-modal"
+  },
+  {
+    "name": "Upsert huge documents in a vector store with Supabase and Notion",
+    "description": "Large document vectorization system using Supabase and Notion integration that processes extensive document collections through vector storage, implements efficient document chunking and embedding strategies, provides scalable knowledge base creation, and delivers optimized vector database management for enterprise-scale RAG applications",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Upsert huge documents in a vector store with Supabase and Notion.json",
+    "category": "rag"
   },
   {
     "name": "Automated AI image analysis and response via Telegram",
@@ -690,15 +690,15 @@
     "category": "multi-modal"
   },
   {
-    "name": "Flux AI Image Generator",
-    "description": "Flux AI-powered image generation system using Hugging Face inference API that creates custom artwork with multiple artistic styles, implements form-based user input for prompts and style selection, provides S3 cloud storage for generated images, and delivers web-based image gallery with dynamic style application and rendering",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Flux AI Image Generator.json",
-    "category": "multi-modal"
-  },
-  {
     "name": "Zoom AI Meeting Assistant creates mail summary, ClickUp tasks and follow up call",
     "description": "Zoom meeting automation system using AI that creates comprehensive meeting summaries, generates automated tasks in ClickUp project management, schedules follow-up calls based on meeting content, and provides multi-modal processing of video calls with intelligent action item extraction and workflow automation",
     "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Zoom AI Meeting Assistant creates mail summary, ClickUp tasks and follow-up call.json",
+    "category": "multi-modal"
+  },
+  {
+    "name": "Flux AI Image Generator",
+    "description": "Flux AI-powered image generation system using Hugging Face inference API that creates custom artwork with multiple artistic styles, implements form-based user input for prompts and style selection, provides S3 cloud storage for generated images, and delivers web-based image gallery with dynamic style application and rendering",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Flux AI Image Generator.json",
     "category": "multi-modal"
   },
   {
@@ -726,15 +726,15 @@
     "category": "multi-modal"
   },
   {
-    "name": "Image Creation with OpenAI and Telegram",
-    "description": "Telegram-based image creation system using OpenAI DALL-E integration that generates custom artwork through conversational interfaces, implements text-to-image generation with natural language prompts, provides real-time image creation and sharing, and delivers creative AI tools through popular messaging platforms",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Image Creation with OpenAI and Telegram.json",
-    "category": "multi-modal"
-  },
-  {
     "name": "Hacker News to Video Content",
     "description": "Content automation system that transforms Hacker News articles into video content using AI, implements text-to-video generation with automated narration, provides content repurposing for social media platforms, and delivers multimedia content creation from text-based sources with intelligent video production",
     "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Hacker News to Video Content.json",
+    "category": "multi-modal"
+  },
+  {
+    "name": "Image Creation with OpenAI and Telegram",
+    "description": "Telegram-based image creation system using OpenAI DALL-E integration that generates custom artwork through conversational interfaces, implements text-to-image generation with natural language prompts, provides real-time image creation and sharing, and delivers creative AI tools through popular messaging platforms",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Image Creation with OpenAI and Telegram.json",
     "category": "multi-modal"
   },
   {
@@ -744,111 +744,9 @@
     "category": "multi-modal"
   },
   {
-    "name": "WhatsApp Business Voice AI",
-    "description": "WhatsApp business automation system using AI voice processing that handles customer inquiries through voice messages, implements speech-to-text conversion with intelligent response generation, provides natural language customer service automation, and delivers seamless voice-based communication for business applications",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/WhatsApp Business Voice AI.json",
-    "category": "multi-modal"
-  },
-  {
-    "name": "Discord AI bot",
-    "description": "Discord automation system using AI that processes server conversations and generates intelligent responses, implements community management with automated moderation, provides context-aware chatbot functionality, and delivers enhanced Discord server experiences with AI-powered interaction capabilities",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Discord AI bot.json",
-    "category": "multi-modal"
-  },
-  {
-    "name": "Video Generator",
-    "description": "Video content automation system that generates educational or promotional videos using AI, implements automated video editing with intelligent scene composition, provides text-to-video conversion with custom branding, and delivers scalable video production for content marketing and educational purposes",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Video Generator.json",
-    "category": "multi-modal"
-  },
-  {
-    "name": "Audio Processor",
-    "description": "Audio processing automation system that analyzes, enhances, and transforms audio content using AI, implements intelligent audio filtering and enhancement, provides automated transcription and audio manipulation, and delivers comprehensive audio workflow automation for content creation",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Audio Processor.json",
-    "category": "multi-modal"
-  },
-  {
-    "name": "Vision Analyzer",
-    "description": "Computer vision system that processes and analyzes visual content from multiple sources, implements object detection and image classification, provides automated visual content moderation and tagging, and delivers intelligent image processing workflows for content management platforms",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Vision Analyzer.json",
-    "category": "multi-modal"
-  },
-  {
-    "name": "Speech Commander",
-    "description": "Speech recognition and processing system that converts voice input to actionable workflows, implements voice command interpretation with intelligent automation triggers, provides hands-free workflow control, and delivers accessibility-focused voice interaction capabilities",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Speech Commander.json",
-    "category": "multi-modal"
-  },
-  {
-    "name": "Document Processor",
-    "description": "Multi-format document processing system that handles text, images, and audio within documents, implements intelligent content extraction and analysis, provides automated document workflow processing, and delivers comprehensive document automation with multimodal content understanding",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Document Processor.json",
-    "category": "multi-modal"
-  },
-  {
-    "name": "Stream Manager",
-    "description": "Live streaming automation system that processes real-time video and audio content, implements automated content moderation and enhancement, provides intelligent stream management and interaction, and delivers enhanced broadcasting capabilities with AI-powered features",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Stream Manager.json",
-    "category": "multi-modal"
-  },
-  {
-    "name": "Presentation Creator",
-    "description": "Content creation platform that generates multimedia presentations using AI, implements automated slide creation with visual and audio elements, provides intelligent presentation design and content organization, and delivers comprehensive presentation automation for business and educational use",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Presentation Creator.json",
-    "category": "multi-modal"
-  },
-  {
-    "name": "Media Converter",
-    "description": "Media conversion and optimization system that processes various multimedia formats, implements intelligent format conversion with quality optimization, provides automated media workflow processing, and delivers scalable media transformation for web and mobile applications",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Media Converter.json",
-    "category": "multi-modal"
-  },
-  {
-    "name": "Interactive Assistant",
-    "description": "Interactive multimedia chatbot system that processes text, voice, and image inputs for comprehensive conversations, implements multi-channel communication capabilities, provides context-aware responses across different media types, and delivers advanced conversational AI experiences",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Interactive Assistant.json",
-    "category": "multi-modal"
-  },
-  {
-    "name": "Content Personalizer",
-    "description": "Content personalization system that adapts multimedia content based on user preferences and behavior, implements AI-powered content recommendation and customization, provides dynamic content delivery optimization, and delivers personalized user experiences across multiple media formats",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Content Personalizer.json",
-    "category": "multi-modal"
-  },
-  {
-    "name": "Collaboration Hub",
-    "description": "Real-time collaboration system that enables multimedia content sharing and editing, implements synchronized multi-user interaction with voice and video, provides intelligent collaboration tools and workflow management, and delivers enhanced team productivity with multimodal communication",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Collaboration Hub.json",
-    "category": "multi-modal"
-  },
-  {
-    "name": "Accessibility Enhancer",
-    "description": "Accessibility enhancement system that converts multimedia content to accessible formats, implements automated caption generation and audio descriptions, provides compliance with accessibility standards, and delivers inclusive content experiences for users with diverse needs",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Accessibility Enhancer.json",
-    "category": "multi-modal"
-  },
-  {
-    "name": "Quality Checker",
-    "description": "Quality assurance system for multimedia content that automatically analyzes and validates audio, video, and image quality, implements intelligent content testing and optimization recommendations, provides automated QA workflows, and delivers consistent content quality standards",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Quality Checker.json",
-    "category": "multi-modal"
-  },
-  {
-    "name": "Analytics Dashboard",
-    "description": "Comprehensive multimedia analytics platform that analyzes engagement and performance across different content types, implements intelligent metrics tracking and reporting, provides actionable insights for content optimization, and delivers data-driven content strategy recommendations",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Analytics Dashboard.json",
-    "category": "multi-modal"
-  },
-  {
-    "name": "Archive Manager",
-    "description": "Automated multimedia archive system that organizes, categorizes, and manages large collections of audio, video, and image content, implements intelligent content indexing and retrieval, provides scalable media asset management, and delivers efficient content library organization",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Archive Manager.json",
-    "category": "multi-modal"
-  },
-  {
-    "name": "Qualify new leads in Google Sheets via OpenAI s GPT 4",
-    "description": "Lead qualification automation system using Google Sheets and OpenAI GPT-4 that evaluates prospective customers based on predefined criteria, implements intelligent scoring and categorization of leads, provides automated lead nurturing workflows, and delivers enhanced sales pipeline management with AI-powered lead assessment",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Qualify new leads in Google Sheets via OpenAI_s GPT-4.json",
+    "name": "Daily meetings summarization with Gemini AI",
+    "description": "Meeting summarization automation system using Gemini AI that processes daily calendar events, generates intelligent meeting summaries with key takeaways, implements automated action item extraction, and delivers comprehensive meeting documentation for improved productivity and follow-up",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Daily meetings summarization with Gemini AI.json",
     "category": "google"
   },
   {
@@ -858,21 +756,15 @@
     "category": "google"
   },
   {
-    "name": "Daily meetings summarization with Gemini AI",
-    "description": "Meeting summarization automation system using Gemini AI that processes daily calendar events, generates intelligent meeting summaries with key takeaways, implements automated action item extraction, and delivers comprehensive meeting documentation for improved productivity and follow-up",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Daily meetings summarization with Gemini AI.json",
+    "name": "Qualify new leads in Google Sheets via OpenAI s GPT 4",
+    "description": "Lead qualification automation system using Google Sheets and OpenAI GPT-4 that evaluates prospective customers based on predefined criteria, implements intelligent scoring and categorization of leads, provides automated lead nurturing workflows, and delivers enhanced sales pipeline management with AI-powered lead assessment",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Qualify new leads in Google Sheets via OpenAI_s GPT-4.json",
     "category": "google"
   },
   {
     "name": "AI Customer feedback sentiment analysis",
     "description": "Customer feedback analysis system using AI sentiment analysis that processes customer reviews and comments from Google platforms, implements automated sentiment scoring and categorization, provides actionable insights for business improvement, and delivers comprehensive customer satisfaction monitoring",
     "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/AI Customer feedback sentiment analysis.json",
-    "category": "google"
-  },
-  {
-    "name": "Summarize the New Documents from Google Drive and Save Summary in Google Sheet",
-    "description": "Document summarization automation system that monitors Google Drive for new documents, generates AI-powered summaries of content, saves summary reports to Google Sheets for tracking, and delivers automated content analysis for knowledge management and document processing workflows",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Summarize the New Documents from Google Drive and Save Summary in Google Sheet.json",
     "category": "google"
   },
   {
@@ -894,591 +786,9 @@
     "category": "google"
   },
   {
-    "name": "Smart Calendar Management",
-    "description": "Google Calendar integration system that automates meeting scheduling and management, implements AI-powered calendar optimization, provides intelligent conflict resolution and meeting suggestions, and delivers comprehensive calendar automation for improved time management and productivity",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Smart Calendar Management.json",
+    "name": "Summarize the New Documents from Google Drive and Save Summary in Google Sheet",
+    "description": "Document summarization automation system that monitors Google Drive for new documents, generates AI-powered summaries of content, saves summary reports to Google Sheets for tracking, and delivers automated content analysis for knowledge management and document processing workflows",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Summarize the New Documents from Google Drive and Save Summary in Google Sheet.json",
     "category": "google"
-  },
-  {
-    "name": "Workspace Automation Hub",
-    "description": "Google Workspace automation system that streamlines document creation and collaboration, implements intelligent template generation and content management, provides automated workflow triggers for document processing, and delivers enhanced productivity tools for team collaboration",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Workspace Automation Hub.json",
-    "category": "google"
-  },
-  {
-    "name": "Analytics Intelligence",
-    "description": "Google Analytics data processing system that automatically generates intelligent reports and insights, implements automated data visualization and trend analysis, provides actionable business intelligence dashboards, and delivers comprehensive web analytics automation for data-driven decision making",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Analytics Intelligence.json",
-    "category": "google"
-  },
-  {
-    "name": "Drive Organization AI",
-    "description": "Google Drive organization system that automatically categorizes and manages files using AI, implements intelligent file tagging and folder structure optimization, provides automated backup and archiving workflows, and delivers comprehensive file management for digital asset organization",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Drive Organization AI.json",
-    "category": "google"
-  },
-  {
-    "name": "Forms AI Processor",
-    "description": "Google Forms automation system that processes form responses with AI analysis, implements intelligent response categorization and follow-up actions, provides automated workflow triggers based on form data, and delivers enhanced form processing capabilities for data collection and lead generation",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Forms AI Processor.json",
-    "category": "google"
-  },
-  {
-    "name": "Sites Content Manager",
-    "description": "Google Sites automation system that generates and manages website content using AI, implements automated page creation and content optimization, provides intelligent SEO enhancement and maintenance workflows, and delivers scalable website management for business presence",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Sites Content Manager.json",
-    "category": "google"
-  },
-  {
-    "name": "Ads Optimizer",
-    "description": "Google Ads optimization system that uses AI to improve campaign performance, implements automated bid management and keyword optimization, provides intelligent ad copy generation and testing, and delivers enhanced advertising ROI through machine learning-powered campaign management",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Ads Optimizer.json",
-    "category": "google"
-  },
-  {
-    "name": "Maps Intelligence",
-    "description": "Google Maps integration system that processes location data and generates intelligent insights, implements automated route optimization and location-based triggers, provides geospatial analytics and mapping workflows, and delivers location-aware business automation capabilities",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Maps Intelligence.json",
-    "category": "google"
-  },
-  {
-    "name": "Cloud Orchestrator",
-    "description": "Google Cloud integration platform that orchestrates various Google services with AI enhancement, implements automated resource management and optimization, provides intelligent monitoring and alerting systems, and delivers comprehensive cloud automation for enterprise-scale operations",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Cloud Orchestrator.json",
-    "category": "google"
-  },
-  {
-    "name": "AI Personalized Email Generator",
-    "description": "Advanced email automation system using AI that generates personalized email content based on recipient data, implements intelligent send-time optimization, provides automated follow-up sequences, and delivers enhanced email marketing campaigns with machine learning-powered personalization",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/AI Personalized Email Generator.json",
-    "category": "email"
-  },
-  {
-    "name": "Sentiment Analysis Email Processor",
-    "description": "Email sentiment analysis system that processes incoming emails to determine customer emotions and satisfaction levels, implements automated response routing based on sentiment, provides customer service optimization insights, and delivers intelligent email triage for improved customer support",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/Sentiment Analysis Email Processor.json",
-    "category": "email"
-  },
-  {
-    "name": "Smart Email Categorizer",
-    "description": "Automated email categorization system using machine learning that sorts incoming emails into predefined categories, implements intelligent priority scoring, provides automated workflow triggers based on email content, and delivers streamlined inbox management for enhanced productivity",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/Smart Email Categorizer.json",
-    "category": "email"
-  },
-  {
-    "name": "Dynamic Email Template Engine",
-    "description": "Email template automation system that generates dynamic email content using AI, implements personalized template selection based on recipient profiles, provides A/B testing capabilities for email optimization, and delivers scalable email campaign management with intelligent content creation",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/Dynamic Email Template Engine.json",
-    "category": "email"
-  },
-  {
-    "name": "Email Security Scanner",
-    "description": "Email security automation system that scans incoming emails for threats and phishing attempts, implements intelligent filtering and quarantine processes, provides automated security alerts and reporting, and delivers comprehensive email protection with AI-powered threat detection",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/Email Security Scanner.json",
-    "category": "email"
-  },
-  {
-    "name": "Customer Onboarding Automation",
-    "description": "Customer onboarding email automation system that creates personalized welcome sequences, implements intelligent drip campaigns based on user behavior, provides automated milestone tracking and engagement, and delivers enhanced customer experience through targeted email communication",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/Customer Onboarding Automation.json",
-    "category": "email"
-  },
-  {
-    "name": "Email Analytics Dashboard",
-    "description": "Email performance analytics system that tracks engagement metrics and campaign effectiveness, implements intelligent reporting and optimization recommendations, provides automated A/B testing and performance monitoring, and delivers data-driven insights for email marketing optimization",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/Email Analytics Dashboard.json",
-    "category": "email"
-  },
-  {
-    "name": "Abandoned Cart Recovery",
-    "description": "Abandoned cart recovery email system that automatically sends personalized follow-up emails to potential customers, implements intelligent timing and content optimization, provides dynamic product recommendations, and delivers enhanced e-commerce conversion through targeted email campaigns",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/Abandoned Cart Recovery.json",
-    "category": "email"
-  },
-  {
-    "name": "List Management Optimizer",
-    "description": "Email list management automation system that maintains clean and engaged subscriber lists, implements intelligent segmentation and targeting, provides automated list hygiene and compliance monitoring, and delivers optimized email deliverability through smart list management",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/List Management Optimizer.json",
-    "category": "email"
-  },
-  {
-    "name": "Transactional Email Engine",
-    "description": "Transactional email automation system that generates and sends order confirmations, shipping notifications, and account updates, implements intelligent formatting and personalization, provides reliable delivery monitoring, and delivers essential customer communication automation",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/Transactional Email Engine.json",
-    "category": "email"
-  },
-  {
-    "name": "Newsletter Content Curator",
-    "description": "Email newsletter automation system that curates content and generates personalized newsletters, implements intelligent content selection based on subscriber preferences, provides automated scheduling and delivery optimization, and delivers engaging newsletter campaigns with AI-powered content curation",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/Newsletter Content Curator.json",
-    "category": "email"
-  },
-  {
-    "name": "Lead Nurturing Sequences",
-    "description": "Email lead nurturing system that creates automated drip campaigns for prospect engagement, implements intelligent scoring and progression tracking, provides personalized content delivery based on lead behavior, and delivers enhanced sales funnel management through targeted email sequences",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/Lead Nurturing Sequences.json",
-    "category": "email"
-  },
-  {
-    "name": "Compliance Management System",
-    "description": "Email compliance automation system that ensures adherence to regulations like GDPR and CAN-SPAM, implements automated consent management and unsubscribe handling, provides compliance reporting and audit trails, and delivers legal protection through intelligent email compliance monitoring",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/Compliance Management System.json",
-    "category": "email"
-  },
-  {
-    "name": "Integration Hub",
-    "description": "Email integration platform that connects various email services and marketing tools, implements intelligent data synchronization and workflow automation, provides unified email management across multiple platforms, and delivers seamless email ecosystem integration with comprehensive API connectivity",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/Integration Hub.json",
-    "category": "email"
-  },
-  {
-    "name": "Deliverability Optimizer",
-    "description": "Email deliverability optimization system that monitors sender reputation and inbox placement, implements intelligent domain warming and authentication management, provides automated deliverability testing and optimization, and delivers enhanced email delivery success through reputation management",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/Deliverability Optimizer.json",
-    "category": "email"
-  },
-  {
-    "name": "AI Customer Support Bot",
-    "description": "Advanced Telegram chatbot system using AI that provides intelligent customer support and automated responses, implements natural language processing for conversation understanding, provides multi-language support and context awareness, and delivers comprehensive messaging automation for business communication",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/telegram/AI Customer Support Bot.json",
-    "category": "telegram"
-  },
-  {
-    "name": "Channel Content Automation",
-    "description": "Telegram channel automation system that curates and publishes content automatically, implements intelligent content scheduling and optimization, provides automated subscriber engagement and analytics, and delivers streamlined channel management for content creators and businesses",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/telegram/Channel Content Automation.json",
-    "category": "telegram"
-  },
-  {
-    "name": "Smart Notification Hub",
-    "description": "Telegram notification system that sends alerts and updates from various applications and services, implements intelligent notification filtering and prioritization, provides customizable alert templates and delivery options, and delivers real-time communication for system monitoring and updates",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/telegram/Smart Notification Hub.json",
-    "category": "telegram"
-  },
-  {
-    "name": "File Management Bot",
-    "description": "Telegram file sharing automation system that manages document uploads and downloads, implements intelligent file organization and access control, provides automated file processing and conversion, and delivers comprehensive file management capabilities through messaging interface",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/telegram/File Management Bot.json",
-    "category": "telegram"
-  },
-  {
-    "name": "AI Group Moderator",
-    "description": "Telegram group moderation system using AI that automatically manages community interactions, implements intelligent spam detection and content filtering, provides automated user management and rule enforcement, and delivers enhanced community management for large Telegram groups",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/telegram/AI Group Moderator.json",
-    "category": "telegram"
-  },
-  {
-    "name": "Poll Survey Manager",
-    "description": "Telegram poll and survey automation system that creates and manages interactive polls, implements intelligent response collection and analysis, provides automated result compilation and reporting, and delivers comprehensive survey capabilities for community engagement and feedback collection",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/telegram/Poll Survey Manager.json",
-    "category": "telegram"
-  },
-  {
-    "name": "Shopping Assistant Bot",
-    "description": "Telegram e-commerce integration system that enables product browsing and purchasing through chat interface, implements intelligent product recommendations and order processing, provides automated payment handling and customer service, and delivers seamless shopping experience via messaging",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/telegram/Shopping Assistant Bot.json",
-    "category": "telegram"
-  },
-  {
-    "name": "Schedule Reminder Bot",
-    "description": "Telegram reminder and scheduling system that manages appointments and task notifications, implements intelligent calendar integration and time zone handling, provides automated reminder delivery and follow-up, and delivers comprehensive time management through conversational interface",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/telegram/Schedule Reminder Bot.json",
-    "category": "telegram"
-  },
-  {
-    "name": "Analytics Dashboard",
-    "description": "Telegram analytics and reporting system that tracks channel and bot performance metrics, implements intelligent engagement analysis and growth insights, provides automated report generation and optimization recommendations, and delivers data-driven insights for Telegram marketing strategies",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/telegram/Analytics Dashboard.json",
-    "category": "telegram"
-  },
-  {
-    "name": "Integration Hub",
-    "description": "Telegram integration platform that connects various external services and APIs, implements intelligent webhook management and data synchronization, provides automated workflow triggers and responses, and delivers comprehensive integration capabilities for business automation",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/telegram/Integration Hub.json",
-    "category": "telegram"
-  },
-  {
-    "name": "Media Processor",
-    "description": "Telegram media processing system that handles image, video, and audio content shared in chats, implements intelligent media analysis and enhancement, provides automated content moderation and processing, and delivers comprehensive multimedia management through messaging interface",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/telegram/Media Processor.json",
-    "category": "telegram"
-  },
-  {
-    "name": "Chat Archive Manager",
-    "description": "Telegram backup and archival system that automatically saves chat history and media content, implements intelligent data organization and retrieval, provides automated backup scheduling and cloud storage integration, and delivers comprehensive chat preservation and management capabilities",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/telegram/Chat Archive Manager.json",
-    "category": "telegram"
-  },
-  {
-    "name": "AI Campaign Manager",
-    "description": "Comprehensive marketing automation platform using AI that manages multi-channel campaigns, implements intelligent lead scoring and nurturing, provides automated content creation and optimization, and delivers data-driven marketing strategies for enhanced ROI and customer acquisition",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/marketing/AI Campaign Manager.json",
-    "category": "marketing"
-  },
-  {
-    "name": "Social Media Scheduler",
-    "description": "Social media automation system that schedules and publishes content across multiple platforms, implements intelligent hashtag and timing optimization, provides automated engagement monitoring and response, and delivers comprehensive social media management for brand consistency",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/marketing/Social Media Scheduler.json",
-    "category": "marketing"
-  },
-  {
-    "name": "Customer Segmentation AI",
-    "description": "Customer segmentation and targeting system using machine learning that analyzes customer behavior and preferences, implements intelligent audience clustering and personalization, provides automated campaign targeting and optimization, and delivers enhanced customer experience through data-driven marketing",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/marketing/Customer Segmentation AI.json",
-    "category": "marketing"
-  },
-  {
-    "name": "Attribution Analytics",
-    "description": "Marketing analytics and attribution system that tracks campaign performance across channels, implements intelligent ROI calculation and optimization recommendations, provides automated reporting and insights, and delivers comprehensive marketing intelligence for strategic decision making",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/marketing/Attribution Analytics.json",
-    "category": "marketing"
-  },
-  {
-    "name": "Content Marketing Engine",
-    "description": "Content marketing automation system that generates and distributes engaging content, implements intelligent SEO optimization and performance tracking, provides automated content calendar management, and delivers scalable content marketing for brand awareness and lead generation",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/marketing/Content Marketing Engine.json",
-    "category": "marketing"
-  },
-  {
-    "name": "Influencer Management Hub",
-    "description": "Influencer marketing platform that identifies and manages influencer partnerships, implements intelligent campaign tracking and performance measurement, provides automated outreach and collaboration workflows, and delivers enhanced influencer marketing ROI through data-driven partnerships",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/marketing/Influencer Management Hub.json",
-    "category": "marketing"
-  },
-  {
-    "name": "Personalization Engine",
-    "description": "Marketing personalization engine that creates customized experiences for individual users, implements intelligent recommendation systems and dynamic content delivery, provides automated personalization testing and optimization, and delivers enhanced customer engagement through tailored marketing",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/marketing/Personalization Engine.json",
-    "category": "marketing"
-  },
-  {
-    "name": "Conversion Optimizer",
-    "description": "Conversion rate optimization system that analyzes user behavior and implements intelligent testing strategies, provides automated A/B testing and landing page optimization, delivers data-driven conversion improvements, and enhances marketing funnel performance through intelligent optimization",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/marketing/Conversion Optimizer.json",
-    "category": "marketing"
-  },
-  {
-    "name": "Team Productivity Automation",
-    "description": "Slack automation system that streamlines team communication and workflow management, implements intelligent message routing and task automation, provides automated notifications and status updates, and delivers enhanced team productivity through intelligent Slack integration",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/slack/Team Productivity Automation.json",
-    "category": "slack"
-  },
-  {
-    "name": "Smart Notification Manager",
-    "description": "Slack notification management system that filters and prioritizes important messages, implements intelligent alert customization and delivery optimization, provides automated notification scheduling and follow-up, and delivers improved communication efficiency for teams",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/slack/Smart Notification Manager.json",
-    "category": "slack"
-  },
-  {
-    "name": "Business Integration Hub",
-    "description": "Slack integration platform that connects various business tools and services, implements intelligent data synchronization and workflow automation, provides automated reporting and status updates, and delivers comprehensive business automation through Slack channels",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/slack/Business Integration Hub.json",
-    "category": "slack"
-  },
-  {
-    "name": "Team Analytics Dashboard",
-    "description": "Slack analytics and reporting system that tracks team communication patterns and productivity metrics, implements intelligent insights and optimization recommendations, provides automated performance reporting, and delivers data-driven team management through communication analytics",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/slack/Team Analytics Dashboard.json",
-    "category": "slack"
-  },
-  {
-    "name": "AI Assistant Bot",
-    "description": "Slack bot automation system that provides intelligent assistance and task management, implements natural language processing for command interpretation, provides automated workflow triggers and responses, and delivers enhanced team efficiency through AI-powered Slack bots",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/slack/AI Assistant Bot.json",
-    "category": "slack"
-  },
-  {
-    "name": "Knowledge Management",
-    "description": "Slack knowledge management system that organizes and shares team information intelligently, implements automated documentation and knowledge base creation, provides intelligent search and retrieval capabilities, and delivers comprehensive knowledge sharing for teams",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/slack/Knowledge Management.json",
-    "category": "slack"
-  },
-  {
-    "name": "Meeting Coordinator",
-    "description": "Slack meeting coordination system that automates scheduling and agenda management, implements intelligent meeting optimization and follow-up tracking, provides automated action item management, and delivers streamlined meeting workflows through Slack integration",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/slack/Meeting Coordinator.json",
-    "category": "slack"
-  },
-  {
-    "name": "Platform Integration Hub",
-    "description": "Multi-platform integration system that combines various tools and services for comprehensive automation, implements intelligent workflow orchestration across different platforms, provides unified data management and synchronization, and delivers seamless business process automation",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/mixed/Platform Integration Hub.json",
-    "category": "mixed"
-  },
-  {
-    "name": "Hybrid Data Processor",
-    "description": "Hybrid automation system that processes multiple data types and sources simultaneously, implements intelligent data transformation and routing, provides automated workflow adaptation and optimization, and delivers flexible automation solutions for complex business requirements",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/mixed/Hybrid Data Processor.json",
-    "category": "mixed"
-  },
-  {
-    "name": "Communication Orchestrator",
-    "description": "Cross-platform communication system that manages interactions across multiple channels and services, implements intelligent message routing and response automation, provides unified communication management, and delivers comprehensive multi-channel customer engagement",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/mixed/Communication Orchestrator.json",
-    "category": "mixed"
-  },
-  {
-    "name": "Universal Workflow Engine",
-    "description": "Universal workflow automation system that adapts to various business processes and requirements, implements intelligent process optimization and automation, provides flexible workflow configuration and management, and delivers scalable automation solutions for diverse business needs",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/mixed/Universal Workflow Engine.json",
-    "category": "mixed"
-  },
-  {
-    "name": "Multi Service Analytics",
-    "description": "Multi-service analytics platform that aggregates data from various sources and tools, implements intelligent cross-platform insights and reporting, provides unified dashboard and visualization capabilities, and delivers comprehensive business intelligence across multiple services",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/mixed/Multi-Service Analytics.json",
-    "category": "mixed"
-  },
-  {
-    "name": "Automation Ecosystem",
-    "description": "Integrated automation ecosystem that combines multiple automation strategies and tools, implements intelligent workflow coordination and optimization, provides comprehensive automation management and monitoring, and delivers enterprise-level automation solutions",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/mixed/Automation Ecosystem.json",
-    "category": "mixed"
-  },
-  {
-    "name": "Cross Functional Workflows",
-    "description": "Cross-functional workflow system that manages processes spanning multiple departments and tools, implements intelligent task routing and collaboration features, provides automated progress tracking and reporting, and delivers enhanced organizational efficiency through integrated workflows",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/mixed/Cross-Functional Workflows.json",
-    "category": "mixed"
-  },
-  {
-    "name": "Document Processor",
-    "description": "PDF processing automation system that extracts, analyzes, and transforms PDF documents, implements intelligent content recognition and data extraction, provides automated document classification and routing, and delivers comprehensive PDF workflow management for business processes",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/pdf/Document Processor.json",
-    "category": "pdf"
-  },
-  {
-    "name": "Dynamic PDF Generator",
-    "description": "PDF generation and customization system that creates dynamic documents from templates, implements intelligent content population and formatting, provides automated document delivery and management, and delivers scalable PDF creation for business documentation",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/pdf/Dynamic PDF Generator.json",
-    "category": "pdf"
-  },
-  {
-    "name": "AI Data Extractor",
-    "description": "PDF data extraction system using AI that intelligently parses document content, implements automated form processing and data capture, provides intelligent document understanding and categorization, and delivers efficient data extraction from complex PDF documents",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/pdf/AI Data Extractor.json",
-    "category": "pdf"
-  },
-  {
-    "name": "Security Manager",
-    "description": "PDF security and compliance system that manages document protection and access control, implements intelligent encryption and digital signature management, provides automated compliance checking and reporting, and delivers secure PDF workflow management",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/pdf/Security Manager.json",
-    "category": "pdf"
-  },
-  {
-    "name": "Optimization Engine",
-    "description": "PDF optimization and conversion system that enhances document quality and format compatibility, implements intelligent compression and format conversion, provides automated document enhancement and standardization, and delivers optimized PDF processing workflows",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/pdf/Optimization Engine.json",
-    "category": "pdf"
-  },
-  {
-    "name": "Collaboration Platform",
-    "description": "PDF collaboration and review system that manages document sharing and feedback collection, implements intelligent version control and change tracking, provides automated review workflow management, and delivers enhanced document collaboration capabilities",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/pdf/Collaboration Platform.json",
-    "category": "pdf"
-  },
-  {
-    "name": "Database Automation",
-    "description": "Notion automation system that streamlines database management and content organization, implements intelligent task automation and workflow management, provides automated data synchronization and reporting, and delivers enhanced productivity through Notion integration",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/notion/Database Automation.json",
-    "category": "notion"
-  },
-  {
-    "name": "Content Manager",
-    "description": "Notion content management system that automates page creation and content organization, implements intelligent template management and content generation, provides automated publishing and distribution workflows, and delivers comprehensive content management through Notion",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/notion/Content Manager.json",
-    "category": "notion"
-  },
-  {
-    "name": "Project Tracker",
-    "description": "Notion project management automation that tracks tasks and project progress intelligently, implements automated status updates and milestone tracking, provides intelligent resource allocation and scheduling, and delivers enhanced project management through Notion workflows",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/notion/Project Tracker.json",
-    "category": "notion"
-  },
-  {
-    "name": "Analytics Dashboard",
-    "description": "Notion analytics and reporting system that generates insights from workspace data, implements intelligent metrics tracking and performance analysis, provides automated dashboard creation and reporting, and delivers data-driven insights for Notion workspace optimization",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/notion/Analytics Dashboard.json",
-    "category": "notion"
-  },
-  {
-    "name": "Integration Hub",
-    "description": "Notion integration platform that connects external tools and services with Notion workspaces, implements intelligent data synchronization and workflow automation, provides automated content import and export capabilities, and delivers comprehensive Notion ecosystem integration",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/notion/Integration Hub.json",
-    "category": "notion"
-  },
-  {
-    "name": "Model Pipeline Manager",
-    "description": "Machine learning model training and deployment system that automates ML pipeline management, implements intelligent model optimization and performance monitoring, provides automated retraining and model updates, and delivers scalable ML operations for business applications",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/machine-learning/Model Pipeline Manager.json",
-    "category": "machine-learning"
-  },
-  {
-    "name": "Data Preprocessing Engine",
-    "description": "Data preprocessing and feature engineering automation system that prepares datasets for ML training, implements intelligent data cleaning and transformation, provides automated feature selection and engineering, and delivers optimized data preparation workflows",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/machine-learning/Data Preprocessing Engine.json",
-    "category": "machine-learning"
-  },
-  {
-    "name": "Model Validator",
-    "description": "ML model evaluation and validation system that assesses model performance and accuracy, implements intelligent testing and validation strategies, provides automated performance monitoring and alerting, and delivers comprehensive ML model quality assurance",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/machine-learning/Model Validator.json",
-    "category": "machine-learning"
-  },
-  {
-    "name": "AutoML Engine",
-    "description": "Automated machine learning (AutoML) system that selects optimal algorithms and hyperparameters, implements intelligent model architecture search and optimization, provides automated ML workflow generation, and delivers accessible machine learning for non-experts",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/machine-learning/AutoML Engine.json",
-    "category": "machine-learning"
-  },
-  {
-    "name": "Prediction Service",
-    "description": "ML prediction and inference system that serves trained models for real-time predictions, implements intelligent load balancing and scaling, provides automated prediction monitoring and optimization, and delivers production-ready ML inference capabilities",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/machine-learning/Prediction Service.json",
-    "category": "machine-learning"
-  },
-  {
-    "name": "Smart Ticket Manager",
-    "description": "Intelligent issue tracking system that automatically categorizes and prioritizes tickets, implements AI-powered issue analysis and assignment, provides automated resolution tracking and reporting, and delivers enhanced customer support through smart issue management",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/issue-tracker/Smart Ticket Manager.json",
-    "category": "issue-tracker"
-  },
-  {
-    "name": "Bug Tracker Pro",
-    "description": "Bug tracking and resolution automation system that monitors software issues and automates triage processes, implements intelligent bug classification and severity assessment, provides automated developer assignment and tracking, and delivers efficient software quality management",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/issue-tracker/Bug Tracker Pro.json",
-    "category": "issue-tracker"
-  },
-  {
-    "name": "Support Desk Automation",
-    "description": "Customer support ticket automation that streamlines help desk operations, implements intelligent ticket routing and response automation, provides automated escalation and follow-up workflows, and delivers enhanced customer service through intelligent ticket management",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/issue-tracker/Support Desk Automation.json",
-    "category": "issue-tracker"
-  },
-  {
-    "name": "Project Issue Manager",
-    "description": "Project issue management system that tracks and resolves project-related problems, implements intelligent issue correlation and impact analysis, provides automated reporting and communication workflows, and delivers comprehensive project issue resolution",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/issue-tracker/Project Issue Manager.json",
-    "category": "issue-tracker"
-  },
-  {
-    "name": "Analytics Reporter",
-    "description": "Issue analytics and reporting system that analyzes support patterns and performance metrics, implements intelligent insights and optimization recommendations, provides automated reporting and trend analysis, and delivers data-driven improvements for issue management",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/issue-tracker/Analytics Reporter.json",
-    "category": "issue-tracker"
-  },
-  {
-    "name": "Database Manager",
-    "description": "Supabase database automation system that manages data operations and synchronization, implements intelligent query optimization and performance monitoring, provides automated backup and migration workflows, and delivers comprehensive database management for modern applications",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/supabase/Database Manager.json",
-    "category": "supabase"
-  },
-  {
-    "name": "Auth Manager",
-    "description": "Supabase authentication and user management system that automates user onboarding and access control, implements intelligent security monitoring and user analytics, provides automated user lifecycle management, and delivers secure user authentication workflows",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/supabase/Auth Manager.json",
-    "category": "supabase"
-  },
-  {
-    "name": "Realtime Sync",
-    "description": "Supabase real-time data synchronization system that manages live data updates and subscriptions, implements intelligent data streaming and conflict resolution, provides automated real-time workflow triggers, and delivers responsive real-time application capabilities",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/supabase/Realtime Sync.json",
-    "category": "supabase"
-  },
-  {
-    "name": "Integration Platform",
-    "description": "Supabase integration platform that connects various services with Supabase backend, implements intelligent API management and data transformation, provides automated webhook handling and event processing, and delivers comprehensive backend integration solutions",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/supabase/Integration Platform.json",
-    "category": "supabase"
-  },
-  {
-    "name": "Playlist Curator",
-    "description": "Spotify playlist automation system that creates and manages music playlists intelligently, implements AI-powered music recommendation and curation, provides automated playlist updating and optimization, and delivers personalized music experience through intelligent playlist management",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/spotify/Playlist Curator.json",
-    "category": "spotify"
-  },
-  {
-    "name": "Music Analytics",
-    "description": "Spotify analytics and listening insights system that tracks music consumption patterns, implements intelligent music taste analysis and recommendations, provides automated listening reports and insights, and delivers data-driven music discovery and engagement",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/spotify/Music Analytics.json",
-    "category": "spotify"
-  },
-  {
-    "name": "Social Music Hub",
-    "description": "Spotify social integration system that manages music sharing and social features, implements intelligent music discovery through social networks, provides automated playlist sharing and collaboration, and delivers enhanced social music experiences",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/spotify/Social Music Hub.json",
-    "category": "spotify"
-  },
-  {
-    "name": "Server Manager",
-    "description": "Discord server automation system that manages community interactions and moderation, implements intelligent bot responses and command handling, provides automated server management and user engagement, and delivers enhanced Discord community experiences",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/discord/Server Manager.json",
-    "category": "discord"
-  },
-  {
-    "name": "Integration Hub",
-    "description": "Discord integration platform that connects external services with Discord servers, implements intelligent notification management and workflow automation, provides automated event handling and response systems, and delivers comprehensive Discord ecosystem integration",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/discord/Integration Hub.json",
-    "category": "discord"
-  },
-  {
-    "name": "Community Analytics",
-    "description": "Discord analytics and community insights system that tracks server activity and user engagement, implements intelligent community health monitoring and optimization, provides automated reporting and insights, and delivers data-driven Discord community management",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/discord/Community Analytics.json",
-    "category": "discord"
-  },
-  {
-    "name": "Quality Analyzer",
-    "description": "Code analysis and review automation system that analyzes code quality and security, implements intelligent code scanning and vulnerability detection, provides automated code review and improvement suggestions, and delivers comprehensive code quality assurance",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/code/Quality Analyzer.json",
-    "category": "code"
-  },
-  {
-    "name": "Deployment Manager",
-    "description": "Automated code deployment and CI/CD system that manages software release pipelines, implements intelligent testing and deployment strategies, provides automated rollback and monitoring capabilities, and delivers reliable software deployment automation",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/code/Deployment Manager.json",
-    "category": "code"
-  },
-  {
-    "name": "Documentation Generator",
-    "description": "Code documentation and API generation system that automatically creates developer documentation, implements intelligent code analysis and documentation generation, provides automated API specification and example creation, and delivers comprehensive developer documentation workflows",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/code/Documentation Generator.json",
-    "category": "code"
-  },
-  {
-    "name": "Content Manager",
-    "description": "YouTube content automation system that manages video publishing and optimization, implements intelligent SEO optimization and thumbnail generation, provides automated video processing and distribution, and delivers comprehensive YouTube channel management",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/youtube/Content Manager.json",
-    "category": "youtube"
-  },
-  {
-    "name": "Analytics Dashboard",
-    "description": "YouTube analytics and performance tracking system that monitors video metrics and audience engagement, implements intelligent content optimization and growth strategies, provides automated reporting and insights, and delivers data-driven YouTube channel optimization",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/youtube/Analytics Dashboard.json",
-    "category": "youtube"
-  },
-  {
-    "name": "Business Automation",
-    "description": "WhatsApp business automation system that manages customer communications and support, implements intelligent chatbot responses and workflow automation, provides automated message routing and customer service, and delivers enhanced WhatsApp business engagement",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/whats-app/Business Automation.json",
-    "category": "whats-app"
-  },
-  {
-    "name": "Marketing Platform",
-    "description": "WhatsApp marketing and broadcast system that manages promotional campaigns and customer outreach, implements intelligent message personalization and delivery optimization, provides automated campaign tracking and analytics, and delivers effective WhatsApp marketing automation",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/whats-app/Marketing Platform.json",
-    "category": "whats-app"
-  },
-  {
-    "name": "Intelligence Gatherer",
-    "description": "Comprehensive research automation system that gathers, analyzes, and synthesizes information from multiple sources, implements intelligent data mining and analysis workflows, provides automated research reporting and insight generation, and delivers deep research capabilities for complex information gathering",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/deep-research/Intelligence Gatherer.json",
-    "category": "deep-research"
-  },
-  {
-    "name": "Content Automation",
-    "description": "Content management system automation that streamlines website content creation and publishing, implements intelligent content optimization and SEO enhancement, provides automated content workflow management and distribution, and delivers comprehensive CMS automation for web content management",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/cms/Content Automation.json",
-    "category": "cms"
   }
 ]
