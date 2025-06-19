@@ -6,7 +6,7 @@ var Messages = map[string]map[string]string{
 		// 도구 설명
 		"tool.ping.description":            "서버 연결 상태를 확인합니다",
 		"tool.search.description":          "n8n 노드 문서를 검색합니다",
-		"tool.search_workflow.description": "n8n 워크플로우 템플릿을 검색합니다. 키워드나 카테고리에 기반하여 커뮤니티 워크플로우를 찾아 URL과 함께 반환합니다.",
+		"tool.search_workflow.description": "n8n 워크플로우 템플릿을 검색합니다. 키워드나 카테고리에 기반하여 커뮤니티 워크플로우를 찾아 URL과 함께 반환합니다. (영어로 검색해야 정확한 결과를 얻을 수 있습니다)\n\n📝 **검색 후 필수 작업**: 모든 검색 결과를 마크다운 파일(.md)로 저장해야 합니다. URL은 반드시 클릭 가능한 링크 형태 `[워크플로우 제목](URL)`로 변환하여 브라우저에서 바로 접근할 수 있도록 구성하세요.",
 
 		// 매개변수 설명
 		"tool.search.param.query.description":                "검색할 키워드 또는 구문 (예: HTTP, webhook, database)",
@@ -28,7 +28,7 @@ var Messages = map[string]map[string]string{
 		// Tool descriptions
 		"tool.ping.description":            "Check server connection status",
 		"tool.search.description":          "Search n8n node documentation",
-		"tool.search_workflow.description": "Search n8n workflow templates. Find community workflows based on keywords or categories and return them with URLs.",
+		"tool.search_workflow.description": "Search n8n workflow templates. Find community workflows based on keywords or categories and return them with URLs. (Search must be performed in English for accurate results)\n\n📝 **Required Post-Search Action**: All search results must be saved as a markdown file (.md). URLs must be converted to clickable link format `[Workflow Title](URL)` to enable direct browser access.",
 
 		// Parameter descriptions
 		"tool.search.param.query.description":                "Keywords or phrases to search for (e.g., HTTP, webhook, database)",
@@ -50,7 +50,7 @@ var Messages = map[string]map[string]string{
 		// ツールの説明
 		"tool.ping.description":            "サーバー接続状態を確認します",
 		"tool.search.description":          "n8nノードドキュメントを検索します",
-		"tool.search_workflow.description": "n8nワークフローテンプレートを検索します。キーワードやカテゴリに基づいてコミュニティワークフローを見つけ、URLと共に返します。",
+		"tool.search_workflow.description": "n8nワークフローテンプレートを検索します。キーワードやカテゴリに基づいてコミュニティワークフローを見つけ、URLと共に返します。（正確な結果を得るには英語で検索する必要があります）\n\n📝 **検索後必須作業**: すべての検索結果をマークダウンファイル（.md）として保存する必要があります。URLは必ずクリック可能なリンク形式 `[ワークフロータイトル](URL)` に変換して、ブラウザから直接アクセスできるように構成してください。",
 
 		// パラメータの説明
 		"tool.search.param.query.description":                "検索するキーワードまたはフレーズ（例：HTTP、webhook、database）",
@@ -76,7 +76,7 @@ func (i *I18n) getKoreanMessages() map[string]string {
 		// 기본 도구 설명
 		"tool.ping.description":             "서버가 정상 작동하는지 확인하는 기본 ping 테스트",
 		"tool.search_n8n_nodes.description": "n8n 노드를 검색합니다. 키워드에 기반하여 관련 노드들을 찾고 점수와 함께 반환합니다.",
-		"tool.search_workflow.description":  "n8n 워크플로우 템플릿을 검색합니다. 키워드나 카테고리에 기반하여 커뮤니티 워크플로우를 찾아 URL과 함께 반환합니다. (영어로 검색해야 정확한 결과를 얻을 수 있습니다)",
+		"tool.search_workflow.description":  "n8n 워크플로우 템플릿을 검색합니다. 키워드나 카테고리에 기반하여 커뮤니티 워크플로우를 찾아 URL과 함께 반환합니다. (영어로 검색해야 정확한 결과를 얻을 수 있습니다)\n\n📝 **검색 후 필수 작업**: 모든 검색 결과를 마크다운 파일(.md)로 저장해야 합니다. URL은 반드시 클릭 가능한 링크 형태 `[워크플로우 제목](URL)`로 변환하여 브라우저에서 바로 접근할 수 있도록 구성하세요.",
 
 		// 워크플로우 관련 도구
 
@@ -103,7 +103,7 @@ func (i *I18n) getKoreanMessages() map[string]string {
 		"tool.search_workflow.param.category.description":    "워크플로우 카테고리로 필터링 (예: airtable, blog, common, crm, email)",
 
 		// 다음 단계 가이드
-		"search_workflow.next_step": "각 description을 기반으로 워크플로우에 대한 설명을 해주고 이를 기반으로 md 형태로 url을 클릭하면 바로 브라우저에 열릴 수 있도록 문서 형태로 작성하세요",
+		"search_workflow.next_step": "검색된 워크플로우들을 분석하여 각각의 기능과 용도를 설명하고, **모든 URL을 클릭 가능한 마크다운 링크 형태**로 변환하여 문서를 생성한 후 `.md` 파일로 저장해주세요. 사용자가 링크를 클릭하면 바로 브라우저에서 워크플로우를 확인할 수 있도록 하고, 각 워크플로우의 제목, 설명, 활용 방법을 포함하여 구성해주세요.",
 
 		"param.file_path.description":            "검증할 n8n 워크플로우 JSON 파일의 절대/상대 경로 (예: './workflows/my_workflow.json')",
 		"param.include_line_numbers.description": "줄 번호별 상세 오류 정보 및 컨텍스트 포함 여부 (기본값: true)",
@@ -117,7 +117,7 @@ func (i *I18n) getEnglishMessages() map[string]string {
 		// 기본 도구 설명
 		"tool.ping.description":             "Basic ping test to check if the server is working properly",
 		"tool.search_n8n_nodes.description": "Search n8n nodes. Find related nodes based on keywords and return them with scores.",
-		"tool.search_workflow.description":  "Search n8n workflow templates. Find community workflows based on keywords or categories and return them with URLs. (Search must be performed in English for accurate results)",
+		"tool.search_workflow.description":  "Search n8n workflow templates. Find community workflows based on keywords or categories and return them with URLs. (Search must be performed in English for accurate results)\n\n📝 **Required Post-Search Action**: All search results must be saved as a markdown file (.md). URLs must be converted to clickable link format `[Workflow Title](URL)` to enable direct browser access.",
 
 		// 워크플로우 관련 도구
 
@@ -144,7 +144,7 @@ func (i *I18n) getEnglishMessages() map[string]string {
 		"tool.search_workflow.param.category.description":    "Filter by workflow category (e.g., airtable, blog, common, crm, email)",
 
 		// Next step guide
-		"search_workflow.next_step": "Based on each description, please explain the workflows and create a document in markdown format so that the URLs can be clicked to open directly in the browser",
+		"search_workflow.next_step": "Analyze the searched workflows to explain each one's functionality and purpose, then **convert all URLs into clickable markdown link format** and generate a document saved as a `.md` file. Ensure users can click the links to directly open workflows in their browser, and include each workflow's title, description, and usage instructions.",
 
 		"param.file_path.description":            "Absolute/relative path of n8n workflow JSON file to validate (e.g., './workflows/my_workflow.json')",
 		"param.include_line_numbers.description": "Whether to include detailed error information and context by line number (default: true)",
@@ -158,7 +158,7 @@ func (i *I18n) getJapaneseMessages() map[string]string {
 		// 기본 도구 설명
 		"tool.ping.description":             "サーバーが正常に動作しているかを確認する基本的なpingテスト",
 		"tool.search_n8n_nodes.description": "n8nノードを検索します。キーワードに基づいて関連ノードを見つけ、スコアと共に返します。",
-		"tool.search_workflow.description":  "n8nワークフローテンプレートを検索します。キーワードやカテゴリに基づいてコミュニティワークフローを見つけ、URLと共に返します。（正確な結果を得るには英語で検索する必要があります）",
+		"tool.search_workflow.description":  "n8nワークフローテンプレートを検索します。キーワードやカテゴリに基づいてコミュニティワークフローを見つけ、URLと共に返します。（正確な結果を得るには英語で検索する必要があります）\n\n📝 **検索後必須作業**: すべての検索結果をマークダウンファイル（.md）として保存する必要があります。URLは必ずクリック可能なリンク形式 `[ワークフロータイトル](URL)` に変換して、ブラウザから直接アクセスできるように構成してください。",
 
 		// 워크플로우 관련 도구
 
@@ -185,7 +185,7 @@ func (i *I18n) getJapaneseMessages() map[string]string {
 		"tool.search_workflow.param.category.description":    "ワークフローカテゴリでフィルタリング（例：airtable、blog、common、crm、email）",
 
 		// 次のステップガイド
-		"search_workflow.next_step": "各説明に基づいてワークフローについて説明し、URLをクリックしてブラウザで直接開けるようにマークダウン形式で文書を作成してください",
+		"search_workflow.next_step": "検索されたワークフローを分析して、それぞれの機能と用途を説明し、**すべてのURLをクリック可能なマークダウンリンク形式**に変換して文書を生成し`.md`ファイルとして保存してください。ユーザーがリンクをクリックするとブラウザで直接ワークフローを確認できるようにし、各ワークフローのタイトル、説明、活用方法を含めて構成してください。",
 
 		"param.file_path.description":            "検証するn8nワークフローJSONファイルの絶対/相対パス（例：'./workflows/my_workflow.json'）",
 		"param.include_line_numbers.description": "行番号別詳細エラー情報とコンテキストを含めるかどうか（デフォルト: true）",
