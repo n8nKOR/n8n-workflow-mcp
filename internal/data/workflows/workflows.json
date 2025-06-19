@@ -1,794 +1,1670 @@
 [
   {
-    "name": "AI Data Extraction with Dynamic Prompts and Airtable",
-    "description": "AI data extraction workflow using dynamic prompts to extract information from PDF files and automatically populate Airtable fields based on user-defined field descriptions",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/airtable/AI Data Extraction with Dynamic Prompts and Airtable.json",
-    "category": "airtable"
-  },
-  {
-    "name": "AI Agent for project management and meetings with Airtable and Fireflies",
-    "description": "AI agent for project management and meetings that analyzes Fireflies meeting transcripts to automatically create tasks in Airtable, notify clients about their tasks, and schedule follow-up Google Calendar events when needed",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/airtable/AI Agent for project management and meetings with Airtable and Fireflies.json",
-    "category": "airtable"
-  },
-  {
-    "name": "Deduplicate Scraping AI Grants for Eligibility using AI",
-    "description": "AI-powered grant scraping workflow that searches Grants.gov for AI-related grants, deduplicates results, analyzes eligibility requirements, and stores qualified grants in Airtable with email notifications",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/airtable/Deduplicate Scraping AI Grants for Eligibility using AI.json",
-    "category": "airtable"
-  },
-  {
-    "name": "Automate Pinterest Analysis & AI Powered Content Suggestions With Pinterest API",
-    "description": "Pinterest analytics automation that collects pin data via Pinterest API, stores it in Airtable, analyzes trends with AI, and emails content suggestions to marketing managers",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/airtable/Automate Pinterest Analysis & AI-Powered Content Suggestions With Pinterest API.json",
-    "category": "airtable"
-  },
-  {
-    "name": "AI Social Media Caption Creator creates social media post captions in Airtable",
-    "description": "AI social media caption creator that generates creative, target audience-oriented Instagram captions from Airtable briefing information and saves them back to Airtable",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/airtable/AI Social Media Caption Creator creates social media post captions in Airtable.json",
-    "category": "airtable"
-  },
-  {
-    "name": "HR Job Posting and Evaluation with AI",
-    "description": "HR job application system that collects candidate information via n8n forms, uploads CVs to Google Drive, evaluates applications with AI, and stores results in Airtable",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/airtable/HR Job Posting and Evaluation with AI.json",
-    "category": "airtable"
-  },
-  {
-    "name": "Sentiment Analysis Tracking on Support Issues with Linear and Slack 1",
-    "description": "Sentiment analysis tracking system for Linear support issues that analyzes comment sentiment with AI, stores results in Airtable, and sends Slack notifications for negative sentiment transitions",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/airtable/Sentiment Analysis Tracking on Support Issues with Linear and Slack-1.json",
-    "category": "airtable"
-  },
-  {
-    "name": "Extract Information from a Logo Sheet using forms, AI, Google Sheet and Airtable",
-    "description": "AI logo sheet information extractor that processes uploaded images through n8n forms to extract tool information, categorizes attributes, and stores structured data in Airtable",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/airtable/Extract Information from a Logo Sheet using forms, AI, Google Sheet and Airtable.json",
-    "category": "airtable"
-  },
-  {
-    "name": "Sentiment Analysis Tracking on Support Issues with Linear and Slack 2",
-    "description": "Sentiment analysis tracking system for Linear support issues that analyzes comment sentiment with AI, stores results in Airtable, and sends Slack notifications for negative sentiment transitions (version 2)",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/airtable/Sentiment Analysis Tracking on Support Issues with Linear and Slack-2.json",
-    "category": "airtable"
-  },
-  {
-    "name": "vAssistant for Hubspot Chat using OpenAi and Airtable",
-    "description": "Virtual assistant for HubSpot chat using OpenAI Assistant API to handle customer inquiries with external database lookup capabilities and automated responses",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/airtable/vAssistant for Hubspot Chat using OpenAi and Airtable.json",
-    "category": "airtable"
-  },
-  {
-    "name": "Auto Tag Blog Posts in WordPress with AI",
-    "description": "AI-powered WordPress blog post auto-tagging system that uses RSS feeds to detect new posts, analyzes content with AI to suggest relevant tags, automatically creates missing tags, and updates posts with appropriate categorization",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/Auto-Tag Blog Posts in WordPress with AI.json",
-    "category": "blog"
-  },
-  {
-    "name": "WordPress   AI Chatbot to enhance user experience   with Supabase and OpenAI",
-    "description": "RAG and GenAI application with WordPress content that creates vector embeddings from website content, provides intelligent chatbot functionality with memory capabilities, and enhances user experience through AI-powered conversations",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/WordPress - AI Chatbot to enhance user experience - with Supabase and OpenAI.json",
-    "category": "blog"
-  },
-  {
-    "name": "Create a Branded AI Powered Website Chatbot",
-    "description": "Branded AI-powered website chatbot with appointment booking capabilities that integrates with Microsoft Calendar, handles customer inquiries, checks availability, and manages meeting scheduling with email notifications",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/Create a Branded AI-Powered Website Chatbot.json",
-    "category": "blog"
-  },
-  {
-    "name": "Generate 9 16 Images from Content and Brand Guidelines",
-    "description": "Content to 9:16 aspect ratio image generator that creates short-form video content by converting blog posts into scripts, generating AI images for each scene, and producing vertical format visuals optimized for social media platforms",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/Generate 9_16 Images from Content and Brand Guidelines.json",
-    "category": "blog"
-  },
-  {
-    "name": "Automate Blog Creation in Brand Voice with AI",
-    "description": "AI blog creation automation that analyzes existing content to extract brand voice characteristics, replicates writing style and structure patterns, and generates new articles consistent with established brand guidelines",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/Automate Blog Creation in Brand Voice with AI.json",
-    "category": "blog"
-  },
-  {
-    "name": "Auto Categorize blog posts in wordpress using A.I.",
-    "description": "WordPress blog post auto-categorization system that retrieves all posts from WordPress, analyzes content using AI to determine appropriate categories, and automatically updates posts with the most relevant category assignments",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/Auto-Categorize blog posts in wordpress using A.I..json",
-    "category": "blog"
-  },
-  {
-    "name": "AI Powered Social Media Amplifier",
-    "description": "Social media automation agent that scrapes Hacker News for GitHub projects, generates content with AI, and publishes to multiple platforms including LinkedIn and Twitter with automated status tracking",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/AI-Powered Social Media Amplifier.json",
-    "category": "blog"
-  },
-  {
-    "name": "AI Generated Summary Block for WordPress Posts",
-    "description": "AI-generated summary block generator for WordPress posts that analyzes content with OpenAI, creates structured summaries in HTML format, tracks processing in Google Sheets, and sends Slack notifications",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/AI-Generated Summary Block for WordPress Posts.json",
-    "category": "blog"
-  },
-  {
-    "name": "Auto generate documentation for n8n workflows with GPT and Docsify",
-    "description": "Automated n8n workflow documentation generator that uses GPT and Docsify to create comprehensive documentation, generates workflow schematics with Mermaid charts, and provides editing capabilities",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/Auto-generate documentation for n8n workflows with GPT and Docsify.json",
-    "category": "blog"
-  },
-  {
-    "name": "Automate LinkedIn Outreach with Notion and OpenAI",
-    "description": "LinkedIn outreach automation system that retrieves scheduled posts from Notion database, formats content with AI for engagement optimization, fetches images, and automatically publishes to LinkedIn",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/Automate LinkedIn Outreach with Notion and OpenAI.json",
-    "category": "blog"
-  },
-  {
-    "name": "Speed Up Social Media Banners With BannerBear.com",
-    "description": "Social media banner creation system using BannerBear.com that generates AI images with DALL-E, uploads to Cloudinary CDN, applies custom templates, and publishes final banners to social media platforms",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/Speed Up Social Media Banners With BannerBear.com.json",
-    "category": "blog"
-  },
-  {
-    "name": "Generate Instagram Content from Top Trends with AI Image Generation",
-    "description": "Instagram content generation system that extracts trending hashtags from Instagram API, generates AI images using trend data, stores content in database, and automatically posts to Instagram with optimized descriptions",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/Generate Instagram Content from Top Trends with AI Image Generation.json",
-    "category": "blog"
-  },
-  {
-    "name": "Post New YouTube Videos to X",
-    "description": "YouTube to X (Twitter) automation that monitors YouTube channels for new videos, generates engaging promotional tweets with ChatGPT, and automatically posts them to X with video links",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/Post New YouTube Videos to X.json",
-    "category": "blog"
-  },
-  {
-    "name": "Twitter Virtual AI Influencer",
-    "description": "Virtual AI influencer system for Twitter that generates contextual tweets based on configured personality and niche, validates content constraints, and posts automatically on scheduled intervals with randomized timing",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/Twitter Virtual AI Influencer.json",
-    "category": "blog"
-  },
-  {
-    "name": "Upload to Instagram and Tiktok from Google Drive",
-    "description": "Google Drive to social media automation that monitors Google Drive folders for new videos, extracts audio for AI-generated descriptions, and automatically uploads content to both Instagram and TikTok platforms",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/Upload to Instagram and Tiktok from Google Drive.json",
-    "category": "blog"
-  },
-  {
-    "name": "Automate Your RFP Process with OpenAI Assistants",
-    "description": "RFP process automation using OpenAI Assistants that extracts questions from RFP documents, generates contextual responses using company knowledge base, creates response documents in Google Docs, and sends completion notifications",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Automate Your RFP Process with OpenAI Assistants.json",
-    "category": "common"
-  },
-  {
-    "name": "AI Summarize podcast episode and enhance using Wikipedia",
-    "description": "Podcast summarization and enhancement system that uses AI to create episode summaries, extracts topics and questions, researches topics with Wikipedia integration, and sends formatted digests via email",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/AI Summarize podcast episode and enhance using Wikipedia.json",
-    "category": "common"
-  },
-  {
-    "name": "API Schema Extractor",
-    "description": "API schema extraction system that searches websites for API documentation using web scraping, analyzes content with AI to identify API schemas, stores embeddings in vector databases, and provides intelligent API discovery",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/API Schema Extractor.json",
-    "category": "common"
-  },
-  {
-    "name": "Write a WordPress post with AI (starting from a few keywords)",
-    "description": "AI-powered WordPress content creator that transforms keywords into full blog posts, generates structured articles with chapters and conclusions, creates featured images with DALL-E, and publishes as drafts",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/Write a WordPress post with AI (starting from a few keywords).json",
-    "category": "blog"
-  },
-  {
-    "name": "AI Automated HR Workflow for CV Analysis and Candidate Evaluation",
-    "description": "AI-powered HR automation pipeline that processes job applications via forms, extracts candidate information from CV PDFs, evaluates qualifications against job requirements, and stores results in Google Sheets with automated scoring",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/AI Automated HR Workflow for CV Analysis and Candidate Evaluation.json",
-    "category": "common"
-  },
-  {
-    "name": "OpenAI examples  ChatGPT, DALLE 2, Whisper 1 5 in 1",
-    "description": "Comprehensive OpenAI examples workflow demonstrating 5-in-1 functionality including ChatGPT text completion, DALL-E 2 image generation, Whisper audio transcription, text editing, and chat-based interactions with different model configurations",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/OpenAI examples_ ChatGPT, DALLE-2, Whisper-1-5-in-1.json",
-    "category": "common"
-  },
-  {
-    "name": "Build a Financial Documents Assistant using Qdrant and Mistral.ai",
-    "description": "Financial document assistant system using Qdrant vector database and Mistral.ai that monitors file changes, creates embeddings from documents, provides intelligent Q&A capabilities, and maintains synchronized vector storage",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Build a Financial Documents Assistant using Qdrant and Mistral.ai.json",
-    "category": "common"
-  },
-  {
-    "name": "Query n8n Credentials with AI SQL Agent",
-    "description": "AI SQL agent system that queries n8n workflow credentials database using natural language, maps workflows to their credential requirements, and provides intelligent search capabilities for finding workflows with specific app integrations",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Query n8n Credentials with AI SQL Agent.json",
-    "category": "common"
-  },
-  {
-    "name": "Build a Tax Code Assistant with Qdrant, Mistral.ai and OpenAI",
-    "description": "Tax code assistant system using Qdrant vector database, Mistral.ai, and OpenAI that downloads Texas tax law PDFs, processes them into sections with embeddings, and provides AI-powered search capabilities for legal tax code inquiries",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Build a Tax Code Assistant with Qdrant, Mistral.ai and OpenAI.json",
-    "category": "common"
-  },
-  {
-    "name": "Customer Insights with Qdrant, Python and Information Extractor",
-    "description": "Customer insights extraction system that scrapes Trustpilot reviews, stores them in Qdrant vector database, performs clustering analysis with Python, and generates AI-powered insights with sentiment analysis for business intelligence",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Customer Insights with Qdrant, Python and Information Extractor.json",
-    "category": "common"
-  },
-  {
-    "name": "Bitrix24 Chatbot Application Workflow example with Webhook Integration",
-    "description": "Bitrix24 chatbot application workflow example demonstrating webhook integration for handling bot messages, user joins, installation events, and bot deletion with proper token validation and response formatting",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Bitrix24 Chatbot Application Workflow example with Webhook Integration.json",
-    "category": "common"
-  },
-  {
-    "name": "Invoice data extraction with LlamaParse and OpenAI",
-    "description": "Invoice data extraction automation using LlamaParse for advanced PDF processing and OpenAI for structured data extraction, automatically processing invoices from Gmail attachments and storing results in Google Sheets reconciliation system",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Invoice data extraction with LlamaParse and OpenAI.json",
-    "category": "common"
-  },
-  {
-    "name": "Spot Workplace Discrimination Patterns with AI",
-    "description": "Workplace discrimination pattern detection system using AI to analyze Glassdoor company reviews, extract demographic data and overall ratings, and identify potential discrimination patterns through automated content analysis",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Spot Workplace Discrimination Patterns with AI.json",
-    "category": "common"
-  },
-  {
-    "name": "Use AI to organize your Todoist Inbox",
-    "description": "AI-powered Todoist inbox organization system that automatically categorizes tasks using OpenAI, assigns priorities based on predefined project mappings, and helps maintain an organized task management workflow",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Use AI to organize your Todoist Inbox.json",
-    "category": "common"
-  },
-  {
-    "name": "Reconcile Rent Payments with Local Excel Spreadsheet and OpenAI",
-    "description": "Rental payment reconciliation system using AI agents to analyze bank statements against local Excel spreadsheets, automatically identifying missing payments, incorrect amounts, and lease expiration alerts while maintaining data privacy with local file processing",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Reconcile Rent Payments with Local Excel Spreadsheet and OpenAI.json",
-    "category": "common"
-  },
-  {
-    "name": "AI Agent to chat with you Search Console Data, using OpenAI and Postgres",
-    "description": "AI agent for Search Console data analysis using OpenAI and Postgres that enables natural language queries of Google Search Console data, provides website performance insights, and maintains conversation history in PostgreSQL",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/AI Agent to chat with you Search Console Data, using OpenAI and Postgres.json",
-    "category": "common"
-  },
-  {
-    "name": "MongoDB AI Agent   Intelligent Movie Recommendations",
-    "description": "MongoDB-powered AI agent for intelligent movie recommendations that queries movie databases using aggregation pipelines, provides personalized suggestions, and allows users to save favorite movies with conversation memory",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/MongoDB AI Agent - Intelligent Movie Recommendations.json",
-    "category": "common"
-  },
-  {
-    "name": "Breakdown Documents into Study Notes using Templating MistralAI and Qdrant",
-    "description": "Document breakdown system using MistralAI and Qdrant that automatically converts uploaded documents into structured study materials including study guides, timelines, and briefing docs with AI-powered content processing and vector storage",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Breakdown Documents into Study Notes using Templating MistralAI and Qdrant.json",
-    "category": "common"
-  },
-  {
-    "name": "Introduction to the HTTP Tool",
-    "description": "HTTP Tool introduction tutorial demonstrating how to build API-enabled AI agents for web scraping and data fetching, showcasing simplified workflow creation with reduced node count for API integrations",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Introduction to the HTTP Tool.json",
-    "category": "common"
-  },
-  {
-    "name": "Extract personal data with self hosted LLM Mistral NeMo",
-    "description": "Personal data extraction system using self-hosted LLM Mistral NeMo with Ollama that processes chat messages through structured output parsing to extract personal information with auto-fixing capabilities for consistent JSON output",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Extract personal data with self-hosted LLM Mistral NeMo.json",
-    "category": "common"
-  },
-  {
-    "name": "Reddit AI digest",
-    "description": "Reddit AI digest system that searches for n8n-related posts, filters by engagement and recency, uses OpenAI to verify relevance and categorize content, and generates automated summaries for community monitoring",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Reddit AI digest.json",
-    "category": "common"
-  },
-  {
-    "name": "AI agent that can scrape webpages",
-    "description": "AI agent for web scraping that uses ReAct methodology to autonomously browse websites, extract HTML content, convert to markdown format, and provide intelligent responses based on webpage content analysis",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/AI agent that can scrape webpages.json",
-    "category": "common"
-  },
-  {
-    "name": "Proxmox AI Agent with n8n and Generative AI Integration",
-    "description": "Proxmox AI agent integration system that combines multiple triggers (chat, telegram, email) with Proxmox API management, enabling natural language interaction for VM creation, monitoring, and cluster management through AI-powered automation",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Proxmox AI Agent with n8n and Generative AI Integration.json",
-    "category": "common"
-  },
-  {
-    "name": "Autonomous AI crawler",
-    "description": "Autonomous AI crawler system that extracts social media platform URLs from company websites using intelligent text and URL retrieval tools, processes data through Supabase, and provides comprehensive social media discovery automation",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Autonomous AI crawler.json",
-    "category": "common"
-  },
-  {
-    "name": "Dynamically generate a webpage from user request using OpenAI Structured Output 2",
-    "description": "Dynamic webpage generation system using OpenAI Structured Output that converts user requests into responsive HTML pages with Tailwind CSS styling, utilizes JSON schema validation for consistent UI component generation",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Dynamically generate a webpage from user request using OpenAI Structured Output-2.json",
-    "category": "common"
-  },
-  {
-    "name": "Fetch Dynamic Prompts from GitHub and Auto Populate n8n Expressions in Prompt",
-    "description": "Dynamic prompt management system that fetches prompt templates from GitHub repositories, validates required variables, auto-populates n8n expressions, and integrates with AI agents for automated prompt execution with error handling",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Fetch Dynamic Prompts from GitHub and Auto-Populate n8n Expressions in Prompt.json",
-    "category": "common"
-  },
-  {
-    "name": "ETL pipeline for text processing",
-    "description": "ETL pipeline for text processing that automatically collects Twitter data on scheduled intervals, performs sentiment analysis using Google Cloud Natural Language, stores results in multiple databases, and sends Slack notifications for positive sentiment tweets",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/ETL pipeline for text processing.json",
-    "category": "common"
-  },
-  {
-    "name": "Hacker News Throwback Machine   See What Was Hot on This Day, Every Year!",
-    "description": "Hacker News throwback machine that retrieves historical front-page headlines from the same day across multiple years, analyzes trends with AI categorization, and publishes daily insights via Telegram with markdown formatting",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Hacker News Throwback Machine - See What Was Hot on This Day, Every Year!.json",
-    "category": "common"
-  },
-  {
-    "name": "Hacker News Job Listing Scraper and Parser",
-    "description": "Hacker News job listing scraper and parser that searches for \"Who is hiring\" posts, extracts job postings, uses AI to structure data into standardized job information, and stores results in Airtable for easy job search management",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Hacker News Job Listing Scraper and Parser.json",
-    "category": "common"
-  },
-  {
-    "name": "Invoice data extraction with LlamaParse and OpenAI 2",
-    "description": "Invoice data extraction automation using LlamaParse and OpenAI (version 2) that processes PDF invoices from Gmail, performs advanced parsing with structured output, and stores comprehensive invoice data in Google Sheets reconciliation system",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Invoice data extraction with LlamaParse and OpenAI-2.json",
-    "category": "common"
-  },
-  {
-    "name": "AI Agent for n8n Creators Leaderboard   Find Popular Workflows",
-    "description": "AI agent system for analyzing n8n community creators leaderboard that fetches workflow statistics from GitHub repositories, provides intelligent search capabilities for finding popular workflows by specific creators, and generates comprehensive markdown reports with performance metrics",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/AI Agent for n8n Creators Leaderboard - Find Popular Workflows.json",
-    "category": "common"
-  },
-  {
-    "name": "AI Fitness Coach Strava Data Analysis and Personalized Training Insights",
-    "description": "AI-powered triathlon fitness coach system that integrates with Strava API to analyze swimming, cycling, and running data, provides personalized coaching insights using Google Gemini, structures feedback into HTML format, and delivers training recommendations via email or WhatsApp",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/AI Fitness Coach Strava Data Analysis and Personalized Training Insights.json",
-    "category": "common"
-  },
-  {
-    "name": "AI Agent for Top n8n Creators Leaderboard Reporting",
-    "description": "AI reporting agent for top n8n creators leaderboard that analyzes community statistics from GitHub data sources, generates detailed reports on creator performance and workflow popularity, and provides insights into n8n community trends with automated markdown documentation",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/AI Agent for Top n8n Creators Leaderboard Reporting.json",
-    "category": "common"
-  },
-  {
-    "name": "AI agent for Instagram DM inbox. Manychat + Open AI integration",
-    "description": "AI-powered Instagram DM automation system using ManyChat and OpenAI integration that receives messages through webhooks, processes them with ChatGPT using configurable system prompts, maintains conversation memory, and sends intelligent responses back to Instagram users",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/AI agent for Instagram DM_inbox. Manychat + Open AI integration.json",
-    "category": "common"
-  },
-  {
-    "name": "AI powered WooCommerce Support Agent",
-    "description": "AI-powered WooCommerce customer support agent that retrieves customer information and order data, integrates with DHL tracking API for shipment information, and provides intelligent customer service responses using OpenAI with conversation memory and multiple tools integration",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/AI-powered WooCommerce Support-Agent.json",
-    "category": "common"
-  },
-  {
-    "name": "Chat with a Google Sheet using AI",
-    "description": "AI-powered Google Sheets chatbot system that enables natural language queries on spreadsheet data using custom tools for column analysis, row retrieval, and data filtering, integrated with OpenAI for intelligent responses about customer data",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Chat with a Google Sheet using AI.json",
-    "category": "common"
-  },
-  {
-    "name": "Chat with GitHub API Documentation  RAG Powered Chatbot with Pinecone & OpenAI",
-    "description": "RAG-powered GitHub API documentation chatbot using Pinecone vector store and OpenAI that processes GitHub OpenAPI specifications, creates embeddings for semantic search, and provides intelligent responses about GitHub API usage with conversation memory",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Chat with GitHub API Documentation_ RAG-Powered Chatbot with Pinecone & OpenAI.json",
-    "category": "common"
-  },
-  {
-    "name": "Convert URL HTML to Markdown Format and Get Page Links",
-    "description": "Web scraping automation system using Firecrawl.dev API that converts HTML content to Markdown format, extracts page links and metadata, processes URLs in batches with API rate limiting, and provides clean structured data for AI analysis and processing",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Convert URL HTML to Markdown Format and Get Page Links.json",
-    "category": "common"
-  },
-  {
-    "name": "Automated Hugging Face Paper Summary Fetching & Categorization Workflow",
-    "description": "Automated agricultural crop anomaly detection system using Hugging Face and Qdrant vector database that processes crop images through Voyage AI embeddings, compares them against known crop clusters with threshold scoring, and identifies anomalous or unknown crop varieties",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Automated Hugging Face Paper Summary Fetching & Categorization Workflow.json",
-    "category": "common"
-  },
-  {
-    "name": "DeepSeek V3 Chat & R1 Reasoning Quick Start",
-    "description": "DeepSeek AI integration quick start system demonstrating multiple connection methods including HTTP requests, LangChain nodes, conversational agents with memory, and local Ollama models, featuring both DeepSeek V3 chat and R1 reasoning capabilities",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/DeepSeek V3 Chat & R1 Reasoning Quick Start.json",
-    "category": "common"
-  },
-  {
-    "name": "Extract license plate number from image uploaded via an n8n form",
-    "description": "AI-powered license plate recognition system using n8n forms and OpenRouter LLM that processes uploaded images to extract license plate numbers, utilizes computer vision through LangChain integration, and provides results through web form interfaces",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Extract license plate number from image uploaded via an n8n form.json",
-    "category": "common"
-  },
-  {
-    "name": "Force AI to use a specific output format",
-    "description": "AI output formatting control system using OpenAI structured output parser with auto-fixing capabilities that enforces specific JSON schemas, validates LLM responses, and automatically corrects invalid outputs to ensure consistent data structures",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Force AI to use a specific output format.json",
-    "category": "common"
-  },
-  {
-    "name": "Dynamically generate a webpage from user request using OpenAI Structured Output 1",
-    "description": "Dynamic webpage generation system using OpenAI Structured Output that converts user requests into responsive HTML pages with Tailwind CSS styling, validates JSON schema for UI components, and provides real-time webpage creation through webhook endpoints",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Dynamically generate a webpage from user request using OpenAI Structured Output-1.json",
-    "category": "common"
-  },
-  {
-    "name": "Detect hallucinations using specialised Ollama model bespoke minicheck",
-    "description": "AI-powered hallucination detection system using specialized Ollama bespoke-minicheck model that analyzes text for factual accuracy, splits content into sentences, compares claims against source documents, and provides detailed fact-checking reports with error summaries",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Detect hallucinations using specialised Ollama model bespoke-minicheck.json",
-    "category": "common"
-  },
-  {
-    "name": "Generate SEO Seed Keywords Using AI",
-    "description": "SEO seed keyword generation system using AI agents that analyzes ideal customer profiles to create targeted keyword lists, integrates with Anthropic Claude models, and provides structured keyword recommendations for B2B SaaS companies",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Generate SEO Seed Keywords Using AI.json",
-    "category": "common"
-  },
-  {
-    "name": "OpenAI assistant with custom tools",
-    "description": "OpenAI Assistant integration with custom n8n tools that demonstrates workflow tool functionality, includes date/time tools and fictional country capital data, provides manual chat interface, and enables assistant customization with external tool integration",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/OpenAI assistant with custom tools.json",
-    "category": "common"
-  },
-  {
-    "name": "Generate SQL queries from schema only   AI powered",
-    "description": "AI-powered SQL query generation system that creates queries from database schema only, integrates with MySQL databases for schema extraction, provides intelligent query suggestions through conversational AI, and includes memory for maintaining conversation context",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Generate SQL queries from schema only - AI-powered.json",
-    "category": "common"
-  },
-  {
-    "name": "Handling Job Application Submissions with AI and n8n Forms",
-    "description": "AI-enhanced job application processing system using n8n forms that extracts information from PDF resumes, classifies documents with AI, processes structured data through OpenAI, and stores results in Airtable with automated file management",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Handling Job Application Submissions with AI and n8n Forms.json",
-    "category": "common"
-  },
-  {
-    "name": "Organise Your Local File Directories With AI",
-    "description": "AI-powered local file organization system using Mistral Cloud that monitors directory changes with local file triggers, analyzes file and folder structures, suggests categorization strategies, and automatically organizes files into appropriate subdirectories",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Organise Your Local File Directories With AI.json",
-    "category": "common"
-  },
-  {
-    "name": "OpenAI Assistant workflow  upload file, create an Assistant, chat with it",
-    "description": "Complete OpenAI Assistant workflow that uploads files from Google Drive, creates new assistants with knowledge retrieval capabilities, configures system prompts and descriptions, and provides chat interface for document-based conversations",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/OpenAI Assistant workflow_ upload file, create an Assistant, chat with it.json",
-    "category": "common"
-  },
-  {
-    "name": "Scrape and summarize posts of a news site without RSS feed using AI and save them to a NocoDB",
-    "description": "News site scraping automation for sites without RSS feeds that extracts posts with CSS selectors, filters by date ranges, summarizes content with AI, generates keywords, and stores structured data in NocoDB with scheduled cron execution",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Scrape and summarize posts of a news site without RSS feed using AI and save them to a NocoDB.json",
-    "category": "common"
-  },
-  {
-    "name": "Private & Local Ollama Self Hosted AI Assistant",
-    "description": "Private self-hosted AI assistant using Ollama and Llama 3.2 model that processes chat messages locally, returns structured JSON responses, handles errors gracefully, and provides complete privacy with local LLM deployment",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Private & Local Ollama Self-Hosted AI Assistant.json",
-    "category": "common"
-  },
-  {
-    "name": "Visualize your SQL Agent queries with OpenAI and Quickchart.io",
-    "description": "SQL Agent query visualization system using OpenAI and Quickchart.io that processes natural language database queries, generates SQL through AI agents, creates dynamic charts from query results, and provides integrated text and visual responses with conversation memory",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Visualize your SQL Agent queries with OpenAI and Quickchart.io.json",
-    "category": "common"
-  },
-  {
-    "name": "AI Agent to chat with Supabase PostgreSQL DB",
-    "description": "AI-powered database assistant system using Supabase/PostgreSQL integration with OpenAI that enables conversational database interactions, executes dynamic SQL queries based on user requests, analyzes table schemas and JSON data structures, and provides intelligent data aggregation and reporting capabilities",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/AI Agent to chat with Supabase_PostgreSQL DB.json",
-    "category": "rag"
-  },
-  {
-    "name": "Scrape and summarize webpages with AI",
-    "description": "Web scraping and AI summarization system that extracts essay content from websites, processes text through LangChain document loaders, generates summaries with OpenAI models, and provides structured output with titles and URLs",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Scrape and summarize webpages with AI.json",
-    "category": "common"
-  },
-  {
-    "name": "AI Agent with Ollama for current weather and wiki",
-    "description": "Intelligent AI agent system using Ollama local LLM with weather API and Wikipedia tools integration that provides location-aware weather forecasting by finding coordinates, delivers current weather data and predictions, and offers general information through Wikipedia search capabilities with conversation memory",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/AI Agent with Ollama for current weather and wiki.json",
-    "category": "rag"
-  },
-  {
-    "name": "AI chatbot that can search the web",
-    "description": "AI-powered web search chatbot using OpenAI and multiple search tools integration that performs real-time internet searches through SerpAPI, accesses Wikipedia information, maintains conversation history with buffer memory, and provides intelligent responses based on web search results",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/AI chatbot that can search the web.json",
-    "category": "rag"
-  },
-  {
-    "name": "AI Crew to Automate Fundamental Stock Analysis   Q&A Workflow",
-    "description": "Comprehensive AI-powered stock analysis automation system using CrewAI and Qdrant vector database that processes financial documents from Google Drive, creates searchable embeddings for stock data, implements retrieval-based Q&A capabilities, and provides intelligent financial analysis through webhook endpoints",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/AI Crew to Automate Fundamental Stock Analysis - Q&A Workflow.json",
-    "category": "rag"
-  },
-  {
-    "name": "AI  Ask questions about any data source (using the n8n workflow retriever)",
-    "description": "Universal AI data querying system using n8n workflow retriever and LangChain integration that enables conversational access to any data source, implements retrieval-based question answering for workflow execution results, and provides intelligent data exploration capabilities through structured Q&A interfaces",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/AI_ Ask questions about any data source (using the n8n workflow retriever).json",
-    "category": "rag"
-  },
-  {
-    "name": "AI web researcher for sales",
-    "description": "Advanced AI sales research automation system using OpenAI and multiple web tools that performs comprehensive company investigations, extracts structured business intelligence including domain info, pricing plans, API availability, and integration data, updates Google Sheets with enriched lead information, and provides intelligent sales prospecting capabilities",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/AI web researcher for sales.json",
-    "category": "rag"
-  },
-  {
-    "name": "Automate testimonials in Strapi with n8n",
-    "description": "Automated testimonial collection and management system using Strapi CMS integration that monitors Twitter mentions and form submissions, performs sentiment analysis using Google Cloud Natural Language API, filters positive feedback automatically, and stores qualified testimonials in structured content management database",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Automate testimonials in Strapi with n8n.json",
-    "category": "rag"
-  },
-  {
-    "name": "Chat with PDF docs using AI (quoting sources)",
-    "description": "Advanced PDF document analysis system using AI with source citation capabilities that processes documents through Pinecone vector database, implements chunked text retrieval with metadata preservation, provides structured question-answering with source references, and delivers intelligent document insights with accurate citations",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Chat with PDF docs using AI (quoting sources).json",
-    "category": "rag"
-  },
-  {
     "name": "Building Your First WhatsApp Chatbot",
-    "description": "WhatsApp AI sales chatbot system using product catalog vectorization that processes PDF brochures, creates searchable knowledge bases, handles multi-media message filtering, and provides intelligent product recommendations through conversational AI with customer session memory",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Building Your First WhatsApp Chatbot.json",
-    "category": "rag"
-  },
-  {
-    "name": "BambooHR AI Powered Company Policies and Benefits Chatbot",
-    "description": "Comprehensive AI-powered HR chatbot system using BambooHR integration and vector database that provides intelligent responses about company policies, benefits, and employee information through document vectorization, employee lookup tools, and conversational AI with memory capabilities",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/BambooHR AI-Powered Company Policies and Benefits Chatbot.json",
-    "category": "rag"
-  },
-  {
-    "name": "Automate SIEM Alert Enrichment with MITRE ATT&CK, Qdrant & Zendesk in n8n",
-    "description": "Cybersecurity automation system for SIEM alert enrichment using MITRE ATT&CK framework, Qdrant vector database, and Zendesk integration that analyzes security incidents, correlates threat intelligence with attack patterns, provides structured remediation recommendations, and automates ticket enrichment with contextual cybersecurity insights",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Automate SIEM Alert Enrichment with MITRE ATT&CK, Qdrant & Zendesk in n8n.json",
-    "category": "rag"
-  },
-  {
-    "name": "Chat with Postgresql Database",
-    "description": "PostgreSQL database conversational interface using AI agent integration that enables natural language database queries, provides intelligent SQL generation with schema awareness, implements table definition retrieval tools, and delivers database insights through conversational interactions with chat history",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Chat with Postgresql Database.json",
-    "category": "rag"
-  },
-  {
-    "name": "Chat with your event schedule from Google Sheets in Telegram",
-    "description": "Event scheduling management system using Google Sheets and Telegram integration that provides conversational access to event calendars, converts spreadsheet data to markdown tables for AI processing, supports both n8n internal chat and Telegram messaging, and delivers intelligent schedule assistance through AI agents with OpenRouter LLM",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Chat with your event schedule from Google Sheets in Telegram.json",
-    "category": "rag"
-  },
-  {
-    "name": "Enhance Customer Chat by Buffering Messages with Twilio and Redis",
-    "description": "Advanced customer messaging system using Twilio and Redis buffering that delays AI responses to handle rapid sequential messages, prevents interruption during multi-part conversations, maintains chat memory with session management, and provides intelligent consolidated responses to improve conversational flow",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Enhance Customer Chat by Buffering Messages with Twilio and Redis.json",
+    "description": "RAG-based chatbot workflow utilizing OpenAI and LangChain (WhatsApp integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Building%20Your%20First%20WhatsApp%20Chatbot.json",
     "category": "rag"
   },
   {
     "name": "HR & IT Helpdesk Chatbot with Audio Transcription",
-    "description": "Comprehensive HR and IT helpdesk chatbot system using Telegram integration that supports both text and voice message processing, implements audio transcription through OpenAI Whisper, provides policy and FAQ responses through PostgreSQL vector database, and delivers intelligent employee support with conversation memory",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/HR & IT Helpdesk Chatbot with Audio Transcription.json",
+    "description": "RAG-based chatbot workflow utilizing OpenAI and LangChain (Telegram integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/HR%20&%20IT%20Helpdesk%20Chatbot%20with%20Audio%20Transcription.json",
     "category": "rag"
   },
   {
-    "name": "Integrating AI with Open Meteo API for Enhanced Weather Forecasting",
-    "description": "Weather forecasting AI assistant using Open-Meteo API integration that performs geocoding for city locations, provides multi-day weather predictions with temperature and precipitation data, implements intelligent tool selection for geographic and weather data retrieval, and delivers conversational weather insights through AI agent interactions",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Integrating AI with Open-Meteo API for Enhanced Weather Forecasting.json",
-    "category": "rag"
+    "name": "AI Agent for project management and meetings with Airtable and Fireflies",
+    "description": "Airtable data processing and management workflow utilizing OpenAI and LangChain (Google, Gmail, Airtable integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/airtable/AI%20Agent%20for%20project%20management%20and%20meetings%20with%20Airtable%20and%20Fireflies.json",
+    "category": "airtable"
   },
   {
-    "name": "Intelligent Web Query and Semantic Re Ranking Flow using Brave and Google Gemini",
-    "description": "Advanced intelligent web query system using Brave Search API and Google Gemini integration that performs semantic query generation with multi-chain analysis, implements re-ranking of search results based on relevance scoring, provides structured output parsing for ranked URLs, and delivers enhanced web research capabilities with contextual insights",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Intelligent Web Query and Semantic Re-Ranking Flow using Brave and Google Gemini.json",
-    "category": "rag"
+    "name": "AI Data Extraction with Dynamic Prompts and Airtable",
+    "description": "Data extraction and automated Airtable input workflow utilizing OpenAI and LangChain (Airtable integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/airtable/AI%20Data%20Extraction%20with%20Dynamic%20Prompts%20and%20Airtable.json",
+    "category": "airtable"
   },
   {
-    "name": "LINE Assistant with Google Calendar and Gmail Integration",
-    "description": "Multi-platform personal assistant using LINE messaging integration that combines Google Calendar management, Gmail access, and Wikipedia search capabilities, implements conversation memory for user sessions, provides intelligent scheduling and email retrieval tools, and delivers comprehensive personal productivity assistance through AI agent coordination",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/LINE Assistant with Google Calendar and Gmail Integration.json",
-    "category": "rag"
+    "name": "Sentiment Analysis Tracking on Support Issues with Linear and Slack-1",
+    "description": "Sentiment analysis and Airtable tracking workflow utilizing OpenAI and LangChain (Airtable, Slack integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/airtable/Sentiment%20Analysis%20Tracking%20on%20Support%20Issues%20with%20Linear%20and%20Slack-1.json",
+    "category": "airtable"
   },
   {
-    "name": "KB Tool   Confluence Knowledge Base",
-    "description": "Knowledge base integration tool using Confluence API that enables dynamic query processing for IT support workflows, implements intelligent search functionality for internal documentation, provides structured responses with article titles and links, and delivers automated knowledge retrieval for helpdesk chatbot systems",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/KB Tool - Confluence Knowledge Base.json",
-    "category": "rag"
+    "name": "Generate 9_16 Images from Content and Brand Guidelines",
+    "description": "Image generation and processing workflow utilizing OpenAI and LangChain (Airtable integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/Generate%209_16%20Images%20from%20Content%20and%20Brand%20Guidelines.json",
+    "category": "blog"
   },
   {
-    "name": "Learn Anything from HN   Get Top Resource Recommendations from Hacker News",
-    "description": "Educational resource discovery system using Hacker News API integration that scrapes Ask HN posts for learning recommendations, aggregates community comments and insights, categorizes resources by type and difficulty level using AI analysis, and delivers personalized learning recommendations via email with sentiment analysis",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Learn Anything from HN - Get Top Resource Recommendations from Hacker News.json",
-    "category": "rag"
+    "name": "AI Agent for n8n Creators Leaderboard - Find Popular Workflows",
+    "description": "General AI automation workflow utilizing OpenAI, Ollama, and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/AI%20Agent%20for%20n8n%20Creators%20Leaderboard%20-%20Find%20Popular%20Workflows.json",
+    "category": "common"
   },
   {
-    "name": "Make OpenAI Citation for File Retrieval RAG",
-    "description": "OpenAI file retrieval RAG system with citation formatting that processes vector store content through assistant API, extracts and formats citations with file references, implements thread content aggregation for comprehensive responses, and delivers properly formatted outputs with source attribution and markdown conversion capabilities",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Make OpenAI Citation for File Retrieval RAG.json",
-    "category": "rag"
+    "name": "AI Agent for Top n8n Creators Leaderboard Reporting",
+    "description": "General AI automation workflow utilizing OpenAI, Google Gemini, and LangChain (Google, Gmail, Telegram integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/AI%20Agent%20for%20Top%20n8n%20Creators%20Leaderboard%20Reporting.json",
+    "category": "common"
   },
   {
-    "name": "Optimize & Update Printify Title and Description Workflow",
-    "description": "E-commerce automation system for Printify platform that optimizes product titles and descriptions using AI, integrates with Google Sheets for workflow management, implements brand guidelines and seasonal customization, and provides automated product updates with enhanced SEO optimization",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Optimize & Update Printify Title and Description Workflow.json",
-    "category": "rag"
+    "name": "AI Agent to chat with you Search Console Data, using OpenAI and Postgres",
+    "description": "AI chat system workflow utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/AI%20Agent%20to%20chat%20with%20you%20Search%20Console%20Data,%20using%20OpenAI%20and%20Postgres.json",
+    "category": "common"
   },
   {
-    "name": "Personal Shopper Chatbot for WooCommerce with RAG using Google Drive and openAI",
-    "description": "WooCommerce personal shopping assistant using RAG architecture that integrates Google Drive product catalogs, implements intelligent product recommendation through vector search, provides conversational shopping assistance with OpenAI, and delivers personalized e-commerce experiences with document-based product knowledge",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Personal Shopper Chatbot for WooCommerce with RAG using Google Drive and openAI.json",
-    "category": "rag"
+    "name": "API Schema Extractor",
+    "description": "API integration and automation workflow utilizing Google Gemini and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/API%20Schema%20Extractor.json",
+    "category": "common"
   },
   {
-    "name": "RAG Chatbot for Company Documents using Google Drive and Gemini",
-    "description": "Corporate document management chatbot using Google Drive and Gemini integration that processes company documents through vector storage, implements intelligent document retrieval with conversational interfaces, provides contextual business information access, and delivers comprehensive enterprise knowledge management solutions",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/RAG Chatbot for Company Documents using Google Drive and Gemini.json",
-    "category": "rag"
+    "name": "Autonomous AI crawler",
+    "description": "Web scraping and data collection workflow utilizing OpenAI and LangChain (Supabase integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Autonomous%20AI%20crawler.json",
+    "category": "common"
   },
   {
-    "name": "RAG Context Aware Chunking   Google Drive to Pinecone via OpenRouter & Gemini",
-    "description": "Advanced document processing system using context-aware chunking that transfers Google Drive content to Pinecone vector database, implements OpenRouter and Gemini AI integration for enhanced document understanding, provides intelligent text segmentation with semantic awareness, and delivers optimized RAG performance",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/RAG_Context-Aware Chunking _ Google Drive to Pinecone via OpenRouter & Gemini.json",
-    "category": "rag"
+    "name": "Build a Tax Code Assistant with Qdrant, Mistral.ai and OpenAI",
+    "description": "AI assistant workflow utilizing Mistral, OpenAI, and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Build%20a%20Tax%20Code%20Assistant%20with%20Qdrant,%20Mistral.ai%20and%20OpenAI.json",
+    "category": "common"
   },
   {
-    "name": "Siri AI Agent  Apple Shortcuts powered voice template",
-    "description": "Voice-powered AI assistant using Apple Shortcuts integration that enables Siri-activated workflow execution, implements cross-platform automation between iOS and n8n, provides voice command processing for complex workflows, and delivers seamless mobile-to-server AI interactions with natural language processing",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Siri AI Agent_ Apple Shortcuts powered voice template.json",
-    "category": "rag"
+    "name": "Customer Insights with Qdrant, Python and Information Extractor",
+    "description": "General AI automation workflow utilizing OpenAI and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Customer%20Insights%20with%20Qdrant,%20Python%20and%20Information%20Extractor.json",
+    "category": "common"
   },
   {
-    "name": "Talk to your SQLite database with a LangChain AI Agent",
-    "description": "Database conversation interface using SQLite and LangChain AI agent that enables natural language database queries, implements intelligent SQL generation with schema awareness, provides conversational data exploration capabilities, and delivers seamless database interactions through AI-powered query translation",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Talk to your SQLite database with a LangChain AI Agent.json",
-    "category": "rag"
+    "name": "Hacker News Job Listing Scraper and Parser",
+    "description": "Web scraping and data collection workflow utilizing OpenAI and LangChain (Airtable integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Hacker%20News%20Job%20Listing%20Scraper%20and%20Parser.json",
+    "category": "common"
   },
   {
-    "name": "Text automations using Apple Shortcuts 1",
-    "description": "iOS automation system using Apple Shortcuts integration that enables text processing workflows, implements cross-platform communication between mobile and n8n, provides intelligent text manipulation and analysis capabilities, and delivers automated mobile productivity solutions with AI enhancement",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Text automations using Apple Shortcuts-1.json",
-    "category": "rag"
+    "name": "Private & Local Ollama Self-Hosted AI Assistant",
+    "description": "AI assistant workflow utilizing Ollama and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Private%20&%20Local%20Ollama%20Self-Hosted%20AI%20Assistant.json",
+    "category": "common"
   },
   {
-    "name": "Summarize SERPBear data with AI (via Openrouter) and save it to Baserow",
-    "description": "SEO analytics automation system using SERPBear data integration that processes search ranking information through AI analysis, implements automated report generation with OpenRouter integration, provides ranking trend analysis and insights, and delivers comprehensive SEO performance data to Baserow database",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Summarize SERPBear data with AI (via Openrouter) and save it to Baserow.json",
-    "category": "rag"
+    "name": "Auto Categorise Outlook Emails with AI",
+    "description": "Outlook email management workflow utilizing Ollama and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/Auto%20Categorise%20Outlook%20Emails%20with%20AI.json",
+    "category": "email"
   },
   {
-    "name": "Text automations using Apple Shortcuts 2",
-    "description": "Enhanced iOS automation system using Apple Shortcuts with advanced text processing that implements complex workflow triggers from mobile devices, provides intelligent content analysis and manipulation, enables seamless integration between iOS and n8n workflows, and delivers comprehensive mobile automation capabilities",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Text automations using Apple Shortcuts-2.json",
-    "category": "rag"
+    "name": "Basic Automatic Gmail Email Labelling with OpenAI and Gmail API",
+    "description": "Gmail email automation workflow utilizing OpenAI and LangChain (Gmail integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/Basic%20Automatic%20Gmail%20Email%20Labelling%20with%20OpenAI%20and%20Gmail%20API.json",
+    "category": "email"
   },
   {
-    "name": "Ultimate Scraper Workflow for n8n",
-    "description": "Comprehensive web scraping automation system optimized for n8n that implements intelligent data extraction from multiple sources, provides automated content processing with AI enhancement, delivers structured data collection workflows, and offers scalable web scraping solutions with error handling and data validation",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Ultimate Scraper Workflow for n8n.json",
-    "category": "rag"
+    "name": "Survey Insights with Qdrant, Python and Information Extractor",
+    "description": "AI-based workflow utilizing OpenAI and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/marketing/Survey%20Insights%20with%20Qdrant,%20Python%20and%20Information%20Extractor.json",
+    "category": "marketing"
   },
   {
-    "name": "Vision Based AI Agent Scraper   with Google Sheets, ScrapingBee, and Gemini",
-    "description": "Visual AI agent scraper using Google Sheets, ScrapingBee, and Gemini that implements computer vision-powered web scraping, processes visual content and structured data extraction, provides intelligent image and text analysis capabilities, and delivers comprehensive web data collection with AI-enhanced visual understanding",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Vision-Based AI Agent Scraper - with Google Sheets, ScrapingBee, and Gemini.json",
-    "category": "rag"
+    "name": "Automate Sales Meeting Prep with AI & APIFY Sent To WhatsApp",
+    "description": "Business automation workflow utilizing OpenAI and LangChain (WhatsApp, Google, Gmail integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/mixed/Automate%20Sales%20Meeting%20Prep%20with%20AI%20&%20APIFY%20Sent%20To%20WhatsApp.json",
+    "category": "mixed"
   },
   {
-    "name": "AI Voice Chatbot with ElevenLabs & OpenAI for Customer Service and Restaurants",
-    "description": "Advanced voice-enabled RAG chatbot system using ElevenLabs and OpenAI integration that processes customer service and restaurant queries, implements vector storage with Qdrant for knowledge retrieval, provides natural voice interactions with speech synthesis, and delivers comprehensive conversational AI experiences with multi-modal communication capabilities",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/AI Voice Chatbot with ElevenLabs & OpenAI for Customer Service and Restaurants.json",
+    "name": "Enrich Property Inventory Survey with Image Recognition and AI Agent",
+    "description": "Image analysis and processing workflow utilizing OpenAI and LangChain (Google, Airtable integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Enrich%20Property%20Inventory%20Survey%20with%20Image%20Recognition%20and%20AI%20Agent.json",
     "category": "multi-modal"
   },
   {
-    "name": "Upsert huge documents in a vector store with Supabase and Notion",
-    "description": "Large document vectorization system using Supabase and Notion integration that processes extensive document collections through vector storage, implements efficient document chunking and embedding strategies, provides scalable knowledge base creation, and delivers optimized vector database management for enterprise-scale RAG applications",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Upsert huge documents in a vector store with Supabase and Notion.json",
-    "category": "rag"
+    "name": "Discord AI-powered bot",
+    "description": "Chatbot system utilizing OpenAI (Discord integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/discord/Discord%20AI-powered%20bot.json",
+    "category": "discord"
   },
   {
-    "name": "Automated AI image analysis and response via Telegram",
-    "description": "Telegram-based image analysis automation system that processes uploaded images using OpenAI vision capabilities, implements automatic content recognition and analysis, provides intelligent image descriptions and insights, and delivers real-time visual AI responses through conversational messaging interfaces",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Automated AI image analysis and response via Telegram.json",
-    "category": "multi-modal"
+    "name": "Share YouTube Videos with AI Summaries on Discord",
+    "description": "AI-based workflow utilizing OpenAI (Discord integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/discord/Share%20YouTube%20Videos%20with%20AI%20Summaries%20on%20Discord.json",
+    "category": "discord"
   },
   {
-    "name": "Daily Podcast Summary",
-    "description": "Daily podcast automation system using Taddy API and OpenAI that fetches top podcast episodes by genre, processes audio content through Whisper transcription, generates AI-powered summaries of podcast episodes, and delivers comprehensive daily podcast digests via email with formatted content presentation",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Daily Podcast Summary.json",
-    "category": "multi-modal"
+    "name": "Send daily translated Calvin and Hobbes Comics to Discord",
+    "description": "AI-based workflow utilizing OpenAI and LangChain (Discord integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/discord/Send%20daily%20translated%20Calvin%20and%20Hobbes%20Comics%20to%20Discord.json",
+    "category": "discord"
   },
   {
-    "name": "Zoom AI Meeting Assistant creates mail summary, ClickUp tasks and follow up call",
-    "description": "Zoom meeting automation system using AI that creates comprehensive meeting summaries, generates automated tasks in ClickUp project management, schedules follow-up calls based on meeting content, and provides multi-modal processing of video calls with intelligent action item extraction and workflow automation",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Zoom AI Meeting Assistant creates mail summary, ClickUp tasks and follow-up call.json",
-    "category": "multi-modal"
+    "name": "AI-Powered Candidate Shortlisting Automation for ERPNext",
+    "description": "Business automation workflow utilizing Google Gemini and LangChain (WhatsApp, Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/mixed/AI-Powered%20Candidate%20Shortlisting%20Automation%20for%20ERPNext.json",
+    "category": "mixed"
   },
   {
-    "name": "Flux AI Image Generator",
-    "description": "Flux AI-powered image generation system using Hugging Face inference API that creates custom artwork with multiple artistic styles, implements form-based user input for prompts and style selection, provides S3 cloud storage for generated images, and delivers web-based image gallery with dynamic style application and rendering",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Flux AI Image Generator.json",
-    "category": "multi-modal"
+    "name": "AI-Powered Information Monitoring with OpenAI, Google Sheets, Jina AI and Slack",
+    "description": "AI-based workflow utilizing OpenAI and LangChain (Google, Slack integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/mixed/AI-Powered%20Information%20Monitoring%20with%20OpenAI,%20Google%20Sheets,%20Jina%20AI%20and%20Slack.json",
+    "category": "mixed"
   },
   {
-    "name": "Easy Image Captioning with Gemini 1.5 Pro",
-    "description": "Image captioning automation system using Gemini 1.5 Pro that processes visual content with advanced computer vision, generates natural language descriptions of images, implements intelligent image analysis with contextual understanding, and delivers automated content creation for accessibility and SEO purposes",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Easy Image Captioning with Gemini 1.5 Pro.json",
-    "category": "multi-modal"
+    "name": "Automate Sales Meeting Prep with AI & APIFY Sent To WhatsApp",
+    "description": "Business automation workflow utilizing OpenAI and LangChain (WhatsApp, Google, Gmail integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/mixed/Automate%20Sales%20Meeting%20Prep%20with%20AI%20&%20APIFY%20Sent%20To%20WhatsApp.json",
+    "category": "mixed"
   },
   {
-    "name": "Build Your Own Image Search Using AI Object Detection, CDN and ElasticSearchBuild Your Own Image Search Using AI Object Detection, CDN and ElasticSearch",
-    "description": "Advanced image search platform using AI object detection that implements CDN integration for scalable image storage, provides ElasticSearch-powered semantic search capabilities, enables visual content discovery through computer vision, and delivers comprehensive image management with intelligent tagging and retrieval systems",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Build Your Own Image Search Using AI Object Detection, CDN and ElasticSearchBuild Your Own Image Search Using AI Object Detection, CDN and ElasticSearch.json",
-    "category": "multi-modal"
+    "name": "Email Subscription Service with n8n Forms, Airtable and AI-1",
+    "description": "AI-based workflow utilizing OpenAI and LangChain (Gmail, Airtable integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/mixed/Email%20Subscription%20Service%20with%20n8n%20Forms,%20Airtable%20and%20AI-1.json",
+    "category": "mixed"
   },
   {
-    "name": "Generate Text to Speech Using Elevenlabs via API",
-    "description": "Text-to-speech automation system using ElevenLabs API that converts written content to natural voice audio, implements voice synthesis with customizable parameters, provides high-quality audio generation for content creation, and delivers seamless speech synthesis integration for multimedia applications",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Generate Text-to-Speech Using Elevenlabs via API.json",
-    "category": "multi-modal"
+    "name": "Email Subscription Service with n8n Forms, Airtable and AI-2",
+    "description": "AI-based workflow utilizing OpenAI and LangChain (Gmail, Airtable integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/mixed/Email%20Subscription%20Service%20with%20n8n%20Forms,%20Airtable%20and%20AI-2.json",
+    "category": "mixed"
   },
   {
-    "name": "Transform Image to Lego Style Using Line and Dall E",
-    "description": "Creative image transformation system using Line messaging and DALL-E integration that converts regular images to Lego-style artwork, implements AI-powered artistic style transfer, provides interactive image processing through messaging interfaces, and delivers unique visual content creation with custom styling capabilities",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Transform Image to Lego Style Using Line and Dall-E.json",
-    "category": "multi-modal"
+    "name": "Enhance Security Operations with the Qualys Slack Shortcut Bot",
+    "description": "Chatbot system utilizing AI (Slack integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/mixed/Enhance%20Security%20Operations%20with%20the%20Qualys%20Slack%20Shortcut%20Bot.json",
+    "category": "mixed"
   },
   {
-    "name": "Hacker News to Video Content",
-    "description": "Content automation system that transforms Hacker News articles into video content using AI, implements text-to-video generation with automated narration, provides content repurposing for social media platforms, and delivers multimedia content creation from text-based sources with intelligent video production",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Hacker News to Video Content.json",
-    "category": "multi-modal"
+    "name": "Receive Daily Market News from FT.com to your Microsoft outlook inbox",
+    "description": "AI-based workflow utilizing Google Gemini and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/mixed/Receive%20Daily%20Market%20News%20from%20FT.com%20to%20your%20Microsoft%20outlook%20inbox.json",
+    "category": "mixed"
   },
   {
-    "name": "Image Creation with OpenAI and Telegram",
-    "description": "Telegram-based image creation system using OpenAI DALL-E integration that generates custom artwork through conversational interfaces, implements text-to-image generation with natural language prompts, provides real-time image creation and sharing, and delivers creative AI tools through popular messaging platforms",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Image Creation with OpenAI and Telegram.json",
-    "category": "multi-modal"
-  },
-  {
-    "name": "Narrating over a Video using Multimodal AI",
-    "description": "Video narration system using multimodal AI that adds intelligent voice-over to existing video content, implements automated script generation based on visual analysis, provides synchronized audio-visual content creation, and delivers enhanced multimedia production with AI-powered storytelling capabilities",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Narrating over a Video using Multimodal AI.json",
-    "category": "multi-modal"
-  },
-  {
-    "name": "Daily meetings summarization with Gemini AI",
-    "description": "Meeting summarization automation system using Gemini AI that processes daily calendar events, generates intelligent meeting summaries with key takeaways, implements automated action item extraction, and delivers comprehensive meeting documentation for improved productivity and follow-up",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Daily meetings summarization with Gemini AI.json",
+    "name": "Summarize the New Documents from Google Drive and Save Summary in Google Sheet",
+    "description": "Google Sheets data processing workflow utilizing OpenAI and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Summarize%20the%20New%20Documents%20from%20Google%20Drive%20and%20Save%20Summary%20in%20Google%20Sheet.json",
     "category": "google"
   },
   {
-    "name": "Automatic Background Removal for Images in Google Drive",
-    "description": "Automated image processing system for Google Drive that removes backgrounds from images using AI, implements batch processing of visual content, provides seamless integration with Google Drive storage, and delivers professional image editing capabilities for content creation and marketing materials",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Automatic Background Removal for Images in Google Drive.json",
+    "name": "Simple Expense Tracker with n8n Chat, AI Agent and Google Sheets",
+    "description": "Google Sheets data processing workflow utilizing OpenAI and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Simple%20Expense%20Tracker%20with%20n8n%20Chat,%20AI%20Agent%20and%20Google%20Sheets.json",
     "category": "google"
   },
   {
-    "name": "Qualify new leads in Google Sheets via OpenAI s GPT 4",
-    "description": "Lead qualification automation system using Google Sheets and OpenAI GPT-4 that evaluates prospective customers based on predefined criteria, implements intelligent scoring and categorization of leads, provides automated lead nurturing workflows, and delivers enhanced sales pipeline management with AI-powered lead assessment",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Qualify new leads in Google Sheets via OpenAI_s GPT-4.json",
-    "category": "google"
-  },
-  {
-    "name": "AI Customer feedback sentiment analysis",
-    "description": "Customer feedback analysis system using AI sentiment analysis that processes customer reviews and comments from Google platforms, implements automated sentiment scoring and categorization, provides actionable insights for business improvement, and delivers comprehensive customer satisfaction monitoring",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/AI Customer feedback sentiment analysis.json",
-    "category": "google"
-  },
-  {
-    "name": "Author and Publish Blog Posts From Google Sheets",
-    "description": "Blog publishing automation system using Google Sheets as content management that authors and publishes blog posts automatically, implements content scheduling and SEO optimization, provides streamlined content creation workflows, and delivers scalable blog management for content marketing teams",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Author and Publish Blog Posts From Google Sheets.json",
+    "name": "Send specific PDF attachments from Gmail to Google Drive using OpenAI",
+    "description": "Google Drive file management workflow utilizing OpenAI (Google, Gmail integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Send%20specific%20PDF%20attachments%20from%20Gmail%20to%20Google%20Drive%20using%20OpenAI.json",
     "category": "google"
   },
   {
     "name": "Send a ChatGPT email reply and save responses to Google Sheets",
-    "description": "Email automation system using ChatGPT that generates intelligent email replies, saves all responses and interactions to Google Sheets for tracking, implements conversation history management, and delivers enhanced email productivity with AI-powered communication assistance",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Send a ChatGPT email reply and save responses to Google Sheets.json",
+    "description": "Google Sheets data processing workflow utilizing OpenAI (Google, Gmail integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Send%20a%20ChatGPT%20email%20reply%20and%20save%20responses%20to%20Google%20Sheets.json",
+    "category": "google"
+  },
+  {
+    "name": "Scrape Trustpilot Reviews with DeepSeek, Analyze Sentiment with OpenAI",
+    "description": "Google services integration automation utilizing OpenAI and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Scrape%20Trustpilot%20Reviews%20with%20DeepSeek,%20Analyze%20Sentiment%20with%20OpenAI.json",
     "category": "google"
   },
   {
     "name": "Qualifying Appointment Requests with AI & n8n Forms",
-    "description": "Appointment qualification system using AI and n8n Forms that evaluates incoming appointment requests, implements intelligent screening based on business criteria, provides automated scheduling optimization, and delivers streamlined appointment management with smart qualification workflows",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Qualifying Appointment Requests with AI & n8n Forms.json",
+    "description": "Google services integration automation utilizing OpenAI and LangChain (Google, Gmail integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Qualifying%20Appointment%20Requests%20with%20AI%20&%20n8n%20Forms.json",
     "category": "google"
   },
   {
-    "name": "Summarize the New Documents from Google Drive and Save Summary in Google Sheet",
-    "description": "Document summarization automation system that monitors Google Drive for new documents, generates AI-powered summaries of content, saves summary reports to Google Sheets for tracking, and delivers automated content analysis for knowledge management and document processing workflows",
-    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Summarize the New Documents from Google Drive and Save Summary in Google Sheet.json",
+    "name": "Qualify new leads in Google Sheets via OpenAI_s GPT-4",
+    "description": "Google Sheets data processing workflow utilizing OpenAI (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Qualify%20new%20leads%20in%20Google%20Sheets%20via%20OpenAI_s%20GPT-4.json",
     "category": "google"
+  },
+  {
+    "name": "Modular & Customizable AI-Powered Email Routing_ Text Classifier for eCommerce",
+    "description": "Google services integration automation utilizing OpenAI and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Modular%20&%20Customizable%20AI-Powered%20Email%20Routing_%20Text%20Classifier%20for%20eCommerce.json",
+    "category": "google"
+  },
+  {
+    "name": "Extract spending history from gmail to google sheet",
+    "description": "Google Sheets data processing workflow utilizing Google Gemini and LangChain (Google, Gmail integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Extract%20spending%20history%20from%20gmail%20to%20google%20sheet.json",
+    "category": "google"
+  },
+  {
+    "name": "Enrich FAQ sections on your website pages at scale with AI",
+    "description": "Google services integration automation utilizing OpenAI and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Enrich%20FAQ%20sections%20on%20your%20website%20pages%20at%20scale%20with%20AI.json",
+    "category": "google"
+  },
+  {
+    "name": "Daily meetings summarization with Gemini AI",
+    "description": "Google services integration automation utilizing Google Gemini and LangChain (Google, Slack integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Daily%20meetings%20summarization%20with%20Gemini%20AI.json",
+    "category": "google"
+  },
+  {
+    "name": "Automatic Background Removal for Images in Google Drive",
+    "description": "Google Drive file management utilizing AI (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Automatic%20Background%20Removal%20for%20Images%20in%20Google%20Drive.json",
+    "category": "google"
+  },
+  {
+    "name": "Author and Publish Blog Posts From Google Sheets",
+    "description": "Google Sheets data processing workflow utilizing OpenAI and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Author%20and%20Publish%20Blog%20Posts%20From%20Google%20Sheets.json",
+    "category": "google"
+  },
+  {
+    "name": "AI Customer feedback sentiment analysis",
+    "description": "Google services integration automation utilizing OpenAI (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/AI%20Customer%20feedback%20sentiment%20analysis.json",
+    "category": "google"
+  },
+  {
+    "name": "AI Agent Chatbot + LONG TERM Memory + Note Storage + Telegram",
+    "description": "Google services integration automation utilizing OpenAI and LangChain (Google, Telegram integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/AI%20Agent%20Chatbot%20+%20LONG%20TERM%20Memory%20+%20Note%20Storage%20+%20Telegram.json",
+    "category": "google"
+  },
+  {
+    "name": "AI Agent _ Google calendar assistant using OpenAI",
+    "description": "Google Calendar scheduling workflow utilizing OpenAI and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/AI%20Agent%20_%20Google%20calendar%20assistant%20using%20OpenAI.json",
+    "category": "google"
+  },
+  {
+    "name": "Actioning Your Meeting Next Steps using Transcripts and AI",
+    "description": "Google services integration automation utilizing OpenAI and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/google/Actioning%20Your%20Meeting%20Next%20Steps%20using%20Transcripts%20and%20AI.json",
+    "category": "google"
+  },
+  {
+    "name": "Telegram to Spotify with OpenAI",
+    "description": "AI-based workflow utilizing OpenAI (Spotify, Telegram integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/spotify/Telegram%20to%20Spotify%20with%20OpenAI.json",
+    "category": "spotify"
+  },
+  {
+    "name": "Obsidian Notes Read Aloud using AI_ Available as a Podcast Feed",
+    "description": "AI-based workflow utilizing OpenAI (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/spotify/Obsidian%20Notes%20Read%20Aloud%20using%20AI_%20Available%20as%20a%20Podcast%20Feed.json",
+    "category": "spotify"
+  },
+  {
+    "name": "Monthly Spotify Track Archiving and Playlist Classification",
+    "description": "AI-based workflow utilizing LangChain and Claude (Spotify, Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/spotify/Monthly%20Spotify%20Track%20Archiving%20and%20Playlist%20Classification.json",
+    "category": "spotify"
+  },
+  {
+    "name": "Open Deep Research - AI-Powered Autonomous Research Workflow",
+    "description": "AI-based workflow utilizing LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/deep-research/Open%20Deep%20Research%20-%20AI-Powered%20Autonomous%20Research%20Workflow.json",
+    "category": "deep-research"
+  },
+  {
+    "name": "IT Ops AI SlackBot Workflow - Chat with your knowledge base",
+    "description": "Chatbot system utilizing OpenAI and LangChain (Slack integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/code/IT%20Ops%20AI%20SlackBot%20Workflow%20-%20Chat%20with%20your%20knowledge%20base.json",
+    "category": "code"
+  },
+  {
+    "name": "Prepare CSV files with GPT-4Prepare CSV files with GPT-4",
+    "description": "AI-based workflow utilizing OpenAI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/code/Prepare%20CSV%20files%20with%20GPT-4Prepare%20CSV%20files%20with%20GPT-4.json",
+    "category": "code"
+  },
+  {
+    "name": "Remove Personally Identifiable Information (PII) from CSV Files with OpenAI",
+    "description": "AI-based workflow utilizing OpenAI (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/code/Remove%20Personally%20Identifiable%20Information%20(PII)%20from%20CSV%20Files%20with%20OpenAI.json",
+    "category": "code"
+  },
+  {
+    "name": "AI Data Extraction with Dynamic Prompts and Baserow",
+    "description": "AI-based workflow utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/pdf/AI%20Data%20Extraction%20with%20Dynamic%20Prompts%20and%20Baserow.json",
+    "category": "pdf"
+  },
+  {
+    "name": "Advanced AI Demo (Presented at AI Developers #14 meetup)",
+    "description": "AI-based workflow utilizing Claude, OpenAI, and LangChain (Gmail, Slack integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/pdf/Advanced%20AI%20Demo%20(Presented%20at%20AI%20Developers%20#14%20meetup).json",
+    "category": "pdf"
+  },
+  {
+    "name": "Ask questions about a PDF using AI",
+    "description": "AI-based workflow utilizing OpenAI and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/pdf/Ask%20questions%20about%20a%20PDF%20using%20AI.json",
+    "category": "pdf"
+  },
+  {
+    "name": "CV Resume PDF Parsing with Multimodal Vision AI",
+    "description": "AI-based workflow utilizing Google Gemini and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/pdf/CV%20Resume%20PDF%20Parsing%20with%20Multimodal%20Vision%20AI.json",
+    "category": "pdf"
+  },
+  {
+    "name": "Extract and process information directly from PDF using Claude and Gemini",
+    "description": "AI-based workflow utilizing Google Gemini and Claude (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/pdf/Extract%20and%20process%20information%20directly%20from%20PDF%20using%20Claude%20and%20Gemini.json",
+    "category": "pdf"
+  },
+  {
+    "name": "Manipulate PDF with Adobe developer API",
+    "description": "AI-based workflow utilizing AI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/pdf/Manipulate%20PDF%20with%20Adobe%20developer%20API.json",
+    "category": "pdf"
+  },
+  {
+    "name": "Transcribing Bank Statements To Markdown Using Gemini Vision AI",
+    "description": "AI-based workflow utilizing Google Gemini and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/pdf/Transcribing%20Bank%20Statements%20To%20Markdown%20Using%20Gemini%20Vision%20AI.json",
+    "category": "pdf"
+  },
+  {
+    "name": "Summarize YouTube Videos from Transcript",
+    "description": "AI-based workflow utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/youtube/Summarize%20YouTube%20Videos%20from%20Transcript.json",
+    "category": "youtube"
+  },
+  {
+    "name": "Extract insights & analyse YouTube comments via AI Agent chat",
+    "description": "AI-based workflow utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/youtube/Extract%20insights%20&%20analyse%20YouTube%20comments%20via%20AI%20Agent%20chat.json",
+    "category": "youtube"
+  },
+  {
+    "name": "Vision-Based AI Agent Scraper - with Google Sheets, ScrapingBee, and Gemini",
+    "description": "RAG-based information retrieval and response workflow utilizing Google Gemini and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Vision-Based%20AI%20Agent%20Scraper%20-%20with%20Google%20Sheets,%20ScrapingBee,%20and%20Gemini.json",
+    "category": "rag"
+  },
+  {
+    "name": "Upsert huge documents in a vector store with Supabase and Notion",
+    "description": "Document-based Q&A system utilizing OpenAI and LangChain (Notion, Supabase integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Upsert%20huge%20documents%20in%20a%20vector%20store%20with%20Supabase%20and%20Notion.json",
+    "category": "rag"
+  },
+  {
+    "name": "Ultimate Scraper Workflow for n8n",
+    "description": "RAG-based information retrieval and response workflow utilizing OpenAI and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Ultimate%20Scraper%20Workflow%20for%20n8n.json",
+    "category": "rag"
+  },
+  {
+    "name": "Text automations using Apple Shortcuts-1",
+    "description": "RAG-based information retrieval and response workflow utilizing OpenAI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Text%20automations%20using%20Apple%20Shortcuts-1.json",
+    "category": "rag"
+  },
+  {
+    "name": "Text automations using Apple Shortcuts-2",
+    "description": "RAG-based information retrieval and response workflow utilizing OpenAI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Text%20automations%20using%20Apple%20Shortcuts-2.json",
+    "category": "rag"
+  },
+  {
+    "name": "Talk to your SQLite database with a LangChain AI Agent",
+    "description": "Database-based AI agent workflow utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Talk%20to%20your%20SQLite%20database%20with%20a%20LangChain%20AI%20Agent.json",
+    "category": "rag"
+  },
+  {
+    "name": "Summarize SERPBear data with AI (via Openrouter) and save it to Baserow",
+    "description": "RAG-based information retrieval and response workflow utilizing AI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Summarize%20SERPBear%20data%20with%20AI%20(via%20Openrouter)%20and%20save%20it%20to%20Baserow.json",
+    "category": "rag"
+  },
+  {
+    "name": "Siri AI Agent_ Apple Shortcuts powered voice template",
+    "description": "RAG-based information retrieval and response workflow utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Siri%20AI%20Agent_%20Apple%20Shortcuts%20powered%20voice%20template.json",
+    "category": "rag"
+  },
+  {
+    "name": "RAG_Context-Aware Chunking _ Google Drive to Pinecone via OpenRouter & Gemini",
+    "description": "RAG-based information retrieval and response workflow utilizing Google Gemini and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/RAG_Context-Aware%20Chunking%20_%20Google%20Drive%20to%20Pinecone%20via%20OpenRouter%20&%20Gemini.json",
+    "category": "rag"
+  },
+  {
+    "name": "RAG Chatbot for Company Documents using Google Drive and Gemini",
+    "description": "RAG-based chatbot utilizing Google Gemini and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/RAG%20Chatbot%20for%20Company%20Documents%20using%20Google%20Drive%20and%20Gemini.json",
+    "category": "rag"
+  },
+  {
+    "name": "Personal Shopper Chatbot for WooCommerce with RAG using Google Drive and openAI",
+    "description": "RAG-based chatbot utilizing OpenAI and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Personal%20Shopper%20Chatbot%20for%20WooCommerce%20with%20RAG%20using%20Google%20Drive%20and%20openAI.json",
+    "category": "rag"
+  },
+  {
+    "name": "Optimize & Update Printify Title and Description Workflow",
+    "description": "RAG-based information retrieval and response workflow utilizing OpenAI and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Optimize%20&%20Update%20Printify%20Title%20and%20Description%20Workflow.json",
+    "category": "rag"
+  },
+  {
+    "name": "Make OpenAI Citation for File Retrieval RAG",
+    "description": "RAG-based information retrieval and response workflow utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Make%20OpenAI%20Citation%20for%20File%20Retrieval%20RAG.json",
+    "category": "rag"
+  },
+  {
+    "name": "LINE Assistant with Google Calendar and Gmail Integration",
+    "description": "RAG-based information retrieval and response workflow utilizing OpenAI and LangChain (Google, Gmail integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/LINE%20Assistant%20with%20Google%20Calendar%20and%20Gmail%20Integration.json",
+    "category": "rag"
+  },
+  {
+    "name": "Learn Anything from HN - Get Top Resource Recommendations from Hacker News",
+    "description": "RAG-based information retrieval and response workflow utilizing Google Gemini and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Learn%20Anything%20from%20HN%20-%20Get%20Top%20Resource%20Recommendations%20from%20Hacker%20News.json",
+    "category": "rag"
+  },
+  {
+    "name": "KB Tool - Confluence Knowledge Base",
+    "description": "RAG-based information retrieval and response workflow utilizing AI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/KB%20Tool%20-%20Confluence%20Knowledge%20Base.json",
+    "category": "rag"
+  },
+  {
+    "name": "Intelligent Web Query and Semantic Re-Ranking Flow using Brave and Google Gemini",
+    "description": "RAG-based information retrieval and response workflow utilizing Claude, OpenAI, Google Gemini, and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Intelligent%20Web%20Query%20and%20Semantic%20Re-Ranking%20Flow%20using%20Brave%20and%20Google%20Gemini.json",
+    "category": "rag"
+  },
+  {
+    "name": "Integrating AI with Open-Meteo API for Enhanced Weather Forecasting",
+    "description": "RAG-based information retrieval and response workflow utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Integrating%20AI%20with%20Open-Meteo%20API%20for%20Enhanced%20Weather%20Forecasting.json",
+    "category": "rag"
+  },
+  {
+    "name": "Enhance Customer Chat by Buffering Messages with Twilio and Redis",
+    "description": "RAG-based chatbot workflow utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Enhance%20Customer%20Chat%20by%20Buffering%20Messages%20with%20Twilio%20and%20Redis.json",
+    "category": "rag"
+  },
+  {
+    "name": "Chat with your event schedule from Google Sheets in Telegram",
+    "description": "RAG-based chatbot utilizing LangChain (Google, Telegram integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Chat%20with%20your%20event%20schedule%20from%20Google%20Sheets%20in%20Telegram.json",
+    "category": "rag"
+  },
+  {
+    "name": "Chat with Postgresql Database",
+    "description": "RAG-based chatbot workflow utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Chat%20with%20Postgresql%20Database.json",
+    "category": "rag"
+  },
+  {
+    "name": "Chat with PDF docs using AI (quoting sources)",
+    "description": "RAG-based chatbot utilizing OpenAI and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Chat%20with%20PDF%20docs%20using%20AI%20(quoting%20sources).json",
+    "category": "rag"
+  },
+  {
+    "name": "BambooHR AI-Powered Company Policies and Benefits Chatbot",
+    "description": "RAG-based chatbot utilizing OpenAI and LangChain (Supabase integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/BambooHR%20AI-Powered%20Company%20Policies%20and%20Benefits%20Chatbot.json",
+    "category": "rag"
+  },
+  {
+    "name": "Automate testimonials in Strapi with n8n",
+    "description": "RAG-based information retrieval and response workflow utilizing AI (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Automate%20testimonials%20in%20Strapi%20with%20n8n.json",
+    "category": "rag"
+  },
+  {
+    "name": "Automate SIEM Alert Enrichment with MITRE ATT&CK, Qdrant & Zendesk in n8n",
+    "description": "RAG-based information retrieval and response workflow utilizing OpenAI and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Automate%20SIEM%20Alert%20Enrichment%20with%20MITRE%20ATT&CK,%20Qdrant%20&%20Zendesk%20in%20n8n.json",
+    "category": "rag"
+  },
+  {
+    "name": "AI_ Ask questions about any data source (using the n8n workflow retriever)",
+    "description": "RAG-based information retrieval and response workflow utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/AI_%20Ask%20questions%20about%20any%20data%20source%20(using%20the%20n8n%20workflow%20retriever).json",
+    "category": "rag"
+  },
+  {
+    "name": "AI web researcher for sales",
+    "description": "RAG-based information retrieval and response workflow utilizing OpenAI and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/AI%20web%20researcher%20for%20sales.json",
+    "category": "rag"
+  },
+  {
+    "name": "AI Crew to Automate Fundamental Stock Analysis - Q&A Workflow",
+    "description": "RAG-based information retrieval and response workflow utilizing OpenAI and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/AI%20Crew%20to%20Automate%20Fundamental%20Stock%20Analysis%20-%20Q&A%20Workflow.json",
+    "category": "rag"
+  },
+  {
+    "name": "AI chatbot that can search the web",
+    "description": "RAG-based chatbot workflow utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/AI%20chatbot%20that%20can%20search%20the%20web.json",
+    "category": "rag"
+  },
+  {
+    "name": "AI Agent with Ollama for current weather and wiki",
+    "description": "RAG-based information retrieval and response workflow utilizing Ollama and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/AI%20Agent%20with%20Ollama%20for%20current%20weather%20and%20wiki.json",
+    "category": "rag"
+  },
+  {
+    "name": "AI Agent to chat with Supabase_PostgreSQL DB",
+    "description": "RAG-based chatbot workflow utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/AI%20Agent%20to%20chat%20with%20Supabase_PostgreSQL%20DB.json",
+    "category": "rag"
+  },
+  {
+    "name": "HR & IT Helpdesk Chatbot with Audio Transcription",
+    "description": "RAG-based chatbot utilizing OpenAI and LangChain (Telegram integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/HR%20&%20IT%20Helpdesk%20Chatbot%20with%20Audio%20Transcription.json",
+    "category": "rag"
+  },
+  {
+    "name": "Building Your First WhatsApp Chatbot",
+    "description": "RAG-based chatbot utilizing OpenAI and LangChain (WhatsApp integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/rag/Building%20Your%20First%20WhatsApp%20Chatbot.json",
+    "category": "rag"
+  },
+  {
+    "name": "AI-Generated Summary Block for WordPress Posts",
+    "description": "WordPress blog automation utilizing OpenAI and LangChain (Google, Slack integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/AI-Generated%20Summary%20Block%20for%20WordPress%20Posts.json",
+    "category": "blog"
+  },
+  {
+    "name": "AI-Powered Social Media Amplifier",
+    "description": "Social media content generation utilizing OpenAI (Telegram, Airtable integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/AI-Powered%20Social%20Media%20Amplifier.json",
+    "category": "blog"
+  },
+  {
+    "name": "Auto-Categorize blog posts in wordpress using A.I.",
+    "description": "WordPress blog automation utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/Auto-Categorize%20blog%20posts%20in%20wordpress%20using%20A.I..json",
+    "category": "blog"
+  },
+  {
+    "name": "Auto-Tag Blog Posts in WordPress with AI",
+    "description": "WordPress blog automation utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/Auto-Tag%20Blog%20Posts%20in%20WordPress%20with%20AI.json",
+    "category": "blog"
+  },
+  {
+    "name": "Auto-generate documentation for n8n workflows with GPT and Docsify",
+    "description": "Blog content automation workflow utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/Auto-generate%20documentation%20for%20n8n%20workflows%20with%20GPT%20and%20Docsify.json",
+    "category": "blog"
+  },
+  {
+    "name": "Automate Blog Creation in Brand Voice with AI",
+    "description": "Blog content automation workflow utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/Automate%20Blog%20Creation%20in%20Brand%20Voice%20with%20AI.json",
+    "category": "blog"
+  },
+  {
+    "name": "Automate LinkedIn Outreach with Notion and OpenAI",
+    "description": "Blog content automation utilizing OpenAI (Notion integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/Automate%20LinkedIn%20Outreach%20with%20Notion%20and%20OpenAI.json",
+    "category": "blog"
+  },
+  {
+    "name": "Create a Branded AI-Powered Website Chatbot",
+    "description": "Blog content automation workflow utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/Create%20a%20Branded%20AI-Powered%20Website%20Chatbot.json",
+    "category": "blog"
+  },
+  {
+    "name": "Generate 9_16 Images from Content and Brand Guidelines",
+    "description": "Image generation and processing workflow utilizing OpenAI and LangChain (Airtable integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/Generate%209_16%20Images%20from%20Content%20and%20Brand%20Guidelines.json",
+    "category": "blog"
+  },
+  {
+    "name": "Generate Instagram Content from Top Trends with AI Image Generation",
+    "description": "Social media content generation utilizing OpenAI (Telegram integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/Generate%20Instagram%20Content%20from%20Top%20Trends%20with%20AI%20Image%20Generation.json",
+    "category": "blog"
+  },
+  {
+    "name": "Post New YouTube Videos to X",
+    "description": "Blog content automation workflow utilizing OpenAI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/Post%20New%20YouTube%20Videos%20to%20X.json",
+    "category": "blog"
+  },
+  {
+    "name": "Speed Up Social Media Banners With BannerBear.com",
+    "description": "Social media content generation utilizing OpenAI (Discord integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/Speed%20Up%20Social%20Media%20Banners%20With%20BannerBear.com.json",
+    "category": "blog"
+  },
+  {
+    "name": "Twitter Virtual AI Influencer",
+    "description": "Blog content automation workflow utilizing OpenAI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/Twitter%20Virtual%20AI%20Influencer.json",
+    "category": "blog"
+  },
+  {
+    "name": "Upload to Instagram and Tiktok from Google Drive",
+    "description": "Social media content generation utilizing OpenAI (Google, Telegram integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/Upload%20to%20Instagram%20and%20Tiktok%20from%20Google%20Drive.json",
+    "category": "blog"
+  },
+  {
+    "name": "WordPress - AI Chatbot to enhance user experience - with Supabase and OpenAI",
+    "description": "WordPress blog automation utilizing OpenAI and LangChain (Supabase integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/WordPress%20-%20AI%20Chatbot%20to%20enhance%20user%20experience%20-%20with%20Supabase%20and%20OpenAI.json",
+    "category": "blog"
+  },
+  {
+    "name": "Write a WordPress post with AI (starting from a few keywords)",
+    "description": "WordPress blog automation utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/blog/Write%20a%20WordPress%20post%20with%20AI%20(starting%20from%20a%20few%20keywords).json",
+    "category": "blog"
+  },
+  {
+    "name": "Analyse papers from Hugging Face with AI and store them in Notion",
+    "description": "Paper analysis and Notion storage workflow utilizing OpenAI (Notion integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/notion/Analyse%20papers%20from%20Hugging%20Face%20with%20AI%20and%20store%20them%20in%20Notion.json",
+    "category": "notion"
+  },
+  {
+    "name": "Notion AI Assistant Generator",
+    "description": "Notion AI assistant utilizing Claude and LangChain (Notion integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/notion/Notion%20AI%20Assistant%20Generator.json",
+    "category": "notion"
+  },
+  {
+    "name": "Notion knowledge base AI assistant",
+    "description": "Notion AI assistant utilizing OpenAI and LangChain (Notion integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/notion/Notion%20knowledge%20base%20AI%20assistant.json",
+    "category": "notion"
+  },
+  {
+    "name": "Notion to Pinecone Vector Store Integration",
+    "description": "Notion data management and processing workflow utilizing Google Gemini and LangChain (Google, Notion integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/notion/Notion%20to%20Pinecone%20Vector%20Store%20Integration.json",
+    "category": "notion"
+  },
+  {
+    "name": "Transcribe Audio Files, Summarize with GPT-4, and Store in Notion",
+    "description": "Notion data management and processing workflow utilizing OpenAI (Google, Notion integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/notion/Transcribe%20Audio%20Files,%20Summarize%20with%20GPT-4,%20and%20Store%20in%20Notion.json",
+    "category": "notion"
+  },
+  {
+    "name": "AI Agent To Chat With Files In Supabase Storage",
+    "description": "AI-based workflow utilizing OpenAI and LangChain (Supabase integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/supabase/AI%20Agent%20To%20Chat%20With%20Files%20In%20Supabase%20Storage.json",
+    "category": "supabase"
+  },
+  {
+    "name": "Store Notion_s Pages as Vector Documents into Supabase with OpenAI",
+    "description": "AI-based workflow utilizing OpenAI and LangChain (Notion, Supabase integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/supabase/Store%20Notion_s%20Pages%20as%20Vector%20Documents%20into%20Supabase%20with%20OpenAI.json",
+    "category": "supabase"
+  },
+  {
+    "name": "Supabase Insertion & Upsertion & Retrieval",
+    "description": "AI-based workflow utilizing OpenAI and LangChain (Google, Supabase integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/supabase/Supabase%20Insertion%20&%20Upsertion%20&%20Retrieval.json",
+    "category": "supabase"
+  },
+  {
+    "name": "Telegram Bot with Supabase memory and OpenAI assistant integration",
+    "description": "Chatbot system utilizing AI (Telegram, Supabase integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/supabase/Telegram%20Bot%20with%20Supabase%20memory%20and%20OpenAI%20assistant%20integration.json",
+    "category": "supabase"
+  },
+  {
+    "name": "vAssistant for Hubspot Chat using OpenAi and Airtable",
+    "description": "Airtable data processing and management workflow utilizing OpenAI (Airtable integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/airtable/vAssistant%20for%20Hubspot%20Chat%20using%20OpenAi%20and%20Airtable.json",
+    "category": "airtable"
+  },
+  {
+    "name": "AI Agent for project management and meetings with Airtable and Fireflies",
+    "description": "Airtable data processing and management workflow utilizing OpenAI and LangChain (Google, Gmail, Airtable integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/airtable/AI%20Agent%20for%20project%20management%20and%20meetings%20with%20Airtable%20and%20Fireflies.json",
+    "category": "airtable"
+  },
+  {
+    "name": "AI Data Extraction with Dynamic Prompts and Airtable",
+    "description": "Data extraction and automated Airtable input workflow utilizing OpenAI and LangChain (Airtable integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/airtable/AI%20Data%20Extraction%20with%20Dynamic%20Prompts%20and%20Airtable.json",
+    "category": "airtable"
+  },
+  {
+    "name": "AI Social Media Caption Creator creates social media post captions in Airtable",
+    "description": "Social media caption generation and Airtable management utilizing OpenAI and LangChain (Airtable integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/airtable/AI%20Social%20Media%20Caption%20Creator%20creates%20social%20media%20post%20captions%20in%20Airtable.json",
+    "category": "airtable"
+  },
+  {
+    "name": "Sentiment Analysis Tracking on Support Issues with Linear and Slack-1",
+    "description": "Sentiment analysis and Airtable tracking workflow utilizing OpenAI and LangChain (Airtable, Slack integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/airtable/Sentiment%20Analysis%20Tracking%20on%20Support%20Issues%20with%20Linear%20and%20Slack-1.json",
+    "category": "airtable"
+  },
+  {
+    "name": "Sentiment Analysis Tracking on Support Issues with Linear and Slack-2",
+    "description": "Sentiment analysis and Airtable tracking workflow utilizing OpenAI and LangChain (Airtable, Slack integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/airtable/Sentiment%20Analysis%20Tracking%20on%20Support%20Issues%20with%20Linear%20and%20Slack-2.json",
+    "category": "airtable"
+  },
+  {
+    "name": "Deduplicate Scraping AI Grants for Eligibility using AI",
+    "description": "Airtable data processing and management workflow utilizing OpenAI and LangChain (Gmail, Airtable integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/airtable/Deduplicate%20Scraping%20AI%20Grants%20for%20Eligibility%20using%20AI.json",
+    "category": "airtable"
+  },
+  {
+    "name": "Extract Information from a Logo Sheet using forms, AI, Google Sheet and Airtable",
+    "description": "Data extraction and automated Airtable input workflow utilizing OpenAI and LangChain (Airtable integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/airtable/Extract%20Information%20from%20a%20Logo%20Sheet%20using%20forms,%20AI,%20Google%20Sheet%20and%20Airtable.json",
+    "category": "airtable"
+  },
+  {
+    "name": "HR Job Posting and Evaluation with AI",
+    "description": "Airtable data processing and management workflow utilizing OpenAI and LangChain (Google, Airtable integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/airtable/HR%20Job%20Posting%20and%20Evaluation%20with%20AI.json",
+    "category": "airtable"
+  },
+  {
+    "name": "Automate Pinterest Analysis & AI-Powered Content Suggestions With Pinterest API",
+    "description": "Airtable data processing and management workflow utilizing OpenAI and LangChain (Gmail, Airtable integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/airtable/Automate%20Pinterest%20Analysis%20&%20AI-Powered%20Content%20Suggestions%20With%20Pinterest%20API.json",
+    "category": "airtable"
+  },
+  {
+    "name": "AI agent for Instagram DM_inbox. Manychat + Open AI integration",
+    "description": "AI chat system workflow utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/AI%20agent%20for%20Instagram%20DM_inbox.%20Manychat%20+%20Open%20AI%20integration.json",
+    "category": "common"
+  },
+  {
+    "name": "AI Agent for n8n Creators Leaderboard - Find Popular Workflows",
+    "description": "General AI automation workflow utilizing OpenAI, Ollama, and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/AI%20Agent%20for%20n8n%20Creators%20Leaderboard%20-%20Find%20Popular%20Workflows.json",
+    "category": "common"
+  },
+  {
+    "name": "AI Agent for Top n8n Creators Leaderboard Reporting",
+    "description": "General AI automation workflow utilizing OpenAI, Google Gemini, and LangChain (Google, Gmail, Telegram integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/AI%20Agent%20for%20Top%20n8n%20Creators%20Leaderboard%20Reporting.json",
+    "category": "common"
+  },
+  {
+    "name": "AI agent that can scrape webpages",
+    "description": "Web scraping and data collection workflow utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/AI%20agent%20that%20can%20scrape%20webpages.json",
+    "category": "common"
+  },
+  {
+    "name": "AI Agent to chat with you Search Console Data, using OpenAI and Postgres",
+    "description": "AI chat system workflow utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/AI%20Agent%20to%20chat%20with%20you%20Search%20Console%20Data,%20using%20OpenAI%20and%20Postgres.json",
+    "category": "common"
+  },
+  {
+    "name": "AI Automated HR Workflow for CV Analysis and Candidate Evaluation",
+    "description": "General AI automation workflow utilizing OpenAI and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/AI%20Automated%20HR%20Workflow%20for%20CV%20Analysis%20and%20Candidate%20Evaluation.json",
+    "category": "common"
+  },
+  {
+    "name": "AI chat with any data source (using the n8n workflow tool)",
+    "description": "AI chat system workflow utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/AI%20chat%20with%20any%20data%20source%20(using%20the%20n8n%20workflow%20tool).json",
+    "category": "common"
+  },
+  {
+    "name": "AI Fitness Coach Strava Data Analysis and Personalized Training Insights",
+    "description": "General AI automation workflow utilizing Google Gemini and LangChain (WhatsApp, Google, Gmail integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/AI%20Fitness%20Coach%20Strava%20Data%20Analysis%20and%20Personalized%20Training%20Insights.json",
+    "category": "common"
+  },
+  {
+    "name": "AI Summarize podcast episode and enhance using Wikipedia",
+    "description": "General AI automation workflow utilizing OpenAI and LangChain (Gmail integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/AI%20Summarize%20podcast%20episode%20and%20enhance%20using%20Wikipedia.json",
+    "category": "common"
+  },
+  {
+    "name": "AI-powered WooCommerce Support-Agent",
+    "description": "General AI automation workflow utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/AI-powered%20WooCommerce%20Support-Agent.json",
+    "category": "common"
+  },
+  {
+    "name": "API Schema Extractor",
+    "description": "API integration and automation workflow utilizing Google Gemini and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/API%20Schema%20Extractor.json",
+    "category": "common"
+  },
+  {
+    "name": "Automate Your RFP Process with OpenAI Assistants",
+    "description": "AI assistant utilizing OpenAI and LangChain (Google, Gmail, Slack integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Automate%20Your%20RFP%20Process%20with%20OpenAI%20Assistants.json",
+    "category": "common"
+  },
+  {
+    "name": "Automated Hugging Face Paper Summary Fetching & Categorization Workflow",
+    "description": "General AI automation workflow utilizing AI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Automated%20Hugging%20Face%20Paper%20Summary%20Fetching%20&%20Categorization%20Workflow.json",
+    "category": "common"
+  },
+  {
+    "name": "Autonomous AI crawler",
+    "description": "Web scraping and data collection workflow utilizing OpenAI and LangChain (Supabase integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Autonomous%20AI%20crawler.json",
+    "category": "common"
+  },
+  {
+    "name": "Bitrix24 Chatbot Application Workflow example with Webhook Integration",
+    "description": "AI chat system workflow utilizing AI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Bitrix24%20Chatbot%20Application%20Workflow%20example%20with%20Webhook%20Integration.json",
+    "category": "common"
+  },
+  {
+    "name": "Breakdown Documents into Study Notes using Templating MistralAI and Qdrant",
+    "description": "General AI automation workflow utilizing Mistral and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Breakdown%20Documents%20into%20Study%20Notes%20using%20Templating%20MistralAI%20and%20Qdrant.json",
+    "category": "common"
+  },
+  {
+    "name": "Build a Financial Documents Assistant using Qdrant and Mistral.ai",
+    "description": "AI assistant workflow utilizing Mistral and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Build%20a%20Financial%20Documents%20Assistant%20using%20Qdrant%20and%20Mistral.ai.json",
+    "category": "common"
+  },
+  {
+    "name": "Build a Tax Code Assistant with Qdrant, Mistral.ai and OpenAI",
+    "description": "AI assistant workflow utilizing Mistral, OpenAI, and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Build%20a%20Tax%20Code%20Assistant%20with%20Qdrant,%20Mistral.ai%20and%20OpenAI.json",
+    "category": "common"
+  },
+  {
+    "name": "Chat with a Google Sheet using AI",
+    "description": "AI chat system utilizing OpenAI and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Chat%20with%20a%20Google%20Sheet%20using%20AI.json",
+    "category": "common"
+  },
+  {
+    "name": "Chat with GitHub API Documentation_ RAG-Powered Chatbot with Pinecone & OpenAI",
+    "description": "AI chat system workflow utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Chat%20with%20GitHub%20API%20Documentation_%20RAG-Powered%20Chatbot%20with%20Pinecone%20&%20OpenAI.json",
+    "category": "common"
+  },
+  {
+    "name": "Chat with OpenAI Assistant (by adding a memory)",
+    "description": "AI assistant workflow utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Chat%20with%20OpenAI%20Assistant%20(by%20adding%20a%20memory).json",
+    "category": "common"
+  },
+  {
+    "name": "Convert URL HTML to Markdown Format and Get Page Links",
+    "description": "General AI automation workflow utilizing AI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Convert%20URL%20HTML%20to%20Markdown%20Format%20and%20Get%20Page%20Links.json",
+    "category": "common"
+  },
+  {
+    "name": "Customer Insights with Qdrant, Python and Information Extractor",
+    "description": "General AI automation workflow utilizing OpenAI and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Customer%20Insights%20with%20Qdrant,%20Python%20and%20Information%20Extractor.json",
+    "category": "common"
+  },
+  {
+    "name": "DeepSeek V3 Chat & R1 Reasoning Quick Start",
+    "description": "AI chat system workflow utilizing OpenAI, Ollama, and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/DeepSeek%20V3%20Chat%20&%20R1%20Reasoning%20Quick%20Start.json",
+    "category": "common"
+  },
+  {
+    "name": "Detect hallucinations using specialised Ollama model bespoke-minicheck",
+    "description": "General AI automation workflow utilizing Ollama and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Detect%20hallucinations%20using%20specialised%20Ollama%20model%20bespoke-minicheck.json",
+    "category": "common"
+  },
+  {
+    "name": "Dynamically generate a webpage from user request using OpenAI Structured Output-1",
+    "description": "General AI automation workflow utilizing OpenAI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Dynamically%20generate%20a%20webpage%20from%20user%20request%20using%20OpenAI%20Structured%20Output-1.json",
+    "category": "common"
+  },
+  {
+    "name": "Dynamically generate a webpage from user request using OpenAI Structured Output-2",
+    "description": "General AI automation workflow utilizing OpenAI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Dynamically%20generate%20a%20webpage%20from%20user%20request%20using%20OpenAI%20Structured%20Output-2.json",
+    "category": "common"
+  },
+  {
+    "name": "ETL pipeline for text processing",
+    "description": "General AI automation workflow utilizing AI (Google, Slack integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/ETL%20pipeline%20for%20text%20processing.json",
+    "category": "common"
+  },
+  {
+    "name": "Extract license plate number from image uploaded via an n8n form",
+    "description": "General AI automation workflow utilizing LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Extract%20license%20plate%20number%20from%20image%20uploaded%20via%20an%20n8n%20form.json",
+    "category": "common"
+  },
+  {
+    "name": "Extract personal data with self-hosted LLM Mistral NeMo",
+    "description": "General AI automation workflow utilizing Ollama and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Extract%20personal%20data%20with%20self-hosted%20LLM%20Mistral%20NeMo.json",
+    "category": "common"
+  },
+  {
+    "name": "Fetch Dynamic Prompts from GitHub and Auto-Populate n8n Expressions in Prompt",
+    "description": "General AI automation workflow utilizing Ollama and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Fetch%20Dynamic%20Prompts%20from%20GitHub%20and%20Auto-Populate%20n8n%20Expressions%20in%20Prompt.json",
+    "category": "common"
+  },
+  {
+    "name": "Force AI to use a specific output format",
+    "description": "General AI automation workflow utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Force%20AI%20to%20use%20a%20specific%20output%20format.json",
+    "category": "common"
+  },
+  {
+    "name": "Generate SEO Seed Keywords Using AI",
+    "description": "General AI automation workflow utilizing LangChain and Claude",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Generate%20SEO%20Seed%20Keywords%20Using%20AI.json",
+    "category": "common"
+  },
+  {
+    "name": "Generate SQL queries from schema only - AI-powered",
+    "description": "General AI automation workflow utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Generate%20SQL%20queries%20from%20schema%20only%20-%20AI-powered.json",
+    "category": "common"
+  },
+  {
+    "name": "Hacker News Job Listing Scraper and Parser",
+    "description": "Web scraping and data collection workflow utilizing OpenAI and LangChain (Airtable integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Hacker%20News%20Job%20Listing%20Scraper%20and%20Parser.json",
+    "category": "common"
+  },
+  {
+    "name": "Hacker News Throwback Machine - See What Was Hot on This Day, Every Year!",
+    "description": "General AI automation workflow utilizing Google Gemini and LangChain (Google, Telegram integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Hacker%20News%20Throwback%20Machine%20-%20See%20What%20Was%20Hot%20on%20This%20Day,%20Every%20Year!.json",
+    "category": "common"
+  },
+  {
+    "name": "Handling Job Application Submissions with AI and n8n Forms",
+    "description": "General AI automation workflow utilizing OpenAI and LangChain (Airtable integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Handling%20Job%20Application%20Submissions%20with%20AI%20and%20n8n%20Forms.json",
+    "category": "common"
+  },
+  {
+    "name": "Introduction to the HTTP Tool",
+    "description": "General AI automation workflow utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Introduction%20to%20the%20HTTP%20Tool.json",
+    "category": "common"
+  },
+  {
+    "name": "Invoice data extraction with LlamaParse and OpenAI",
+    "description": "General AI automation workflow utilizing OpenAI and LangChain (Google, Gmail integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Invoice%20data%20extraction%20with%20LlamaParse%20and%20OpenAI.json",
+    "category": "common"
+  },
+  {
+    "name": "Invoice data extraction with LlamaParse and OpenAI-2",
+    "description": "General AI automation workflow utilizing OpenAI and LangChain (Google, Gmail integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Invoice%20data%20extraction%20with%20LlamaParse%20and%20OpenAI-2.json",
+    "category": "common"
+  },
+  {
+    "name": "MongoDB AI Agent - Intelligent Movie Recommendations",
+    "description": "General AI automation workflow utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/MongoDB%20AI%20Agent%20-%20Intelligent%20Movie%20Recommendations.json",
+    "category": "common"
+  },
+  {
+    "name": "OpenAI Assistant workflow_ upload file, create an Assistant, chat with it",
+    "description": "AI assistant utilizing OpenAI and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/OpenAI%20Assistant%20workflow_%20upload%20file,%20create%20an%20Assistant,%20chat%20with%20it.json",
+    "category": "common"
+  },
+  {
+    "name": "OpenAI assistant with custom tools",
+    "description": "AI assistant workflow utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/OpenAI%20assistant%20with%20custom%20tools.json",
+    "category": "common"
+  },
+  {
+    "name": "OpenAI examples_ ChatGPT, DALLE-2, Whisper-1-5-in-1",
+    "description": "AI chat system workflow utilizing OpenAI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/OpenAI%20examples_%20ChatGPT,%20DALLE-2,%20Whisper-1-5-in-1.json",
+    "category": "common"
+  },
+  {
+    "name": "Organise Your Local File Directories With AI",
+    "description": "General AI automation workflow utilizing Mistral and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Organise%20Your%20Local%20File%20Directories%20With%20AI.json",
+    "category": "common"
+  },
+  {
+    "name": "Private & Local Ollama Self-Hosted AI Assistant",
+    "description": "AI assistant workflow utilizing Ollama and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Private%20&%20Local%20Ollama%20Self-Hosted%20AI%20Assistant.json",
+    "category": "common"
+  },
+  {
+    "name": "Proxmox AI Agent with n8n and Generative AI Integration",
+    "description": "General AI automation workflow utilizing Google Gemini and LangChain (Google, Telegram, Gmail integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Proxmox%20AI%20Agent%20with%20n8n%20and%20Generative%20AI%20Integration.json",
+    "category": "common"
+  },
+  {
+    "name": "Query n8n Credentials with AI SQL Agent",
+    "description": "General AI automation workflow utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Query%20n8n%20Credentials%20with%20AI%20SQL%20Agent.json",
+    "category": "common"
+  },
+  {
+    "name": "Reconcile Rent Payments with Local Excel Spreadsheet and OpenAI",
+    "description": "General AI automation workflow utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Reconcile%20Rent%20Payments%20with%20Local%20Excel%20Spreadsheet%20and%20OpenAI.json",
+    "category": "common"
+  },
+  {
+    "name": "Reddit AI digest",
+    "description": "General AI automation workflow utilizing OpenAI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Reddit%20AI%20digest.json",
+    "category": "common"
+  },
+  {
+    "name": "Scrape and summarize posts of a news site without RSS feed using AI and save them to a NocoDB",
+    "description": "Web scraping and data collection workflow utilizing OpenAI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Scrape%20and%20summarize%20posts%20of%20a%20news%20site%20without%20RSS%20feed%20using%20AI%20and%20save%20them%20to%20a%20NocoDB.json",
+    "category": "common"
+  },
+  {
+    "name": "Scrape and summarize webpages with AI",
+    "description": "Web scraping and data collection workflow utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Scrape%20and%20summarize%20webpages%20with%20AI.json",
+    "category": "common"
+  },
+  {
+    "name": "Spot Workplace Discrimination Patterns with AI",
+    "description": "General AI automation workflow utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Spot%20Workplace%20Discrimination%20Patterns%20with%20AI.json",
+    "category": "common"
+  },
+  {
+    "name": "Use AI to organize your Todoist Inbox",
+    "description": "General AI automation workflow utilizing OpenAI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Use%20AI%20to%20organize%20your%20Todoist%20Inbox.json",
+    "category": "common"
+  },
+  {
+    "name": "Visualize your SQL Agent queries with OpenAI and Quickchart.io",
+    "description": "General AI automation workflow utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/common/Visualize%20your%20SQL%20Agent%20queries%20with%20OpenAI%20and%20Quickchart.io.json",
+    "category": "common"
+  },
+  {
+    "name": "Building Your First WhatsApp Chatbot-2",
+    "description": "Chatbot system utilizing OpenAI and LangChain (WhatsApp integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/whats-app/Building%20Your%20First%20WhatsApp%20Chatbot-2.json",
+    "category": "whats-app"
+  },
+  {
+    "name": "Respond to WhatsApp Messages with AI Like a Pro!",
+    "description": "AI-based workflow utilizing Google Gemini and LangChain (Google, WhatsApp integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/whats-app/Respond%20to%20WhatsApp%20Messages%20with%20AI%20Like%20a%20Pro!.json",
+    "category": "whats-app"
+  },
+  {
+    "name": "Handling Appointment Leads and Follow-up With Twilio, Cal.com and AI",
+    "description": "AI-based workflow utilizing OpenAI and LangChain (Airtable integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/cms/Handling%20Appointment%20Leads%20and%20Follow-up%20With%20Twilio,%20Cal.com%20and%20AI.json",
+    "category": "cms"
+  },
+  {
+    "name": "AI-Powered Children_s Arabic Storytelling on Telegram",
+    "description": "Telegram storytelling bot utilizing OpenAI and LangChain (Telegram integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/telegram/AI-Powered%20Children_s%20Arabic%20Storytelling%20on%20Telegram.json",
+    "category": "telegram"
+  },
+  {
+    "name": "AI-Powered Children_s English Storytelling on Telegram with OpenAI",
+    "description": "Telegram storytelling bot utilizing OpenAI and LangChain (Telegram integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/telegram/AI-Powered%20Children_s%20English%20Storytelling%20on%20Telegram%20with%20OpenAI.json",
+    "category": "telegram"
+  },
+  {
+    "name": "Agentic Telegram AI bot with with LangChain nodes and new tools",
+    "description": "Telegram chatbot utilizing OpenAI and LangChain (Telegram integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/telegram/Agentic%20Telegram%20AI%20bot%20with%20with%20LangChain%20nodes%20and%20new%20tools.json",
+    "category": "telegram"
+  },
+  {
+    "name": "Angie, Personal AI Assistant with Telegram Voice and Text",
+    "description": "Telegram voice message processing utilizing OpenAI and LangChain (Google, Gmail, Telegram integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/telegram/Angie,%20Personal%20AI%20Assistant%20with%20Telegram%20Voice%20and%20Text.json",
+    "category": "telegram"
+  },
+  {
+    "name": "DeepSeek AI Agent + Telegram + LONG TERM Memory",
+    "description": "Telegram automation utilizing OpenAI and LangChain (Google, Telegram integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/telegram/DeepSeek%20AI%20Agent%20+%20Telegram%20+%20LONG%20TERM%20Memory.json",
+    "category": "telegram"
+  },
+  {
+    "name": "Extract data from resume and create PDF with Gotenberg",
+    "description": "Telegram automation utilizing OpenAI and LangChain (Telegram integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/telegram/Extract%20data%20from%20resume%20and%20create%20PDF%20with%20Gotenberg.json",
+    "category": "telegram"
+  },
+  {
+    "name": "Telegram AI Bot_ NeurochainAI Text & Image - NeurochainAI Basic API Integration",
+    "description": "Telegram chatbot utilizing AI (Telegram integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/telegram/Telegram%20AI%20Bot_%20NeurochainAI%20Text%20&%20Image%20-%20NeurochainAI%20Basic%20API%20Integration.json",
+    "category": "telegram"
+  },
+  {
+    "name": "Telegram AI Chatbot",
+    "description": "Telegram chatbot utilizing OpenAI (Telegram integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/telegram/Telegram%20AI%20Chatbot.json",
+    "category": "telegram"
+  },
+  {
+    "name": "Telegram AI bot assistant_ ready-made template for voice & text messages",
+    "description": "Telegram chatbot utilizing OpenAI and LangChain (Telegram integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/telegram/Telegram%20AI%20bot%20assistant_%20ready-made%20template%20for%20voice%20&%20text%20messages.json",
+    "category": "telegram"
+  },
+  {
+    "name": "Telegram AI bot with LangChain nodes",
+    "description": "Telegram chatbot utilizing OpenAI and LangChain (Telegram integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/telegram/Telegram%20AI%20bot%20with%20LangChain%20nodes.json",
+    "category": "telegram"
+  },
+  {
+    "name": "Telegram chat with PDF",
+    "description": "Telegram automation utilizing OpenAI and LangChain (Telegram integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/telegram/Telegram%20chat%20with%20PDF.json",
+    "category": "telegram"
+  },
+  {
+    "name": "Telegram Messaging Agent for Text_Audio_Images",
+    "description": "Telegram automation utilizing OpenAI and LangChain (Telegram integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/telegram/Telegram%20Messaging%20Agent%20for%20Text_Audio_Images.json",
+    "category": "telegram"
+  },
+  {
+    "name": "Translate Telegram audio messages with AI (55 supported languages)",
+    "description": "Telegram automation utilizing OpenAI and LangChain (Telegram integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/telegram/Translate%20Telegram%20audio%20messages%20with%20AI%20(55%20supported%20languages).json",
+    "category": "telegram"
+  },
+  {
+    "name": "UTM Link Creator & QR Code Generator with Scheduled Google Analytics Reports",
+    "description": "AI-based workflow utilizing OpenAI and LangChain (Google, Gmail, Airtable integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/marketing/UTM%20Link%20Creator%20&%20QR%20Code%20Generator%20with%20Scheduled%20Google%20Analytics%20Reports.json",
+    "category": "marketing"
+  },
+  {
+    "name": "Survey Insights with Qdrant, Python and Information Extractor",
+    "description": "AI-based workflow utilizing OpenAI and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/marketing/Survey%20Insights%20with%20Qdrant,%20Python%20and%20Information%20Extractor.json",
+    "category": "marketing"
+  },
+  {
+    "name": "Summarize Umami data with AI (via Openrouter) and save it to Baserow",
+    "description": "AI-based workflow utilizing AI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/marketing/Summarize%20Umami%20data%20with%20AI%20(via%20Openrouter)%20and%20save%20it%20to%20Baserow.json",
+    "category": "marketing"
+  },
+  {
+    "name": "Send Google analytics data to A.I. to analyze then save results in Baserow",
+    "description": "Data analysis utilizing AI (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/marketing/Send%20Google%20analytics%20data%20to%20A.I.%20to%20analyze%20then%20save%20results%20in%20Baserow.json",
+    "category": "marketing"
+  },
+  {
+    "name": "Create a Google Analytics Data Report with AI and sent it to E-Mail and Telegram",
+    "description": "AI-based workflow utilizing OpenAI and LangChain (Google, Telegram integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/marketing/Create%20a%20Google%20Analytics%20Data%20Report%20with%20AI%20and%20sent%20it%20to%20E-Mail%20and%20Telegram.json",
+    "category": "marketing"
+  },
+  {
+    "name": "Conversational Interviews with AI Agents and n8n Forms",
+    "description": "AI-based workflow utilizing LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/marketing/Conversational%20Interviews%20with%20AI%20Agents%20and%20n8n%20Forms.json",
+    "category": "marketing"
+  },
+  {
+    "name": "Analyze feedback using AWS Comprehend and send it to a Mattermost channel",
+    "description": "Data analysis utilizing AI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/marketing/Analyze%20feedback%20using%20AWS%20Comprehend%20and%20send%20it%20to%20a%20Mattermost%20channel.json",
+    "category": "marketing"
+  },
+  {
+    "name": "Analyze feedback and send a message on Mattermost",
+    "description": "Data analysis utilizing AI (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/marketing/Analyze%20feedback%20and%20send%20a%20message%20on%20Mattermost.json",
+    "category": "marketing"
+  },
+  {
+    "name": "Add positive feedback messages to a table in Notion",
+    "description": "AI-based workflow utilizing AI (Google, Notion, Slack integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/marketing/Add%20positive%20feedback%20messages%20to%20a%20table%20in%20Notion.json",
+    "category": "marketing"
+  },
+  {
+    "name": "Ask a human for help when the AI doesn_t know the answer",
+    "description": "Slack automation and notification utilizing OpenAI and LangChain (Slack integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/slack/Ask%20a%20human%20for%20help%20when%20the%20AI%20doesn_t%20know%20the%20answer.json",
+    "category": "slack"
+  },
+  {
+    "name": "Classify lemlist replies using OpenAI and automate reply handling",
+    "description": "Slack automation and notification utilizing OpenAI and LangChain (Slack integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/slack/Classify%20lemlist%20replies%20using%20OpenAI%20and%20automate%20reply%20handling.json",
+    "category": "slack"
+  },
+  {
+    "name": "Creating a AI Slack Bot with Google Gemini",
+    "description": "Slack chatbot utilizing Google Gemini and LangChain (Google, Slack integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/slack/Creating%20a%20AI%20Slack%20Bot%20with%20Google%20Gemini.json",
+    "category": "slack"
+  },
+  {
+    "name": "Enhance Security Operations with the Qualys Slack Shortcut Bot-2",
+    "description": "Slack chatbot utilizing AI (Slack integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/slack/Enhance%20Security%20Operations%20with%20the%20Qualys%20Slack%20Shortcut%20Bot-2.json",
+    "category": "slack"
+  },
+  {
+    "name": "Enrich Pipedrive_s Organization Data with OpenAI GPT-4o & Notify it in Slack",
+    "description": "Slack automation and notification utilizing OpenAI (Slack integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/slack/Enrich%20Pipedrive_s%20Organization%20Data%20with%20OpenAI%20GPT-4o%20&%20Notify%20it%20in%20Slack.json",
+    "category": "slack"
+  },
+  {
+    "name": "Slack slash commands AI Chat Bot",
+    "description": "Slack chatbot utilizing OpenAI and LangChain (Slack integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/slack/Slack%20slash%20commands%20AI%20Chat%20Bot.json",
+    "category": "slack"
+  },
+  {
+    "name": "Venafi Cloud Slack Cert Bot",
+    "description": "Slack chatbot utilizing OpenAI (Slack integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/slack/Venafi%20Cloud%20Slack%20Cert%20Bot.json",
+    "category": "slack"
+  },
+  {
+    "name": "Analyze & Sort Suspicious Email Contents with ChatGPT",
+    "description": "Data analysis utilizing OpenAI (Gmail integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/issue-tracker/Analyze%20&%20Sort%20Suspicious%20Email%20Contents%20with%20ChatGPT.json",
+    "category": "issue-tracker"
+  },
+  {
+    "name": "Analyze Suspicious Email Contents with ChatGPT Vision",
+    "description": "Data analysis utilizing OpenAI (Gmail integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/issue-tracker/Analyze%20Suspicious%20Email%20Contents%20with%20ChatGPT%20Vision.json",
+    "category": "issue-tracker"
+  },
+  {
+    "name": "Automate Customer Support Issue Resolution using AI Text Classifier",
+    "description": "Business automation utilizing OpenAI and LangChain (Notion, Slack integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/issue-tracker/Automate%20Customer%20Support%20Issue%20Resolution%20using%20AI%20Text%20Classifier.json",
+    "category": "issue-tracker"
+  },
+  {
+    "name": "Classify new bugs in Linear with OpenAI_s GPT-4 and move them to the right team",
+    "description": "AI-based workflow utilizing OpenAI (Slack integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/issue-tracker/Classify%20new%20bugs%20in%20Linear%20with%20OpenAI_s%20GPT-4%20and%20move%20them%20to%20the%20right%20team.json",
+    "category": "issue-tracker"
+  },
+  {
+    "name": "Customer Support Channel and Ticketing System with Slack and Linear",
+    "description": "AI-based workflow utilizing OpenAI and LangChain (Slack integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/issue-tracker/Customer%20Support%20Channel%20and%20Ticketing%20System%20with%20Slack%20and%20Linear.json",
+    "category": "issue-tracker"
+  },
+  {
+    "name": "Vector Database as a Big Data Analysis Tool for AI Agents 1_3 anomaly 1_2 KNN",
+    "description": "Data analysis utilizing AI (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/machine-learning/Vector%20Database%20as%20a%20Big%20Data%20Analysis%20Tool%20for%20AI%20Agents%201_3%20anomaly%201_2%20KNN.json",
+    "category": "machine-learning"
+  },
+  {
+    "name": "Vector Database as a Big Data Analysis Tool for AI Agents 2_2 KNN-1",
+    "description": "Data analysis utilizing AI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/machine-learning/Vector%20Database%20as%20a%20Big%20Data%20Analysis%20Tool%20for%20AI%20Agents%202_2%20KNN-1.json",
+    "category": "machine-learning"
+  },
+  {
+    "name": "Vector Database as a Big Data Analysis Tool for AI Agents 2_2 KNN-2",
+    "description": "Data analysis utilizing AI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/machine-learning/Vector%20Database%20as%20a%20Big%20Data%20Analysis%20Tool%20for%20AI%20Agents%202_2%20KNN-2.json",
+    "category": "machine-learning"
+  },
+  {
+    "name": "Vector Database as a Big Data Analysis Tool for AI Agents 2_3 - anomaly",
+    "description": "Data analysis utilizing AI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/machine-learning/Vector%20Database%20as%20a%20Big%20Data%20Analysis%20Tool%20for%20AI%20Agents%202_3%20-%20anomaly.json",
+    "category": "machine-learning"
+  },
+  {
+    "name": "Vector Database as a Big Data Analysis Tool for AI Agents 3_3 - anomaly",
+    "description": "Data analysis utilizing AI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/machine-learning/Vector%20Database%20as%20a%20Big%20Data%20Analysis%20Tool%20for%20AI%20Agents%203_3%20-%20anomaly.json",
+    "category": "machine-learning"
+  },
+  {
+    "name": "A Very Simple _Human in the Loop_ Email Response System Using AI and IMAP",
+    "description": "Email automation and response generation utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/A%20Very%20Simple%20_Human%20in%20the%20Loop_%20Email%20Response%20System%20Using%20AI%20and%20IMAP.json",
+    "category": "email"
+  },
+  {
+    "name": "AI-Powered Email Automation for Business_ Summarize & Respond with RAG",
+    "description": "Email automation and response generation utilizing OpenAI and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/AI-Powered%20Email%20Automation%20for%20Business_%20Summarize%20&%20Respond%20with%20RAG.json",
+    "category": "email"
+  },
+  {
+    "name": "AI-powered email processing autoresponder and response approval (Yes_No)",
+    "description": "Email automation and response generation utilizing OpenAI and LangChain (Gmail integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/AI-powered%20email%20processing%20autoresponder%20and%20response%20approval%20(Yes_No).json",
+    "category": "email"
+  },
+  {
+    "name": "Auto Categorise Outlook Emails with AI",
+    "description": "Outlook email management utilizing Ollama and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/Auto%20Categorise%20Outlook%20Emails%20with%20AI.json",
+    "category": "email"
+  },
+  {
+    "name": "Auto-label incoming Gmail messages with AI nodes",
+    "description": "Gmail email automation utilizing OpenAI and LangChain (Gmail integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/Auto-label%20incoming%20Gmail%20messages%20with%20AI%20nodes.json",
+    "category": "email"
+  },
+  {
+    "name": "Basic Automatic Gmail Email Labelling with OpenAI and Gmail API",
+    "description": "Gmail email automation utilizing OpenAI and LangChain (Gmail integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/Basic%20Automatic%20Gmail%20Email%20Labelling%20with%20OpenAI%20and%20Gmail%20API.json",
+    "category": "email"
+  },
+  {
+    "name": "Compose reply draft in Gmail with OpenAI Assistant",
+    "description": "Gmail email automation utilizing OpenAI (Gmail integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/Compose%20reply%20draft%20in%20Gmail%20with%20OpenAI%20Assistant.json",
+    "category": "email"
+  },
+  {
+    "name": "create e-mail responses with fastmail and OpenAI",
+    "description": "Email automation and response generation utilizing OpenAI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/create%20e-mail%20responses%20with%20fastmail%20and%20OpenAI.json",
+    "category": "email"
+  },
+  {
+    "name": "Effortless Email Management with AI-Powered Summarization & Review",
+    "description": "Email automation and response generation utilizing OpenAI and LangChain (Google, Gmail integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/Effortless%20Email%20Management%20with%20AI-Powered%20Summarization%20&%20Review.json",
+    "category": "email"
+  },
+  {
+    "name": "Email Summary Agent",
+    "description": "Email automation and response generation utilizing OpenAI (Gmail integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/Email%20Summary%20Agent.json",
+    "category": "email"
+  },
+  {
+    "name": "Gmail AI Auto-Responder_ Create Draft Replies to incoming emails",
+    "description": "Gmail email automation utilizing OpenAI and LangChain (Gmail integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/Gmail%20AI%20Auto-Responder_%20Create%20Draft%20Replies%20to%20incoming%20emails.json",
+    "category": "email"
+  },
+  {
+    "name": "Microsoft Outlook AI Email Assistant with contact support from Monday and Airtable",
+    "description": "Outlook email management utilizing OpenAI and LangChain (Airtable integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/Microsoft%20Outlook%20AI%20Email%20Assistant%20with%20contact%20support%20from%20Monday%20and%20Airtable.json",
+    "category": "email"
+  },
+  {
+    "name": "Qualify replies from Pipedrive persons with AI",
+    "description": "Email automation and response generation utilizing OpenAI (Gmail integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/Qualify%20replies%20from%20Pipedrive%20persons%20with%20AI.json",
+    "category": "email"
+  },
+  {
+    "name": "Social Media Analysis and Automated Email Generation",
+    "description": "Email automation and response generation utilizing OpenAI and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/Social%20Media%20Analysis%20and%20Automated%20Email%20Generation.json",
+    "category": "email"
+  },
+  {
+    "name": "Suggest meeting slots using AI",
+    "description": "Email automation and response generation utilizing OpenAI and LangChain (Google, Gmail integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/Suggest%20meeting%20slots%20using%20AI.json",
+    "category": "email"
+  },
+  {
+    "name": "Summarize Google Sheets form feedback via OpenAI_s GPT-4",
+    "description": "Email automation and response generation utilizing OpenAI (Google, Gmail integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/Summarize%20Google%20Sheets%20form%20feedback%20via%20OpenAI_s%20GPT-4.json",
+    "category": "email"
+  },
+  {
+    "name": "Summarize your emails with A.I. (via Openrouter) and send to Line messenger-1",
+    "description": "Email automation and response generation utilizing AI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/Summarize%20your%20emails%20with%20A.I.%20(via%20Openrouter)%20and%20send%20to%20Line%20messenger-1.json",
+    "category": "email"
+  },
+  {
+    "name": "Summarize your emails with A.I. (via Openrouter) and send to Line messenger-2",
+    "description": "Email automation and response generation utilizing AI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/Summarize%20your%20emails%20with%20A.I.%20(via%20Openrouter)%20and%20send%20to%20Line%20messenger-2.json",
+    "category": "email"
+  },
+  {
+    "name": "Turn Emails into AI-Enhanced Tasks in Notion (Multi-User Support) with Gmail, Airtable and Softr",
+    "description": "Gmail email automation utilizing OpenAI and LangChain (Notion, Gmail, Airtable integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/email/Turn%20Emails%20into%20AI-Enhanced%20Tasks%20in%20Notion%20(Multi-User%20Support)%20with%20Gmail,%20Airtable%20and%20Softr.json",
+    "category": "email"
+  },
+  {
+    "name": "AI Voice Chat using Webhook, Memory Manager, OpenAI, Google Gemini & ElevenLabs",
+    "description": "Voice processing and conversation utilizing OpenAI, Google Gemini, and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/AI%20Voice%20Chat%20using%20Webhook,%20Memory%20Manager,%20OpenAI,%20Google%20Gemini%20&%20ElevenLabs.json",
+    "category": "multi-modal"
+  },
+  {
+    "name": "AI Voice Chatbot with ElevenLabs & OpenAI for Customer Service and Restaurants",
+    "description": "Voice processing and conversation utilizing OpenAI and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/AI%20Voice%20Chatbot%20with%20ElevenLabs%20&%20OpenAI%20for%20Customer%20Service%20and%20Restaurants.json",
+    "category": "multi-modal"
+  },
+  {
+    "name": "Analyze tradingview.com charts with Chrome extension, N8N and OpenAI",
+    "description": "Multimodal AI processing utilizing OpenAI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Analyze%20tradingview.com%20charts%20with%20Chrome%20extension,%20N8N%20and%20OpenAI.json",
+    "category": "multi-modal"
+  },
+  {
+    "name": "Automate Content Generator for WordPress with DeepSeek R1",
+    "description": "Multimodal AI processing utilizing OpenAI (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Automate%20Content%20Generator%20for%20WordPress%20with%20DeepSeek%20R1.json",
+    "category": "multi-modal"
+  },
+  {
+    "name": "Automate Image Validation Tasks using AI Vision",
+    "description": "Image analysis and processing utilizing Google Gemini and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Automate%20Image%20Validation%20Tasks%20using%20AI%20Vision.json",
+    "category": "multi-modal"
+  },
+  {
+    "name": "Automate Screenshots with URLbox & Analyze them with AI",
+    "description": "Multimodal AI processing utilizing OpenAI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Automate%20Screenshots%20with%20URLbox%20&%20Analyze%20them%20with%20AI.json",
+    "category": "multi-modal"
+  },
+  {
+    "name": "Automated AI image analysis and response via Telegram",
+    "description": "Image analysis and processing utilizing OpenAI (Telegram integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Automated%20AI%20image%20analysis%20and%20response%20via%20Telegram.json",
+    "category": "multi-modal"
+  },
+  {
+    "name": "Build Your Own Image Search Using AI Object Detection, CDN and ElasticSearchBuild Your Own Image Search Using AI Object Detection, CDN and ElasticSearch",
+    "description": "Image analysis and processing utilizing AI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Build%20Your%20Own%20Image%20Search%20Using%20AI%20Object%20Detection,%20CDN%20and%20ElasticSearchBuild%20Your%20Own%20Image%20Search%20Using%20AI%20Object%20Detection,%20CDN%20and%20ElasticSearch.json",
+    "category": "multi-modal"
+  },
+  {
+    "name": "Configure your own Image Creation API Using OpenAI DALLE-3",
+    "description": "Image analysis and processing utilizing OpenAI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Configure%20your%20own%20Image%20Creation%20API%20Using%20OpenAI%20DALLE-3.json",
+    "category": "multi-modal"
+  },
+  {
+    "name": "Convert text to speech with OpenAI",
+    "description": "Multimodal AI processing utilizing AI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Convert%20text%20to%20speech%20with%20OpenAI.json",
+    "category": "multi-modal"
+  },
+  {
+    "name": "Create dynamic Twitter profile banner",
+    "description": "Multimodal AI processing utilizing AI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Create%20dynamic%20Twitter%20profile%20banner.json",
+    "category": "multi-modal"
+  },
+  {
+    "name": "CV Screening with OpenAI",
+    "description": "Multimodal AI processing utilizing AI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/CV%20Screening%20with%20OpenAI.json",
+    "category": "multi-modal"
+  },
+  {
+    "name": "Daily Podcast Summary",
+    "description": "Multimodal AI processing utilizing OpenAI (Gmail integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Daily%20Podcast%20Summary.json",
+    "category": "multi-modal"
+  },
+  {
+    "name": "Easy Image Captioning with Gemini 1.5 Pro",
+    "description": "Image analysis and processing utilizing Google Gemini and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Easy%20Image%20Captioning%20with%20Gemini%201.5%20Pro.json",
+    "category": "multi-modal"
+  },
+  {
+    "name": "Enrich Property Inventory Survey with Image Recognition and AI Agent",
+    "description": "Image analysis and processing utilizing OpenAI and LangChain (Google, Airtable integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Enrich%20Property%20Inventory%20Survey%20with%20Image%20Recognition%20and%20AI%20Agent.json",
+    "category": "multi-modal"
+  },
+  {
+    "name": "Extract text from PDF and image using Vertex AI (Gemini) into CSV",
+    "description": "Image analysis and processing utilizing Google Gemini and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Extract%20text%20from%20PDF%20and%20image%20using%20Vertex%20AI%20(Gemini)%20into%20CSV.json",
+    "category": "multi-modal"
+  },
+  {
+    "name": "Flux AI Image Generator",
+    "description": "Image analysis and processing utilizing AI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Flux%20AI%20Image%20Generator.json",
+    "category": "multi-modal"
+  },
+  {
+    "name": "Flux Dev Image Generation (Fal.ai) to Google Drive",
+    "description": "Image analysis and processing utilizing AI (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Flux%20Dev%20Image%20Generation%20(Fal.ai)%20to%20Google%20Drive.json",
+    "category": "multi-modal"
+  },
+  {
+    "name": "Generate Text-to-Speech Using Elevenlabs via API",
+    "description": "Multimodal AI processing utilizing AI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Generate%20Text-to-Speech%20Using%20Elevenlabs%20via%20API.json",
+    "category": "multi-modal"
+  },
+  {
+    "name": "Generating Image Embeddings via Textual Summarisation",
+    "description": "Image analysis and processing utilizing OpenAI and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Generating%20Image%20Embeddings%20via%20Textual%20Summarisation.json",
+    "category": "multi-modal"
+  },
+  {
+    "name": "Hacker News to Video Content",
+    "description": "Video processing and analysis utilizing OpenAI and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Hacker%20News%20to%20Video%20Content.json",
+    "category": "multi-modal"
+  },
+  {
+    "name": "Image Creation with OpenAI and Telegram",
+    "description": "Image analysis and processing utilizing OpenAI (Telegram integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Image%20Creation%20with%20OpenAI%20and%20Telegram.json",
+    "category": "multi-modal"
+  },
+  {
+    "name": "Interactive Image Editor with FLUX.1 Fill Tool for Inpainting",
+    "description": "Image analysis and processing utilizing AI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Interactive%20Image%20Editor%20with%20FLUX.1%20Fill%20Tool%20for%20Inpainting.json",
+    "category": "multi-modal"
+  },
+  {
+    "name": "Local Multi-LLM Testing & Performance Tracker",
+    "description": "Multimodal AI processing utilizing OpenAI and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Local%20Multi-LLM%20Testing%20&%20Performance%20Tracker.json",
+    "category": "multi-modal"
+  },
+  {
+    "name": "Narrating over a Video using Multimodal AI",
+    "description": "Video processing and analysis utilizing OpenAI and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Narrating%20over%20a%20Video%20using%20Multimodal%20AI.json",
+    "category": "multi-modal"
+  },
+  {
+    "name": "Prompt-based Object Detection with Gemini 2.0",
+    "description": "Multimodal AI processing utilizing Google Gemini",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Prompt-based%20Object%20Detection%20with%20Gemini%202.0.json",
+    "category": "multi-modal"
+  },
+  {
+    "name": "Screen Applicants With AI, notify HR and save them in a Google Sheet",
+    "description": "Multimodal AI processing utilizing Google Gemini and LangChain (Google, Gmail integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Screen%20Applicants%20With%20AI,%20notify%20HR%20and%20save%20them%20in%20a%20Google%20Sheet.json",
+    "category": "multi-modal"
+  },
+  {
+    "name": "Transform Image to Lego Style Using Line and Dall-E",
+    "description": "Image analysis and processing utilizing OpenAI",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Transform%20Image%20to%20Lego%20Style%20Using%20Line%20and%20Dall-E.json",
+    "category": "multi-modal"
+  },
+  {
+    "name": "Translate audio using AI",
+    "description": "Multimodal AI processing utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Translate%20audio%20using%20AI.json",
+    "category": "multi-modal"
+  },
+  {
+    "name": "Visual Regression Testing with Apify and AI Vision Model",
+    "description": "Multimodal AI processing utilizing Google Gemini and LangChain (Google integration)",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Visual%20Regression%20Testing%20with%20Apify%20and%20AI%20Vision%20Model.json",
+    "category": "multi-modal"
+  },
+  {
+    "name": "Zoom AI Meeting Assistant creates mail summary, ClickUp tasks and follow-up call",
+    "description": "Multimodal AI processing utilizing OpenAI and LangChain",
+    "url": "https://raw.githubusercontent.com/n8nKOR/n8n-shared-workflow/refs/heads/main/workflows/awesome-n8n-templates-by-enescingoz/multi-modal/Zoom%20AI%20Meeting%20Assistant%20creates%20mail%20summary,%20ClickUp%20tasks%20and%20follow-up%20call.json",
+    "category": "multi-modal"
   }
 ]
