@@ -156,7 +156,7 @@ go run ./cmd/n8n-mcp-server -standalone=false
 ```json
 {
   "mcpServers": {
-    "n8n-workflow": {
+    "n8n-kor-workflow": {
       "command": "/Users/{username}/{clone_path}/build/n8n-mcp-server",
       "args": ["--standalone", "--lang", "jp"]
     }
@@ -168,7 +168,7 @@ go run ./cmd/n8n-mcp-server -standalone=false
 ```json
 {
   "mcpServers": {
-    "n8n-workflow": {
+    "n8n-kor-workflow": {
       "command": "/Users/{username}/{clone_path}/build/n8n-mcp-server",
       "args": ["-standalone=false", "--lang", "jp"]
     }
@@ -180,7 +180,7 @@ go run ./cmd/n8n-mcp-server -standalone=false
 ```json
 {
   "mcpServers": {
-    "n8n-workflow": {
+    "n8n-kor-workflow": {
       "command": "go",
       "args": ["run", "./cmd/n8n-mcp-server", "--standalone", "--lang", "jp"],
       "cwd": "/Users/{username}/{clone_path}"
@@ -196,7 +196,7 @@ go run ./cmd/n8n-mcp-server -standalone=false
 ```json
 {
   "mcpServers": {
-    "n8n-workflow": {
+    "n8n-kor-workflow": {
       "command": "C:\\path\\to\\n8n-workflow-mcp\\build\\n8n-mcp-server.exe",
       "args": ["--standalone", "--lang", "jp"]
     }
@@ -208,7 +208,7 @@ go run ./cmd/n8n-mcp-server -standalone=false
 ```json
 {
   "mcpServers": {
-    "n8n-workflow": {
+    "n8n-kor-workflow": {
       "command": "C:\\path\\to\\n8n-workflow-mcp\\build\\n8n-mcp-server.exe",
       "args": ["-standalone=false", "--lang", "jp"]
     }
@@ -220,7 +220,7 @@ go run ./cmd/n8n-mcp-server -standalone=false
 ```json
 {
   "mcpServers": {
-    "n8n-workflow": {
+    "n8n-kor-workflow": {
       "command": "go",
       "args": ["run", ".\\cmd\\n8n-mcp-server", "--standalone", "--lang", "jp"],
       "cwd": "C:\\path\\to\\n8n-workflow-mcp"

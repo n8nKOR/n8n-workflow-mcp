@@ -135,7 +135,7 @@ After applying the configuration, completely close the Claude Code & Cursor app 
 ```json
 {
   "mcpServers": {
-    "n8n-workflow": {
+    "n8n-kor-workflow": {
       "command": "/path/to/n8n-mcp-server",
       "args": [
         "--standalone",
@@ -154,7 +154,7 @@ After applying the configuration, completely close the Claude Code & Cursor app 
 ```json
 {
   "mcpServers": {
-    "n8n-workflow": {
+    "n8n-kor-workflow": {
       "command": "/path/to/n8n-mcp-server",
       "args": [
         "-standalone=false",

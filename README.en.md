@@ -156,7 +156,7 @@ Configuration file location: `~/Library/Application Support/Claude/claude_deskto
 ```json
 {
   "mcpServers": {
-    "n8n-workflow": {
+    "n8n-kor-workflow": {
       "command": "/Users/{username}/{clone_path}/build/n8n-mcp-server",
       "args": ["--standalone", "--lang", "en"]
     }
@@ -168,7 +168,7 @@ Configuration file location: `~/Library/Application Support/Claude/claude_deskto
 ```json
 {
   "mcpServers": {
-    "n8n-workflow": {
+    "n8n-kor-workflow": {
       "command": "/Users/{username}/{clone_path}/build/n8n-mcp-server",
       "args": ["-standalone=false", "--lang", "en"]
     }
@@ -180,7 +180,7 @@ Configuration file location: `~/Library/Application Support/Claude/claude_deskto
 ```json
 {
   "mcpServers": {
-    "n8n-workflow": {
+    "n8n-kor-workflow": {
       "command": "go",
       "args": ["run", "./cmd/n8n-mcp-server", "--standalone", "--lang", "en"],
       "cwd": "/Users/{username}/{clone_path}"
@@ -196,7 +196,7 @@ Configuration file location: `%APPDATA%\Claude\claude_desktop_config.json`
 ```json
 {
   "mcpServers": {
-    "n8n-workflow": {
+    "n8n-kor-workflow": {
       "command": "C:\\path\\to\\n8n-workflow-mcp\\build\\n8n-mcp-server.exe",
       "args": ["--standalone", "--lang", "en"]
     }
@@ -208,7 +208,7 @@ Configuration file location: `%APPDATA%\Claude\claude_desktop_config.json`
 ```json
 {
   "mcpServers": {
-    "n8n-workflow": {
+    "n8n-kor-workflow": {
       "command": "C:\\path\\to\\n8n-workflow-mcp\\build\\n8n-mcp-server.exe",
       "args": ["-standalone=false", "--lang", "en"]
     }
@@ -220,7 +220,7 @@ Configuration file location: `%APPDATA%\Claude\claude_desktop_config.json`
 ```json
 {
   "mcpServers": {
-    "n8n-workflow": {
+    "n8n-kor-workflow": {
       "command": "go",
       "args": ["run", ".\\cmd\\n8n-mcp-server", "--standalone", "--lang", "en"],
       "cwd": "C:\\path\\to\\n8n-workflow-mcp"

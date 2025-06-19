@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "n8n-workflow": {
+    "n8n-kor-workflow": {
       "command": "C:\\path\\to\\n8n-workflow-mcp\\build\\n8n-mcp-server.exe",
       "args": ["--standalone", "--lang", "ko"]
     }
