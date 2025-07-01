@@ -1,6 +1,6 @@
 # n8n Workflow MCP Server
 
-[![한국어](https://img.shields.io/badge/README-한국어-blue)](README.md) | [![English](https://img.shields.io/badge/README-English-red)](README.en.md) | [![日本語](https://img.shields.io/badge/README-日본語-green)](README.jp.md)
+[![한국어](https://img.shields.io/badge/README-한국어-blue)](README.md) | [![English](https://img.shields.io/badge/README-English-red)](README.en.md) | [![日本語](https://img.shields.io/badge/README-日本語-green)](README.jp.md) | [![Tiếng Việt](https://img.shields.io/badge/README-Tiếng%20Việt-yellow)](README.vn.md) | [![繁體中文](https://img.shields.io/badge/README-繁體中文-purple)](README.tw.md) | [![ไทย](https://img.shields.io/badge/README-ไทย-orange)](README.th.md)
 
 ## 🎬 Demo Video
 
@@ -16,6 +16,9 @@ An MCP (Model Context Protocol) server for n8n workflow validation and managemen
 - **Korean (ko)** - Default language
 - **English (en)** - English support
 - **Japanese (jp)** - 日本語サポート
+- **Vietnamese (vn)** - Hỗ trợ tiếng Việt
+- **Traditional Chinese (tw)** - 繁體中文支援
+- **Thai (th)** - การสนับสนุนภาษาไทย
 - All tool descriptions and parameter descriptions are displayed in the selected language
 
 ### 📝 Workflow Management Tools
@@ -104,18 +107,24 @@ go run ./cmd/n8n-mcp-server -standalone=false
 ```
 
 ### 🌐 Multi-language Support
-The server supports Korean (ko), English (en), and Japanese (jp). You can set the language using the `--lang` flag:
+The server supports Korean (ko), English (en), Japanese (jp), Vietnamese (vn), Traditional Chinese (tw), and Thai (th). You can set the language using the `--lang` flag:
 
 ```bash
 # Standalone mode
 ./build/n8n-mcp-server -standalone --lang ko  # Korean (default)
 ./build/n8n-mcp-server -standalone --lang en  # English
 ./build/n8n-mcp-server -standalone --lang jp  # Japanese
+./build/n8n-mcp-server -standalone --lang vn  # Vietnamese
+./build/n8n-mcp-server -standalone --lang tw  # Traditional Chinese
+./build/n8n-mcp-server -standalone --lang th  # Thai
 
 # File system mode
 ./build/n8n-mcp-server -standalone=false --lang ko  # Korean (default)
 ./build/n8n-mcp-server -standalone=false --lang en  # English
 ./build/n8n-mcp-server -standalone=false --lang jp  # Japanese
+./build/n8n-mcp-server -standalone=false --lang vn  # Vietnamese
+./build/n8n-mcp-server -standalone=false --lang tw  # Traditional Chinese
+./build/n8n-mcp-server -standalone=false --lang th  # Thai
 ```
 
 ### ⚙️ Search Weight Adjustment

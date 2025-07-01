@@ -1,6 +1,6 @@
 # n8n Workflow MCP Server
 
-[![한국어](https://img.shields.io/badge/README-한국어-blue)](README.md) | [![English](https://img.shields.io/badge/README-English-red)](README.en.md) | [![日本語](https://img.shields.io/badge/README-日本語-green)](README.jp.md)
+[![한국어](https://img.shields.io/badge/README-한국어-blue)](README.md) | [![English](https://img.shields.io/badge/README-English-red)](README.en.md) | [![日本語](https://img.shields.io/badge/README-日本語-green)](README.jp.md) | [![Tiếng Việt](https://img.shields.io/badge/README-Tiếng%20Việt-yellow)](README.vn.md) | [![繁體中文](https://img.shields.io/badge/README-繁體中文-purple)](README.tw.md) | [![ไทย](https://img.shields.io/badge/README-ไทย-orange)](README.th.md)
 
 ## 🎬 デモビデオ
 
@@ -16,6 +16,9 @@ n8nワークフローの検証と管理のためのMCP (Model Context Protocol) 
 - **韓国語 (ko)** - デフォルト言語
 - **英語 (en)** - English support
 - **日本語 (jp)** - 日本語サポート
+- **ベトナム語 (vn)** - Hỗ trợ tiếng Việt
+- **繁体字中国語 (tw)** - 繁體中文支援
+- **タイ語 (th)** - การสนับสนุนภาษาไทย
 - すべてのツールの説明とパラメータの説明が選択した言語で表示されます
 
 ### 📝 ワークフロー管理ツール
@@ -104,18 +107,24 @@ go run ./cmd/n8n-mcp-server -standalone=false
 ```
 
 ### 🌐 多言語サポート
-サーバーは韓国語(ko)、英語(en)、日本語(jp)をサポートしています。`--lang`フラグで言語を設定できます：
+サーバーは韓国語(ko)、英語(en)、日本語(jp)、ベトナム語(vn)、繁体字中国語(tw)、タイ語(th)をサポートしています。`--lang`フラグで言語を設定できます：
 
 ```bash
 # スタンドアロンモード
 ./build/n8n-mcp-server -standalone --lang ko  # 韓国語（デフォルト）
 ./build/n8n-mcp-server -standalone --lang en  # 英語
 ./build/n8n-mcp-server -standalone --lang jp  # 日本語
+./build/n8n-mcp-server -standalone --lang vn  # ベトナム語
+./build/n8n-mcp-server -standalone --lang tw  # 繁体字中国語
+./build/n8n-mcp-server -standalone --lang th  # タイ語
 
 # ファイルシステムモード
 ./build/n8n-mcp-server -standalone=false --lang ko  # 韓国語（デフォルト）
 ./build/n8n-mcp-server -standalone=false --lang en  # 英語
 ./build/n8n-mcp-server -standalone=false --lang jp  # 日本語
+./build/n8n-mcp-server -standalone=false --lang vn  # ベトナム語
+./build/n8n-mcp-server -standalone=false --lang tw  # 繁体字中国語
+./build/n8n-mcp-server -standalone=false --lang th  # タイ語
 ```
 
 ### ⚙️ 検索重み調整

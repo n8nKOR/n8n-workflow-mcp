@@ -9,9 +9,12 @@ import (
 type SupportedLanguage string
 
 const (
-	Korean   SupportedLanguage = "ko"
-	English  SupportedLanguage = "en"
-	Japanese SupportedLanguage = "jp"
+	Korean             SupportedLanguage = "ko"
+	English            SupportedLanguage = "en"
+	Japanese           SupportedLanguage = "jp"
+	Vietnamese         SupportedLanguage = "vi"
+	Thai               SupportedLanguage = "th"
+	TraditionalChinese SupportedLanguage = "tw"
 )
 
 // I18n은 다국어 지원을 위한 구조체입니다
@@ -31,6 +34,12 @@ func New(lang string) *I18n {
 		supportedLang = Japanese
 	case "ko":
 		supportedLang = Korean
+	case "vi":
+		supportedLang = Vietnamese
+	case "th":
+		supportedLang = Thai
+	case "tw":
+		supportedLang = TraditionalChinese
 	default:
 		log.Printf("Unsupported language: %s, default 'ko' will be used", lang)
 	}
@@ -81,4 +90,7 @@ func (i *I18n) loadMessages() {
 	i.messages[Korean] = i.getKoreanMessages()
 	i.messages[English] = i.getEnglishMessages()
 	i.messages[Japanese] = i.getJapaneseMessages()
+	i.messages[Vietnamese] = i.getVietnameseMessages()
+	i.messages[Thai] = i.getThaiMessages()
+	i.messages[TraditionalChinese] = i.getTraditionalChineseMessages()
 }

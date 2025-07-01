@@ -22,7 +22,7 @@ func main() {
 		caseWeight     = flag.Float64("case-weight", 1.5, "사용 사례에 대한 검색 가중치")
 		opWeight       = flag.Float64("op-weight", 1.0, "오퍼레이션에 대한 검색 가중치")
 		dataPath       = flag.String("data-path", "internal/data/nodes", "n8n 노드 데이터 디렉토리 경로 (standalone 모드에서는 무시됨)")
-		lang           = flag.String("lang", "ko", "언어 설정 (ko, en, jp)")
+		lang           = flag.String("lang", "ko", "언어 설정 (ko, en, jp, vi, th, tw)")
 	)
 
 	// flag 파싱
